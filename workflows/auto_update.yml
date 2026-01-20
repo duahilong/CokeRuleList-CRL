@@ -1,0 +1,35 @@
+name: Auto Update Rules  # 任务名称
+
+on:
+  schedule:
+    - cron: '0 22 * * *'  # 自动执行时间：每天北京时间早上 6 点 (UTC 22:00)
+  workflow_dispatch:      # 允许你手动点击按钮执行
+  push:
+    paths:
+      - 'rule.json'    # 当你修改 sources.json 时，立即触发一次更新
+
+jobs:
+  update:
+    runs-on: ubuntu-latest  # 使用最新的 Ubuntu 系统运行
+    steps:
+      - name: 1. 拉取仓库代码
+        uses: actions/checkout@v4
+
+      - name: 2. 安装 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: 3. 安装依赖库
+        run: pip install requests
+
+      - name: 4. 执行 Python 脚本
+        run: python build.py
+
+      - name: 5. 将更新后的文件推送到仓库
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add *.list  # 假设你生成的文件是以 .list 结尾
+          git commit -m "Auto Update: $(date +'%Y-%m-%d %H:%M')" || exit 0
+          git push
