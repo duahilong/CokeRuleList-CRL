@@ -1,6 +1,6 @@
 # 名称: Direct.list
 # 描述: 全球直连规则集，包含本地网络、CFNAT和解除封锁的规则
-# 时间: 2026-01-20 12:25:42
+# 时间: 2026-01-20 22:27:02
 # 条目: 142
 # 引用:
 #   https://raw.githubusercontent.com/cmliu/ACL4SSR/refs/heads/main/Clash/CFnat.list
