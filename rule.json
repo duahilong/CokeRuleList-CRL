@@ -5,7 +5,7 @@
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list"
         ]
     },
-    "🎯 全球直连.list": {
+    "Direct.list": {
         "description": "全球直连规则集，包含本地网络、CFNAT和解除封锁的规则",
         "urls": [
             "https://raw.githubusercontent.com/cmliu/ACL4SSR/refs/heads/main/Clash/CFnat.list",
