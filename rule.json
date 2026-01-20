@@ -1,0 +1,34 @@
+{
+    "ChinaIP.list": {
+        "description": "中国IP规则集，包含中国IP地址",
+        "urls": [
+            "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list"
+        ]
+    },
+    "🎯 全球直连.list": {
+        "description": "全球直连规则集，包含本地网络、CFNAT和解除封锁的规则",
+        "urls": [
+            "https://raw.githubusercontent.com/cmliu/ACL4SSR/refs/heads/main/Clash/CFnat.list",
+            "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list",
+            "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list"
+        ]
+    },
+    "Proxy.list": {
+        "description": "代理规则集，包含轻量级代理、微软服务和Copilot相关规则",
+        "urls": [
+            "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list",
+            "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list",
+            "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/Copilot.list"
+        ]
+    },
+    "Rule.list": {
+        "description": "综合规则集，包含YouTube、Google、媒体等规则",
+        "urls": [
+            "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Rule.list",
+            "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/Copilot.list",
+            "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/YouTube/YouTube.list",
+            "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Google/Google.list",
+            "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list"
+        ]
+    }
+}
