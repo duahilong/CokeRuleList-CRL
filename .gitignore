@@ -35,5 +35,3 @@ wheels/
 Thumbs.db
 
 # Generated files
-crl/
-*.list
