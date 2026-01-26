@@ -1,8 +1,8 @@
 # 名称: Direct.list
 # 描述: 全球直连规则集，包含本地网络、CFNAT和解除封锁的规则
-# 时间: 2026-01-26 16:41:21
+# 时间: 2026-01-26 16:49:14
 # 条目: 389
-# 规则统计: {"PROCESS-NAME": 110, "DOMAIN-SUFFIX": 170, "DOMAIN": 60, "DOMAIN-KEYWORD": 36, "IP-CIDR": 9, "IP-CIDR6": 4}
+# 规则统计: {"PROCESS-NAME": 110, "DOMAIN-SUFFIX": 170, "DOMAIN-KEYWORD": 36, "IP-CIDR6": 4, "DOMAIN": 60, "IP-CIDR": 9}
 # 引用:
 #   https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
 #   https://raw.githubusercontent.com/cmliu/ACL4SSR/refs/heads/main/Clash/CFnat.list
@@ -18,10 +18,12 @@ IP-CIDR,172.16.0.0/12,no-resolve
 IP-CIDR,192.168.0.0/16,no-resolve
 IP-CIDR,198.18.0.0/16,no-resolve
 IP-CIDR,224.0.0.0/4,no-resolve
+
 IP-CIDR6,::1/128,no-resolve
 IP-CIDR6,fc00::/7,no-resolve
 IP-CIDR6,fd00::/8,no-resolve
 IP-CIDR6,fe80::/10,no-resolve
+
 DOMAIN,ad.10010.com
 DOMAIN,ad.12306.cn
 DOMAIN,ain.bgm.tv
@@ -82,6 +84,7 @@ DOMAIN,vi.l.qq.com
 DOMAIN,vip.ffzyread.com
 DOMAIN,vip.imgffzy.com
 DOMAIN,www.asusrouter.com
+
 DOMAIN-SUFFIX,52pt.site
 DOMAIN-SUFFIX,DSCloud.biz
 DOMAIN-SUFFIX,DSCloud.me
@@ -252,6 +255,7 @@ DOMAIN-SUFFIX,wifi.cmcc
 DOMAIN-SUFFIX,wiley.com
 DOMAIN-SUFFIX,xunlei.com
 DOMAIN-SUFFIX,zte.home
+
 DOMAIN-KEYWORD,amp-api.podcasts.apple.com
 DOMAIN-KEYWORD,anti-ad.net
 DOMAIN-KEYWORD,api-adservices.apple.com
@@ -288,6 +292,7 @@ DOMAIN-KEYWORD,wb_ad
 DOMAIN-KEYWORD,weather-adge.apple.com
 DOMAIN-KEYWORD,weather-edge.apple.com
 DOMAIN-KEYWORD,westlawchina
+
 PROCESS-NAME,BaiduNetdisk_mac
 PROCESS-NAME,BitComet
 PROCESS-NAME,ClashX

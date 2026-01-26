@@ -1,8 +1,8 @@
 # 名称: Rule.list
 # 描述: 综合规则集，包含YouTube、Google、媒体等规则
-# 时间: 2026-01-26 16:41:33
+# 时间: 2026-01-26 16:49:27
 # 条目: 1266
-# 规则统计: {"DOMAIN-SUFFIX": 1111, "DOMAIN": 90, "DOMAIN-KEYWORD": 30, "IP-CIDR": 24, "PROCESS-NAME": 9, "IP-CIDR6": 1, "URL-REGEX": 1}
+# 规则统计: {"DOMAIN-SUFFIX": 1111, "IP-CIDR": 24, "DOMAIN": 90, "DOMAIN-KEYWORD": 30, "PROCESS-NAME": 9, "URL-REGEX": 1, "IP-CIDR6": 1}
 # 引用:
 #   https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Rule.list
 #   https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/Copilot.list
@@ -34,7 +34,9 @@ IP-CIDR,66.197.128.0/17,no-resolve
 IP-CIDR,69.53.224.0/19,no-resolve
 IP-CIDR,74.125.0.0/16,no-resolve
 IP-CIDR,8.41.4.0/24,no-resolve
+
 IP-CIDR6,2620:120:e000::/40,no-resolve
+
 DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
 DOMAIN,ai.google.dev
 DOMAIN,aistudio.google.com
@@ -125,6 +127,7 @@ DOMAIN,voice.telephony.goog
 DOMAIN,www.bing.com
 DOMAIN,youtubei.googleapis.com
 DOMAIN,yt3.ggpht.com
+
 DOMAIN-SUFFIX,0emm.com
 DOMAIN-SUFFIX,1e100.net
 DOMAIN-SUFFIX,1ucrs.com
@@ -1236,6 +1239,7 @@ DOMAIN-SUFFIX,yt.be
 DOMAIN-SUFFIX,ytimg.com
 DOMAIN-SUFFIX,zukunftswerkstatt.de
 DOMAIN-SUFFIX,zynamics.com
+
 DOMAIN-KEYWORD,-spotify-
 DOMAIN-KEYWORD,abematv.akamaized.net
 DOMAIN-KEYWORD,anthropic
@@ -1266,7 +1270,9 @@ DOMAIN-KEYWORD,ttvnw
 DOMAIN-KEYWORD,uk-live
 DOMAIN-KEYWORD,voddazn
 DOMAIN-KEYWORD,youtube
+
 URL-REGEX,^https?:\/\/www\.amazon\.com\/(Amazon-Video|gp\/video)\/
+
 PROCESS-NAME,BackupandSync
 PROCESS-NAME,GoogleDriveFS.exe
 PROCESS-NAME,com.android.vending

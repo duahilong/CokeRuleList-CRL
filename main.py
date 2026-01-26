@@ -125,8 +125,12 @@ def process_rules(file_name: str, urls: List[str], description: str = ""):
             f.write(f"#   {url}\n")
         f.write("\n")
         
+        last_type = None
         for rule in sorted_rules:
+            if last_type is not None and rule.type != last_type:
+                f.write("\n")
             f.write(str(rule) + "\n")
+            last_type = rule.type
     
     print(f"✅ 已生成: {output_path}")
     print(f"   规则统计: {processor.stats}")
