@@ -1,6 +1,6 @@
 # 名称: Rule.list
 # 描述: 综合规则集，包含YouTube、Google、媒体等规则
-# 时间: 2026-01-26 14:53:34
+# 时间: 2026-01-26 06:55:41
 # 条目: 1266
 # 规则统计: {"DOMAIN-SUFFIX": 1111, "DOMAIN": 90, "DOMAIN-KEYWORD": 30, "IP-CIDR": 24, "PROCESS-NAME": 9, "IP-CIDR6": 1, "URL-REGEX": 1}
 # 引用:
