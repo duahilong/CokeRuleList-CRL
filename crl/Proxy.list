@@ -1,11 +1,13 @@
 # 名称: Proxy.list
 # 描述: 代理规则集，包含轻量级代理、微软服务和Copilot相关规则
-# 时间: 2026-01-26 03:08:41
+# 时间: 2026-01-26 12:53:30
 # 条目: 538
+# 规则统计: {"IP-CIDR": 82, "IP-CIDR6": 3, "DOMAIN-KEYWORD": 27, "DOMAIN-SUFFIX": 397, "DOMAIN": 29}
 # 引用:
 #   https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list
 #   https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list
 #   https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/Copilot.list
+#   https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/proxy.txt
 
 IP-CIDR,1.201.0.0/24,no-resolve
 IP-CIDR,103.2.28.0/24,no-resolve
@@ -89,6 +91,9 @@ IP-CIDR,74.119.76.0/22,no-resolve
 IP-CIDR,74.125.0.0/16,no-resolve
 IP-CIDR,75.126.150.0/16,no-resolve
 IP-CIDR,91.108.0.0/16,no-resolve
+IP-CIDR6,2001:67c:4e8::/48,no-resolve
+IP-CIDR6,2001:b28:f23d::/48,no-resolve
+IP-CIDR6,2001:b28:f23f::/48,no-resolve
 DOMAIN,api.msn.com
 DOMAIN,api.statsig.com
 DOMAIN,assets.msn.com
@@ -542,6 +547,3 @@ DOMAIN-KEYWORD,twitter
 DOMAIN-KEYWORD,uk-live
 DOMAIN-KEYWORD,whatsapp
 DOMAIN-KEYWORD,youtube
-IP-CIDR6,2001:67c:4e8::/48,no-resolve
-IP-CIDR6,2001:b28:f23d::/48,no-resolve
-IP-CIDR6,2001:b28:f23f::/48,no-resolve

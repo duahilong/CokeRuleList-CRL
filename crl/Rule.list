@@ -1,7 +1,8 @@
 # 名称: Rule.list
 # 描述: 综合规则集，包含YouTube、Google、媒体等规则
-# 时间: 2026-01-26 03:08:41
+# 时间: 2026-01-26 12:53:37
 # 条目: 1158
+# 规则统计: {"IP-CIDR": 24, "IP-CIDR6": 1, "DOMAIN-SUFFIX": 1111, "DOMAIN": 90, "DOMAIN-KEYWORD": 30, "PROCESS-NAME": 9, "URL-REGEX": 1}
 # 引用:
 #   https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Rule.list
 #   https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/Copilot.list
@@ -29,6 +30,7 @@ IP-CIDR,64.120.128.0/17,no-resolve
 IP-CIDR,66.197.128.0/17,no-resolve
 IP-CIDR,69.53.224.0/19,no-resolve
 IP-CIDR,8.41.4.0/24,no-resolve
+IP-CIDR6,2620:120:e000::/40,no-resolve
 DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
 DOMAIN,ai.google.dev
 DOMAIN,aistudio.google.com
@@ -1157,7 +1159,6 @@ DOMAIN-KEYWORD,spotify.com
 DOMAIN-KEYWORD,tiktokcdn
 DOMAIN-KEYWORD,voddazn
 URL-REGEX,^https?:\/\/www\.amazon\.com\/(Amazon-Video|gp\/video)\/
-IP-CIDR6,2620:120:e000::/40,no-resolve
 PROCESS-NAME,BackupandSync
 PROCESS-NAME,GoogleDriveFS.exe
 PROCESS-NAME,com.android.vending

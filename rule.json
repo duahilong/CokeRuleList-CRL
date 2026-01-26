@@ -21,7 +21,8 @@
         "urls": [
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list",
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list",
-            "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/Copilot.list"
+            "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/Copilot.list",
+            "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/proxy.txt"
         ]
     },
     "Rule.list": {
@@ -32,6 +33,12 @@
             "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/YouTube/YouTube.list",
             "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Google/Google.list",
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list"
+        ]
+    },
+    "Telegram.list": {
+        "description": "Telegram规则集，包含Telegram服务",
+        "urls": [
+            "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/telegramcidr.txt"
         ]
     }
 }

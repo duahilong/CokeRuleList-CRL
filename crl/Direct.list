@@ -1,7 +1,8 @@
 # 名称: Direct.list
 # 描述: 全球直连规则集，包含本地网络、CFNAT和解除封锁的规则
-# 时间: 2026-01-26 03:08:40
+# 时间: 2026-01-26 12:53:23
 # 条目: 389
+# 规则统计: {"IP-CIDR": 9, "IP-CIDR6": 4, "DOMAIN-SUFFIX": 170, "PROCESS-NAME": 110, "DOMAIN": 60, "DOMAIN-KEYWORD": 36}
 # 引用:
 #   https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
 #   https://raw.githubusercontent.com/cmliu/ACL4SSR/refs/heads/main/Clash/CFnat.list
@@ -17,6 +18,10 @@ IP-CIDR,172.16.0.0/12,no-resolve
 IP-CIDR,192.168.0.0/16,no-resolve
 IP-CIDR,198.18.0.0/16,no-resolve
 IP-CIDR,224.0.0.0/4,no-resolve
+IP-CIDR6,::1/128,no-resolve
+IP-CIDR6,fc00::/7,no-resolve
+IP-CIDR6,fd00::/8,no-resolve
+IP-CIDR6,fe80::/10,no-resolve
 DOMAIN,ad.10010.com
 DOMAIN,ad.12306.cn
 DOMAIN,ain.bgm.tv
@@ -283,10 +288,6 @@ DOMAIN-KEYWORD,wb_ad
 DOMAIN-KEYWORD,weather-adge.apple.com
 DOMAIN-KEYWORD,weather-edge.apple.com
 DOMAIN-KEYWORD,westlawchina
-IP-CIDR6,::1/128,no-resolve
-IP-CIDR6,fc00::/7,no-resolve
-IP-CIDR6,fd00::/8,no-resolve
-IP-CIDR6,fe80::/10,no-resolve
 PROCESS-NAME,BaiduNetdisk_mac
 PROCESS-NAME,BitComet
 PROCESS-NAME,ClashX
