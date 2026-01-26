@@ -2,7 +2,8 @@
     "ChinaIP.list": {
         "description": "中国IP规则集，包含中国IP地址",
         "urls": [
-            "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list"
+            "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list",
+            "https://raw.githubusercontent.com/17mon/china_ip_list/refs/heads/master/china_ip_list.txt"
         ]
     },
     "Direct.list": {
