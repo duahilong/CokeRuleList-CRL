@@ -1,8 +1,8 @@
 # 名称: Rule.list
 # 描述: 综合规则集，包含YouTube、Google、媒体等规则
-# 时间: 2026-01-26 05:04:01
+# 时间: 2026-01-26 14:23:35
 # 条目: 1158
-# 规则统计: {"IP-CIDR": 24, "IP-CIDR6": 1, "DOMAIN-SUFFIX": 1111, "DOMAIN": 90, "DOMAIN-KEYWORD": 30, "URL-REGEX": 1, "PROCESS-NAME": 9}
+# 规则统计: {"IP-CIDR": 24, "IP-CIDR6": 1, "DOMAIN-SUFFIX": 1111, "DOMAIN-KEYWORD": 30, "DOMAIN": 90, "URL-REGEX": 1, "PROCESS-NAME": 9}
 # 引用:
 #   https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Rule.list
 #   https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/Copilot.list

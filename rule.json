@@ -38,7 +38,8 @@
     "Telegram.list": {
         "description": "Telegram规则集，包含Telegram服务",
         "urls": [
-            "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/telegramcidr.txt"
+            "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/telegramcidr.txt",
+            "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list"
         ]
     }
 }
