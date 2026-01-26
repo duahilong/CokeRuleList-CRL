@@ -1,8 +1,8 @@
 # 名称: Direct.list
 # 描述: 全球直连规则集，包含本地网络、CFNAT和解除封锁的规则
-# 时间: 2026-01-26 16:49:14
+# 时间: 2026-01-26 22:27:38
 # 条目: 389
-# 规则统计: {"PROCESS-NAME": 110, "DOMAIN-SUFFIX": 170, "DOMAIN-KEYWORD": 36, "IP-CIDR6": 4, "DOMAIN": 60, "IP-CIDR": 9}
+# 规则统计: {"DOMAIN-SUFFIX": 170, "DOMAIN": 60, "PROCESS-NAME": 110, "IP-CIDR": 9, "DOMAIN-KEYWORD": 36, "IP-CIDR6": 4}
 # 引用:
 #   https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
 #   https://raw.githubusercontent.com/cmliu/ACL4SSR/refs/heads/main/Clash/CFnat.list
