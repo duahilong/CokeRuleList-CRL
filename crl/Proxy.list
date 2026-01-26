@@ -1,13 +1,12 @@
 # 名称: Proxy.list
 # 描述: 代理规则集，包含轻量级代理、微软服务和Copilot相关规则
-# 时间: 2026-01-26 14:23:28
+# 时间: 2026-01-26 14:53:26
 # 条目: 538
-# 规则统计: {"IP-CIDR": 82, "IP-CIDR6": 3, "DOMAIN-SUFFIX": 397, "DOMAIN": 29, "DOMAIN-KEYWORD": 27}
+# 规则统计: {"DOMAIN": 29, "IP-CIDR": 82, "DOMAIN-SUFFIX": 397, "DOMAIN-KEYWORD": 27, "IP-CIDR6": 3}
 # 引用:
 #   https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list
 #   https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list
 #   https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/Copilot.list
-#   https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/proxy.txt
 
 IP-CIDR,1.201.0.0/24,no-resolve
 IP-CIDR,103.2.28.0/24,no-resolve

@@ -2,8 +2,7 @@
     "ChinaIP.list": {
         "description": "中国IP规则集，包含中国IP地址",
         "urls": [
-            "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list",
-            "https://raw.githubusercontent.com/17mon/china_ip_list/refs/heads/master/china_ip_list.txt"
+            "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list"
         ]
     },
     "Direct.list": {
@@ -21,8 +20,7 @@
         "urls": [
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list",
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list",
-            "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/Copilot.list",
-            "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/proxy.txt"
+            "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/Copilot.list"
         ]
     },
     "Rule.list": {
@@ -36,10 +34,9 @@
         ]
     },
     "Telegram.list": {
-        "description": "Telegram规则集，包含Telegram服务",
-        "urls": [
-            "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/telegramcidr.txt",
-            "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list"
+        "description": "Telegram规则集，包含Telegram服务",        "urls": [
+            "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list",
+            "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Shadowrocket/Telegram/Telegram.list"
         ]
     }
 }
