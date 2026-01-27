@@ -1,8 +1,14 @@
 # 名称: Rule.list
 # 描述: 综合规则集，包含YouTube、Google、媒体等规则
+<<<<<<< HEAD
 # 时间: 2026-01-27 09:54:17
 # 条目: 357
 # 规则统计: {"DOMAIN": 70, "DOMAIN-SUFFIX": 241, "IP-CIDR": 18, "DOMAIN-KEYWORD": 24, "PROCESS-NAME": 3, "URL-REGEX": 1}
+=======
+# 时间: 2026-01-26 22:27:38
+# 条目: 1266
+# 规则统计: {"DOMAIN-SUFFIX": 1111, "IP-CIDR": 24, "DOMAIN": 90, "PROCESS-NAME": 9, "DOMAIN-KEYWORD": 30, "URL-REGEX": 1, "IP-CIDR6": 1}
+>>>>>>> cb72ed4f318670fb45633b9a7dde51c2849e43b6
 # 引用:
 #   https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
 

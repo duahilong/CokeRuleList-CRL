@@ -107,7 +107,7 @@ def process_rules(file_name: str, urls: List[str], description: str = ""):
     
     output_path = os.path.join(output_dir, file_name)
     rule_count = len(processor.rules)
-    current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    current_time = datetime.now().strftime("%Y-%m-%d %H:%M")
     
     sorted_rules = processor.sort_rules()
     
