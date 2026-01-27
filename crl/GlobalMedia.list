@@ -1,8 +1,8 @@
 # 名称: GlobalMedia.list
 # 描述: 全球媒体服务规则集，包含全球媒体服务
-# 时间: 2026-01-27 21:55
+# 时间: 2026-01-27 13:55
 # 条目: 2265
-# 规则统计: {"DOMAIN-SUFFIX": 1275, "IP-CIDR": 918, "DOMAIN-KEYWORD": 26, "DOMAIN": 37, "IP-CIDR6": 6, "PROCESS-NAME": 3}
+# 规则统计: {"IP-CIDR": 918, "DOMAIN-SUFFIX": 1275, "DOMAIN-KEYWORD": 26, "IP-CIDR6": 6, "PROCESS-NAME": 3, "DOMAIN": 37}
 # 引用:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/GlobalMedia/GlobalMedia.list
 
