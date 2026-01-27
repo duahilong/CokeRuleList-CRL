@@ -2,35 +2,22 @@
     "ChinaIP.list": {
         "description": "中国IP规则集，包含中国IP地址",
         "urls": [
-            "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list"
+            "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list",
+            "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/ChinaIPs/ChinaIPs.list"
         ]
     },
     "Direct.list": {
         "description": "全球直连规则集，包含本地网络、CFNAT和解除封锁的规则",
         "urls": [
-            "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list",
-            "https://raw.githubusercontent.com/cmliu/ACL4SSR/refs/heads/main/Clash/CFnat.list",
-            "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list",
-            "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Direct/Direct.list"
+            "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Direct/Direct.list",
+            "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/ChinaMaxNoIP/ChinaMaxNoIP.list"
 
         ]
     },
     "Proxy.list": {
-        "description": "代理规则集，包含轻量级代理、微软服务和Copilot相关规则",
+        "description": "代理规则集相关规则",
         "urls": [
-            "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list",
-            "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list",
-            "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/Copilot.list"
-        ]
-    },
-    "Rule.list": {
-        "description": "综合规则集，包含YouTube、Google、媒体等规则",
-        "urls": [
-            "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Rule.list",
-            "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/Copilot.list",
-            "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/YouTube/YouTube.list",
-            "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Google/Google.list",
-            "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list"
+            "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Proxy/Proxy.list"
         ]
     },
     "Telegram.list": {
@@ -39,5 +26,85 @@
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list",
             "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Shadowrocket/Telegram/Telegram.list"
         ]
+    },
+    "GameDownload.list": {
+        "description": "直连游戏下载规则集，包含游戏下载服务，SteamCN",
+        "urls": [
+            "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Game/GameDownload/GameDownload.list",
+            "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/SteamCN/SteamCN.list"
+        ]
+    },
+    "Apple.list": {
+        "description": "Apple服务规则集，包含Apple服务",
+        "urls": [
+            "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Apple/Apple.list"
+        ]
+    },
+    "Steam.list": {
+        "description": "Steam服务规则集，包含Steam服务",
+        "urls": [
+            "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Steam/Steam.list"
+        ]
+    },
+    "Microsoft.list": {
+        "description": "Microsoft服务规则集，包含Microsoft服务",
+        "urls": [
+            "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Microsoft/Microsoft.list"
+        ]
+    },
+    "GitHub.list": {
+        "description": "GitHub服务规则集，包含GitHub服务",
+        "urls": [
+            "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/GitHub/GitHub.list"
+        ]
+    },
+    "Ai.list": {
+        "description": "AI服务规则集，包含AI服务",
+        "urls": [
+            "https://raw.githubusercontent.com/cmliu/ACL4SSR/refs/heads/main/Clash/Gemini.list",
+            "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list",
+            "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Copilot/Copilot.list",
+            "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/BardAI/BardAI.list",
+            "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Gemini/Gemini.list"
+        ]
+    },
+    "Google.list": {
+        "description": "Google服务规则集，包含Google服务",
+        "urls": [
+            "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Google/Google.list"
+        ]
+    },
+    "GoogleFCM.list": {
+        "description": "GoogleFCM服务规则集，包含GoogleFCM服务",
+        "urls": [
+            "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/GoogleFCM/GoogleFCM.list"
+        ]
+    },
+    "GlobalMedia.list": {
+        "description": "全球媒体服务规则集，包含全球媒体服务",
+        "urls": [
+            "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/GlobalMedia/GlobalMedia.list"
+        ]
+    },
+    "YouTube.list": {
+        "description": "YouTube服务规则集，包含YouTube服务",
+        "urls": [
+            "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/YouTube/YouTube.list",
+            "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/YouTubeMusic/YouTubeMusic.list"
+        ]
+    },
+    "ChinaMedia.list": {
+        "description": "中国媒体服务规则集，包含中国媒体服务",
+        "urls": [
+            "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/ChinaMedia/ChinaMedia.list"
+        ]
+    },
+    "AdvertisingLite.list": {
+        "description": "广告服务规则集，包含广告服务",
+        "urls": [
+            "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/AdvertisingLite/AdvertisingLite.list"
+        ]
     }
+
+
 }
