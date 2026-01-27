@@ -106,10 +106,13 @@ def process_rules(file_name: str, urls: List[str], description: str = ""):
         os.makedirs(output_dir)
     
     output_path = os.path.join(output_dir, file_name)
-    rule_count = len(processor.rules)
     current_time = datetime.now().strftime("%Y-%m-%d %H:%M")
     
     sorted_rules = processor.sort_rules()
+    
+    filtered_rules = [rule for rule in sorted_rules if rule.type != 'IP-ASN']
+    
+    rule_count = len(filtered_rules)
     
     with open(output_path, "w", encoding="utf-8") as f:
         f.write(f"# 名称: {file_name}\n")
@@ -126,7 +129,7 @@ def process_rules(file_name: str, urls: List[str], description: str = ""):
         f.write("\n")
         
         last_type = None
-        for rule in sorted_rules:
+        for rule in filtered_rules:
             if last_type is not None and rule.type != last_type:
                 f.write("\n")
             f.write(str(rule) + "\n")
