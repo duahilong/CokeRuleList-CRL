@@ -1,8 +1,8 @@
 # 名称: Proxy.list
 # 描述: 代理规则集相关规则
-# 时间: 2026-01-27 13:40
+# 时间: 2026-01-27 19:24
 # 条目: 6722
-# 规则统计: {"DOMAIN-SUFFIX": 6590, "IP-CIDR": 93, "DOMAIN-KEYWORD": 26, "IP-CIDR6": 4, "DOMAIN": 9}
+# 规则统计: {"DOMAIN-SUFFIX": 6590, "IP-CIDR": 93, "DOMAIN": 9, "DOMAIN-KEYWORD": 26, "IP-CIDR6": 4}
 # 引用:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Proxy/Proxy.list
 
