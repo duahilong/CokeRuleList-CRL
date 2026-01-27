@@ -1,8 +1,8 @@
 # 名称: ChinaIP.list
 # 描述: 中国IP规则集，包含中国IP地址
-# 时间: 2026-01-27 22:02
-# 条目: 23316
-# 规则统计: {"IP-CIDR6": 5524, "IP-CIDR": 17792}
+# 时间: 2026-01-27 22:27
+# 条目: 23314
+# 规则统计: {"IP-CIDR": 17790, "IP-CIDR6": 5524}
 # 引用:
 #   https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/ChinaIPs/ChinaIPs.list
@@ -4104,7 +4104,6 @@ IP-CIDR,103.62.80.0/21,no-resolve
 IP-CIDR,103.62.80.0/22,no-resolve
 IP-CIDR,103.62.84.0/22,no-resolve
 IP-CIDR,103.62.88.0/22,no-resolve
-IP-CIDR,103.62.88.0/23,no-resolve
 IP-CIDR,103.62.96.0/19,no-resolve
 IP-CIDR,103.62.96.0/22,no-resolve
 IP-CIDR,103.63.140.0/22,no-resolve
@@ -5919,7 +5918,6 @@ IP-CIDR,112.73.0.0/16,no-resolve
 IP-CIDR,112.73.0.0/19,no-resolve
 IP-CIDR,112.73.128.0/17,no-resolve
 IP-CIDR,112.73.64.0/18,no-resolve
-IP-CIDR,112.73.96.0/19,no-resolve
 IP-CIDR,112.74.0.0/15,no-resolve
 IP-CIDR,112.74.0.0/16,no-resolve
 IP-CIDR,112.8.0.0/13,no-resolve
