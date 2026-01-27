@@ -3,6 +3,7 @@
 # 时间: 2026-01-27 22:02
 # 条目: 6722
 # 规则统计: {"DOMAIN-SUFFIX": 6590, "IP-CIDR": 93, "DOMAIN-KEYWORD": 26, "DOMAIN": 9, "IP-CIDR6": 4}
+# 规则统计: {"DOMAIN-SUFFIX": 6590, "IP-CIDR": 93, "DOMAIN-KEYWORD": 26, "DOMAIN": 9, "IP-CIDR6": 4}
 # 引用:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Proxy/Proxy.list
 
