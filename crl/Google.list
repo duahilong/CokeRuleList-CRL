@@ -1,8 +1,8 @@
 # 名称: Google.list
 # 描述: Google服务规则集，包含Google服务
-# 时间: 2026-01-29 22:33
+# 时间: 2026-01-30 06:34
 # 条目: 708
-# 规则统计: {"DOMAIN-SUFFIX": 691, "PROCESS-NAME": 6, "IP-CIDR": 4, "DOMAIN-KEYWORD": 5, "DOMAIN": 1, "IP-CIDR6": 1}
+# 规则统计: {"PROCESS-NAME": 6, "DOMAIN-SUFFIX": 691, "DOMAIN-KEYWORD": 5, "DOMAIN": 1, "IP-CIDR": 4, "IP-CIDR6": 1}
 # 引用:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Google/Google.list
 
