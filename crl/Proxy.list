@@ -1,8 +1,8 @@
 # 名称: Proxy.list
 # 描述: 代理规则集相关规则
-# 时间: 2026-02-01 22:30
-# 条目: 6727
-# 规则统计: {"IP-CIDR": 93, "DOMAIN-SUFFIX": 6595, "DOMAIN": 9, "DOMAIN-KEYWORD": 26, "IP-CIDR6": 4}
+# 时间: 2026-02-03 22:34
+# 条目: 6728
+# 规则统计: {"DOMAIN-SUFFIX": 6596, "IP-CIDR": 93, "IP-CIDR6": 4, "DOMAIN-KEYWORD": 26, "DOMAIN": 9}
 # 引用:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Proxy/Proxy.list
 
@@ -5308,6 +5308,7 @@ DOMAIN-SUFFIX,tafm.org
 DOMAIN-SUFFIX,tagwa.org.au
 DOMAIN-SUFFIX,tagwalk.com
 DOMAIN-SUFFIX,tahr.org.tw
+DOMAIN-SUFFIX,tails.net
 DOMAIN-SUFFIX,taipei.gov.tw
 DOMAIN-SUFFIX,taipeisociety.org
 DOMAIN-SUFFIX,taipeitimes.com
