@@ -1,0 +1,9 @@
+unified-delay: true
+tcp-concurrent: true
+geodata-mode: true
+geodata-loader: standard
+ipv6: false
+
+geox-url:
+    geoip: "https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/geoip.dat"
+    geosite: "https://cdn.jsdelivr.net/gh/Loyalsoldier/v2ray-rules-dat@release/geosite.dat"
