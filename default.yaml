@@ -3,6 +3,7 @@ tcp-concurrent: true
 geodata-mode: true
 geodata-loader: standard
 ipv6: false
+log-level: error
 
 geox-url:
   eoip: "https://cdn.jsdelivr.net/gh/Loyalsoldier/geoip@release/geoip.dat"
