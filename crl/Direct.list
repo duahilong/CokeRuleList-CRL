@@ -1,8 +1,8 @@
 # 名称: Direct.list
 # 描述: 全球直连规则集，包含本地网络、CFNAT和解除封锁的规则
-# 时间: 2026-02-10 22:46
-# 条目: 116406
-# 规则统计: {"DOMAIN-SUFFIX": 115947, "PROCESS-NAME": 49, "DOMAIN": 361, "DOMAIN-KEYWORD": 49}
+# 时间: 2026-02-11 22:34
+# 条目: 116414
+# 规则统计: {"DOMAIN-SUFFIX": 115955, "DOMAIN": 361, "DOMAIN-KEYWORD": 49, "PROCESS-NAME": 49}
 # 引用:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Direct/Direct.list
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/ChinaMaxNoIP/ChinaMaxNoIP.list
@@ -28319,6 +28319,7 @@ DOMAIN-SUFFIX,ddcdn.com
 DOMAIN-SUFFIX,ddcheshi.com
 DOMAIN-SUFFIX,ddchong.com
 DOMAIN-SUFFIX,ddcits.com
+DOMAIN-SUFFIX,ddcorp.net
 DOMAIN-SUFFIX,ddcsjw.com
 DOMAIN-SUFFIX,ddcwl.com
 DOMAIN-SUFFIX,ddd-china.com
@@ -28335,6 +28336,7 @@ DOMAIN-SUFFIX,dde-desktop.org
 DOMAIN-SUFFIX,ddedush.com
 DOMAIN-SUFFIX,ddfans.com
 DOMAIN-SUFFIX,ddfchina.com
+DOMAIN-SUFFIX,ddfresh.net
 DOMAIN-SUFFIX,ddfzb.com
 DOMAIN-SUFFIX,ddguanhuai.com
 DOMAIN-SUFFIX,ddhly.com
@@ -28358,7 +28360,9 @@ DOMAIN-SUFFIX,ddkt365.com
 DOMAIN-SUFFIX,ddky.com
 DOMAIN-SUFFIX,ddle.cc
 DOMAIN-SUFFIX,ddlequ.com
+DOMAIN-SUFFIX,ddmaicai.net
 DOMAIN-SUFFIX,ddmap.com
+DOMAIN-SUFFIX,ddmc.mobi
 DOMAIN-SUFFIX,ddmer.com
 DOMAIN-SUFFIX,ddmogo.com
 DOMAIN-SUFFIX,ddnddn.com
@@ -48522,6 +48526,7 @@ DOMAIN-SUFFIX,hrsteelpipe.com
 DOMAIN-SUFFIX,hrtechchina.com
 DOMAIN-SUFFIX,hrtfin.com
 DOMAIN-SUFFIX,hrtn.net
+DOMAIN-SUFFIX,hrtsea.com
 DOMAIN-SUFFIX,hrtx.com
 DOMAIN-SUFFIX,hruikang.com
 DOMAIN-SUFFIX,hrvouge.com
@@ -52377,6 +52382,7 @@ DOMAIN-SUFFIX,imaginde.com
 DOMAIN-SUFFIX,imagineadtech.com
 DOMAIN-SUFFIX,imahui.com
 DOMAIN-SUFFIX,imaibo.net
+DOMAIN-SUFFIX,imaicai.mobi
 DOMAIN-SUFFIX,imaijia.com
 DOMAIN-SUFFIX,imaitu.com
 DOMAIN-SUFFIX,imalljoy.com
@@ -102243,6 +102249,7 @@ DOMAIN-SUFFIX,xhsf.com
 DOMAIN-SUFFIX,xhslink.com
 DOMAIN-SUFFIX,xhslw.com
 DOMAIN-SUFFIX,xhsmlt.com
+DOMAIN-SUFFIX,xhsrcdn.com
 DOMAIN-SUFFIX,xhsrmyy.com
 DOMAIN-SUFFIX,xhsxmt.com
 DOMAIN-SUFFIX,xhsyqx.com
@@ -112959,6 +112966,7 @@ DOMAIN-SUFFIX,zhipianbang.com
 DOMAIN-SUFFIX,zhipianbang.vip
 DOMAIN-SUFFIX,zhipin.com
 DOMAIN-SUFFIX,zhipingke.com
+DOMAIN-SUFFIX,zhipucn.com
 DOMAIN-SUFFIX,zhipuzi.com
 DOMAIN-SUFFIX,zhiqi.info
 DOMAIN-SUFFIX,zhiqiang.org
