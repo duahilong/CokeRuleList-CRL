@@ -1,6 +1,6 @@
 # 名称: ChinaMedia.list
 # 描述: 中国媒体服务规则集，包含中国媒体服务
-# 时间: 2026-02-12 22:36
+# 时间: 2026-02-13 22:38
 # 条目: 411
 # 规则统计: {"IP-CIDR": 55, "DOMAIN": 67, "DOMAIN-SUFFIX": 252, "IP-CIDR6": 29, "PROCESS-NAME": 6, "DOMAIN-KEYWORD": 2}
 # 引用:
