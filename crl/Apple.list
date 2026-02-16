@@ -1,8 +1,8 @@
 # 名称: Apple.list
 # 描述: Apple服务规则集，包含Apple服务
-# 时间: 2026-02-15 22:29
+# 时间: 2026-02-16 22:33
 # 条目: 1592
-# 规则统计: {"DOMAIN-SUFFIX": 1550, "DOMAIN-KEYWORD": 7, "PROCESS-NAME": 13, "IP-CIDR": 10, "DOMAIN": 9, "IP-CIDR6": 3}
+# 规则统计: {"DOMAIN-SUFFIX": 1550, "PROCESS-NAME": 13, "DOMAIN-KEYWORD": 7, "IP-CIDR": 10, "DOMAIN": 9, "IP-CIDR6": 3}
 # 引用:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Apple/Apple.list
 
