@@ -1,8 +1,8 @@
 # 名称: GameDownload.list
 # 描述: 直连游戏下载规则集，包含游戏下载服务，SteamCN
-# 时间: 2026-02-18 22:38
+# 时间: 2026-02-19 22:36
 # 条目: 55
-# 规则统计: {"DOMAIN": 48, "DOMAIN-SUFFIX": 7}
+# 规则统计: {"DOMAIN-SUFFIX": 7, "DOMAIN": 48}
 # 引用:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Game/GameDownload/GameDownload.list
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/SteamCN/SteamCN.list
