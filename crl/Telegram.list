@@ -1,8 +1,8 @@
 # 名称: Telegram.list
 # 描述: Telegram规则集，包含Telegram服务
-# 时间: 2026-02-21 22:29
+# 时间: 2026-02-22 22:29
 # 条目: 39
-# 规则统计: {"IP-ASN": 5, "DOMAIN-SUFFIX": 22, "DOMAIN": 2, "IP-CIDR": 11, "IP-CIDR6": 3, "DOMAIN-KEYWORD": 1}
+# 规则统计: {"DOMAIN-SUFFIX": 22, "IP-CIDR": 11, "IP-CIDR6": 3, "IP-ASN": 5, "DOMAIN": 2, "DOMAIN-KEYWORD": 1}
 # 引用:
 #   https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Shadowrocket/Telegram/Telegram.list
