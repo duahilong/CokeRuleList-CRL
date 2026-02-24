@@ -1,8 +1,8 @@
 # 名称: Microsoft.list
 # 描述: Microsoft服务规则集，包含Microsoft服务
-# 时间: 2026-02-24 07:27
+# 时间: 2026-02-24 22:38
 # 条目: 670
-# 规则统计: {"DOMAIN-SUFFIX": 663, "PROCESS-NAME": 2, "DOMAIN-KEYWORD": 4, "DOMAIN": 1}
+# 规则统计: {"DOMAIN-SUFFIX": 663, "DOMAIN-KEYWORD": 4, "PROCESS-NAME": 2, "DOMAIN": 1}
 # 引用:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Microsoft/Microsoft.list
 

@@ -1,6 +1,6 @@
 # 名称: GlobalMedia.list
 # 描述: 全球媒体服务规则集，包含全球媒体服务
-# 时间: 2026-02-24 07:27
+# 时间: 2026-02-24 22:38
 # 条目: 2265
 # 规则统计: {"DOMAIN-SUFFIX": 1275, "IP-CIDR": 918, "DOMAIN-KEYWORD": 26, "DOMAIN": 37, "IP-CIDR6": 6, "PROCESS-NAME": 3}
 # 引用:
