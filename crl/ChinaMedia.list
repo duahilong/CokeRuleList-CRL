@@ -1,8 +1,8 @@
 # 名称: ChinaMedia.list
 # 描述: 中国媒体服务规则集，包含中国媒体服务
-# 时间: 2026-02-23 22:47
+# 时间: 2026-02-24 07:27
 # 条目: 411
-# 规则统计: {"DOMAIN-SUFFIX": 252, "IP-CIDR6": 29, "IP-CIDR": 55, "DOMAIN": 67, "PROCESS-NAME": 6, "DOMAIN-KEYWORD": 2}
+# 规则统计: {"DOMAIN": 67, "DOMAIN-SUFFIX": 252, "IP-CIDR6": 29, "IP-CIDR": 55, "PROCESS-NAME": 6, "DOMAIN-KEYWORD": 2}
 # 引用:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/ChinaMedia/ChinaMedia.list
 
