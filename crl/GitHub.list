@@ -1,8 +1,8 @@
 # 名称: GitHub.list
 # 描述: GitHub服务规则集，包含GitHub服务
-# 时间: 2026-02-28 22:27
+# 时间: 2026-03-01 22:29
 # 条目: 31
-# 规则统计: {"DOMAIN-SUFFIX": 30, "DOMAIN-KEYWORD": 1}
+# 规则统计: {"DOMAIN-KEYWORD": 1, "DOMAIN-SUFFIX": 30}
 # 引用:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/GitHub/GitHub.list
 

@@ -1,8 +1,8 @@
 # 名称: GoogleFCM.list
 # 描述: GoogleFCM服务规则集，包含GoogleFCM服务
-# 时间: 2026-02-28 22:27
+# 时间: 2026-03-01 22:29
 # 条目: 41
-# 规则统计: {"IP-CIDR": 26, "DOMAIN": 15}
+# 规则统计: {"DOMAIN": 15, "IP-CIDR": 26}
 # 引用:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/GoogleFCM/GoogleFCM.list
 
