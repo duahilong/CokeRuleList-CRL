@@ -1,8 +1,8 @@
 # 名称: Proxy.list
 # 描述: 代理规则集相关规则
-# 时间: 2026-03-02 22:32
-# 条目: 6706
-# 规则统计: {"DOMAIN-SUFFIX": 6574, "IP-CIDR": 93, "DOMAIN-KEYWORD": 26, "DOMAIN": 9, "IP-CIDR6": 4}
+# 时间: 2026-03-03 22:34
+# 条目: 6708
+# 规则统计: {"DOMAIN-SUFFIX": 6576, "IP-CIDR": 93, "DOMAIN-KEYWORD": 26, "DOMAIN": 9, "IP-CIDR6": 4}
 # 引用:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Proxy/Proxy.list
 
@@ -1227,6 +1227,7 @@ DOMAIN-SUFFIX,ck101.com
 DOMAIN-SUFFIX,cl.ly
 DOMAIN-SUFFIX,clarionproject.org
 DOMAIN-SUFFIX,classicalguitarblog.net
+DOMAIN-SUFFIX,claude.com
 DOMAIN-SUFFIX,clb.org.hk
 DOMAIN-SUFFIX,cleansite.biz
 DOMAIN-SUFFIX,cleansite.info
@@ -3495,6 +3496,7 @@ DOMAIN-SUFFIX,manicur4ik.ru
 DOMAIN-SUFFIX,mansion.com
 DOMAIN-SUFFIX,mansionpoker.com
 DOMAIN-SUFFIX,manta.com
+DOMAIN-SUFFIX,manus.im
 DOMAIN-SUFFIX,manyvoices.news
 DOMAIN-SUFFIX,maplew.com
 DOMAIN-SUFFIX,marc.info

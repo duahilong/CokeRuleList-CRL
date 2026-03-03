@@ -1,8 +1,8 @@
 # 名称: Direct.list
 # 描述: 全球直连规则集，包含本地网络、CFNAT和解除封锁的规则
-# 时间: 2026-03-02 22:32
+# 时间: 2026-03-03 22:34
 # 条目: 117296
-# 规则统计: {"DOMAIN-SUFFIX": 116837, "DOMAIN-KEYWORD": 49, "DOMAIN": 361, "PROCESS-NAME": 49}
+# 规则统计: {"DOMAIN-SUFFIX": 116837, "DOMAIN": 361, "DOMAIN-KEYWORD": 49, "PROCESS-NAME": 49}
 # 引用:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Direct/Direct.list
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/ChinaMaxNoIP/ChinaMaxNoIP.list
@@ -69598,6 +69598,7 @@ DOMAIN-SUFFIX,monfetch.com
 DOMAIN-SUFFIX,mongac.com
 DOMAIN-SUFFIX,monhun.fun
 DOMAIN-SUFFIX,monidata.com
+DOMAIN-SUFFIX,monika.love
 DOMAIN-SUFFIX,monkeylsp.com
 DOMAIN-SUFFIX,monknow.com
 DOMAIN-SUFFIX,mono.work
@@ -102742,7 +102743,6 @@ DOMAIN-SUFFIX,xcstuido.com
 DOMAIN-SUFFIX,xcsyy.com
 DOMAIN-SUFFIX,xctmr.com
 DOMAIN-SUFFIX,xcukezmr.com
-DOMAIN-SUFFIX,xcultur.com
 DOMAIN-SUFFIX,xcurrency.com
 DOMAIN-SUFFIX,xcvec.com
 DOMAIN-SUFFIX,xcvmbyte.com
