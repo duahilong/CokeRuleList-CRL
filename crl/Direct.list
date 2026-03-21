@@ -1,8 +1,8 @@
 # 名称: Direct.list
 # 描述: 全球直连规则集，包含本地网络、CFNAT和解除封锁的规则
-# 时间: 2026-03-20 22:33
-# 条目: 118389
-# 规则统计: {"DOMAIN-SUFFIX": 117930, "DOMAIN-KEYWORD": 49, "DOMAIN": 361, "PROCESS-NAME": 49}
+# 时间: 2026-03-21 22:30
+# 条目: 118386
+# 规则统计: {"DOMAIN-SUFFIX": 117927, "DOMAIN": 361, "PROCESS-NAME": 49, "DOMAIN-KEYWORD": 49}
 # 引用:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Direct/Direct.list
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/ChinaMaxNoIP/ChinaMaxNoIP.list
@@ -34711,13 +34711,11 @@ DOMAIN-SUFFIX,esou.biz
 DOMAIN-SUFFIX,esoua.com
 DOMAIN-SUFFIX,esound.vip
 DOMAIN-SUFFIX,esouou.com
-DOMAIN-SUFFIX,esp8266.com
 DOMAIN-SUFFIX,espeedpost.com
 DOMAIN-SUFFIX,esplus.club
 DOMAIN-SUFFIX,espnlol.com
 DOMAIN-SUFFIX,esports-console.com
 DOMAIN-SUFFIX,esportsreg.com
-DOMAIN-SUFFIX,espressif.com
 DOMAIN-SUFFIX,esr.com
 DOMAIN-SUFFIX,essaystar.com
 DOMAIN-SUFFIX,essca.com
@@ -74965,7 +74963,6 @@ DOMAIN-SUFFIX,okk123.com
 DOMAIN-SUFFIX,okki.com
 DOMAIN-SUFFIX,okktee.com
 DOMAIN-SUFFIX,oklaapp.com
-DOMAIN-SUFFIX,oklink.com
 DOMAIN-SUFFIX,oklinklink.com
 DOMAIN-SUFFIX,oklpoi.com
 DOMAIN-SUFFIX,okmao.com
