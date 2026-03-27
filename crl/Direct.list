@@ -1,8 +1,8 @@
 # 名称: Direct.list
 # 描述: 全球直连规则集，包含本地网络、CFNAT和解除封锁的规则
-# 时间: 2026-03-26 22:35
-# 条目: 118386
-# 规则统计: {"DOMAIN-SUFFIX": 117927, "DOMAIN": 361, "PROCESS-NAME": 49, "DOMAIN-KEYWORD": 49}
+# 时间: 2026-03-27 22:37
+# 条目: 118389
+# 规则统计: {"DOMAIN-SUFFIX": 117928, "DOMAIN": 363, "DOMAIN-KEYWORD": 49, "PROCESS-NAME": 49}
 # 引用:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Direct/Direct.list
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/ChinaMaxNoIP/ChinaMaxNoIP.list
@@ -157,6 +157,7 @@ DOMAIN,img.liangzipic.com
 DOMAIN,init.ess.apple.com
 DOMAIN,ip.istatmenus.app
 DOMAIN,itunes.apple.com
+DOMAIN,izattime.qcomgeo2.com
 DOMAIN,jpts.sinovision.net
 DOMAIN,kcrw.streamguys1.com
 DOMAIN,kjzz.streamguys1.com
@@ -362,6 +363,7 @@ DOMAIN,www.szmgiptv.com
 DOMAIN,www.yxssp.com
 DOMAIN,www4-static.gog-statics.com
 DOMAIN,xn--flw351e.com
+DOMAIN,xtratime.qcomgeo2.com
 DOMAIN,youku.cdn2-youku.com
 DOMAIN,zb.dehua.tv
 DOMAIN,zb.pzhgd.com
@@ -12918,6 +12920,7 @@ DOMAIN-SUFFIX,anhuiry.com
 DOMAIN-SUFFIX,anhuisjx.com
 DOMAIN-SUFFIX,anhuisuya.com
 DOMAIN-SUFFIX,anhuiwine.com
+DOMAIN-SUFFIX,anhuiyun.com
 DOMAIN-SUFFIX,anhuizk.com
 DOMAIN-SUFFIX,ani-sh.com
 DOMAIN-SUFFIX,aniccw.net
