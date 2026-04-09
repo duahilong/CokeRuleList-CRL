@@ -1,8 +1,8 @@
 # 名称: Direct.list
 # 描述: 全球直连规则集，包含本地网络、CFNAT和解除封锁的规则
-# 时间: 2026-04-08 22:46
-# 条目: 118487
-# 规则统计: {"DOMAIN-SUFFIX": 118025, "PROCESS-NAME": 49, "DOMAIN": 364, "DOMAIN-KEYWORD": 49}
+# 时间: 2026-04-09 22:48
+# 条目: 118489
+# 规则统计: {"DOMAIN-SUFFIX": 118025, "DOMAIN": 366, "PROCESS-NAME": 49, "DOMAIN-KEYWORD": 49}
 # 引用:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Direct/Direct.list
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/ChinaMaxNoIP/ChinaMaxNoIP.list
@@ -115,6 +115,7 @@ DOMAIN,fash1043.cloudycdn.services
 DOMAIN,fcs.dell.com
 DOMAIN,file.hhtv.cc
 DOMAIN,file.mb.leshantv.net
+DOMAIN,firebase-settings.crashlytics.com
 DOMAIN,flv.drs.tv.yatv.tv
 DOMAIN,fm901.cityfm.tw
 DOMAIN,fm929.cityfm.tw
@@ -331,6 +332,7 @@ DOMAIN,tv.drs.hhtv.cc
 DOMAIN,tv.nknews.org
 DOMAIN,tx.lilyemby.com
 DOMAIN,uni6rtmp.tulix.tv
+DOMAIN,update.crashlytics.com
 DOMAIN,update.googleapis.com
 DOMAIN,uplaypc-s-ubisoft.cdn.ubi.com
 DOMAIN,v1.one-tv.com
