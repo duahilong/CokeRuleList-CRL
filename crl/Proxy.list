@@ -1,6 +1,6 @@
 # 名称: Proxy.list
 # 描述: 代理规则集相关规则
-# 时间: 2026-04-10 22:41
+# 时间: 2026-04-11 22:36
 # 条目: 6727
 # 规则统计: {"DOMAIN-SUFFIX": 6595, "IP-CIDR": 93, "DOMAIN-KEYWORD": 26, "DOMAIN": 9, "IP-CIDR6": 4}
 # 引用:
@@ -442,10 +442,10 @@ DOMAIN-SUFFIX,angularjs.org
 DOMAIN-SUFFIX,animecrazy.net
 DOMAIN-SUFFIX,animeshippuuden.com
 DOMAIN-SUFFIX,aniscartujo.com
-DOMAIN-SUFFIX,annas-archive.in
-DOMAIN-SUFFIX,annas-archive.li
+DOMAIN-SUFFIX,annas-archive.gd
+DOMAIN-SUFFIX,annas-archive.gl
 DOMAIN-SUFFIX,annas-archive.org
-DOMAIN-SUFFIX,annas-archive.pm
+DOMAIN-SUFFIX,annas-archive.pk
 DOMAIN-SUFFIX,annas-archive.se
 DOMAIN-SUFFIX,annatam.com
 DOMAIN-SUFFIX,anobii.com
