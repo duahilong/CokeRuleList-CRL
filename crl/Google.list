@@ -1,6 +1,6 @@
 # 名称: Google.list
 # 描述: Google服务规则集，包含Google服务
-# 时间: 2026-04-12 17:45
+# 时间: 2026-04-12 22:39
 # 条目: 708
 # 规则统计: {"DOMAIN": 1, "DOMAIN-SUFFIX": 691, "DOMAIN-KEYWORD": 5, "IP-CIDR": 4, "IP-CIDR6": 1, "PROCESS-NAME": 6}
 # 引用:
