@@ -4,7 +4,7 @@ from typing import Dict, List, Set, Tuple
 from .models import RuleItem
 
 
-EXCLUDED_TYPES = {"IP-ASN"}
+EXCLUDED_TYPES = {"IP-ASN", "OTHER"}
 
 
 def _normalize_cidr_rule_type(rule_type: str, value: str) -> str:
@@ -18,11 +18,24 @@ def _normalize_cidr_rule_type(rule_type: str, value: str) -> str:
         return "IP-CIDR6" if ":" in value else rule_type
 
 
+def _parse_network(value: str):
+    try:
+        return ipaddress.ip_network(value, strict=False)
+    except ValueError:
+        return None
+
+
 def normalize_rule(item: RuleItem) -> RuleItem:
     rule_type = item.rule_type.strip().upper()
     value = item.value.strip()
     options = [opt.strip() for opt in item.options if opt.strip()]
     rule_type = _normalize_cidr_rule_type(rule_type, value)
+
+    if rule_type in {"IP-CIDR", "IP-CIDR6"}:
+        network = _parse_network(value)
+        if network is not None:
+            value = str(network)
+
     lower_options = {opt.lower() for opt in options}
 
     if rule_type in {"IP-CIDR", "IP-CIDR6"} and value and "no-resolve" not in lower_options:
@@ -46,6 +59,10 @@ def normalize_filter_dedupe(items: List[RuleItem]) -> Tuple[List[RuleItem], Dict
     for item in items:
         normalized_item = normalize_rule(item)
         if normalized_item.rule_type in EXCLUDED_TYPES:
+            filtered_count += 1
+            continue
+
+        if normalized_item.rule_type in {"IP-CIDR", "IP-CIDR6"} and _parse_network(normalized_item.value) is None:
             filtered_count += 1
             continue
 

@@ -17,12 +17,33 @@ def _is_comment_or_empty(line: str) -> bool:
     return stripped.startswith(("#", ";", "//"))
 
 
-def _infer_cidr_type(value: str) -> str:
+def _cidr_item(value: str, source_url: str, raw: str) -> Optional[RuleItem]:
+    text = value.strip()
+    if "/" not in text:
+        return None
+
     try:
-        network = ipaddress.ip_network(value, strict=False)
-        return "IP-CIDR6" if network.version == 6 else "IP-CIDR"
+        network = ipaddress.ip_network(text, strict=False)
     except ValueError:
-        return "IP-CIDR6" if ":" in value else "IP-CIDR"
+        return None
+
+    rule_type = "IP-CIDR6" if network.version == 6 else "IP-CIDR"
+    return RuleItem(
+        raw=raw,
+        rule_type=rule_type,
+        value=str(network),
+        options=[],
+        source_url=source_url,
+    )
+
+
+def _strip_inline_comment(text: str) -> str:
+    cut_index = len(text)
+    for marker in (" #", " ;", " //"):
+        marker_index = text.find(marker)
+        if marker_index != -1 and marker_index < cut_index:
+            cut_index = marker_index
+    return text[:cut_index].strip()
 
 
 def _looks_like_domain(value: str) -> bool:
@@ -39,6 +60,9 @@ def _looks_like_domain(value: str) -> bool:
     if _DOMAIN_LABEL_RE.match(text) is None:
         return False
 
+    if "-" in text and not text.startswith("xn--"):
+        return False
+
     # Accept single-label suffix tokens such as "cn" / "xn--fiqs8s"
     # while avoiding plain numeric strings.
     return any(ch.isalpha() for ch in text)
@@ -51,6 +75,7 @@ def _parse_line(line: str, source_url: str) -> Optional[RuleItem]:
     text = line.strip()
     if text.startswith("- "):
         text = text[2:].strip()
+    text = _strip_inline_comment(text)
 
     if not text:
         return None
@@ -70,14 +95,9 @@ def _parse_line(line: str, source_url: str) -> Optional[RuleItem]:
             source_url=source_url,
         )
 
-    if "/" in text:
-        return RuleItem(
-            raw=text,
-            rule_type=_infer_cidr_type(text),
-            value=text,
-            options=[],
-            source_url=source_url,
-        )
+    cidr = _cidr_item(text, source_url, text)
+    if cidr is not None:
+        return cidr
 
     if _looks_like_domain(text):
         return RuleItem(

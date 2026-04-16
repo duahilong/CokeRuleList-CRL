@@ -2,36 +2,41 @@ name: Auto Update Rules
 
 on:
   schedule:
-    - cron: '0 22 * * *'
+    - cron: "0 22 * * *"
   workflow_dispatch:
   push:
     paths:
-      - 'rule.json'  # 注意：这里要改成你的配置文件名
+      - "rule.json"
+      - "app/**"
+      - "main.py"
+      - ".github/workflows/main.yml"
+      - "tests/**"
 
 jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - name: 1. 拉取仓库代码
+      - name: 1. Checkout
         uses: actions/checkout@v4
 
-      - name: 2. 安装 Python
+      - name: 2. Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
+          python-version: "3.10"
 
-      - name: 3. 安装依赖库
+      - name: 3. Install Dependencies
         run: pip install requests
 
-      - name: 4. 执行脚本
-        # ⚠️ 请确保你的文件名真的是 build.py，如果不是，请改掉这里
+      - name: 4. Run Unit Tests
+        run: python -m unittest discover -s tests -v
+
+      - name: 5. Build Rules
         run: python main.py
 
-      - name: 5. 将更新后的文件推送到仓库
+      - name: 6. Commit And Push
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          # 添加 crl 文件夹下的规则和统计文件
           git add crl/*.list crl/tx.log
           git commit -m "Auto Update: $(date +'%Y-%m-%d %H:%M')" || exit 0
           git push
