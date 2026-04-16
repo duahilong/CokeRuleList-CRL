@@ -2,6 +2,7 @@ import os
 from typing import List
 
 from app.config_loader import load_tasks
+from app.cross_dedupe import apply_priority_cross_file_dedupe
 from app.fetcher import fetch_many
 from app.models import BuildResult, RuleItem, RuleTask
 from app.normalizer import normalize_filter_dedupe
@@ -82,6 +83,17 @@ def run() -> List[BuildResult]:
     results: List[BuildResult] = []
     for task in tasks:
         results.append(build_task(task))
+
+    dedupe_stats = apply_priority_cross_file_dedupe(
+        tasks=tasks,
+        output_dir=OUTPUT_DIR,
+        manual_override_file="Coke.list",
+    )
+    if dedupe_stats["total_dropped"] > 0:
+        print(
+            f"\n跨文件去重完成: 处理文件 {dedupe_stats['files_touched']} 个, "
+            f"删除重复规则 {dedupe_stats['total_dropped']} 条"
+        )
 
     generate_global_statistics(OUTPUT_DIR, results)
     return results

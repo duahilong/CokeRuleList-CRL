@@ -1,8 +1,8 @@
 # 名称: Ai.list
 # 描述: AI服务规则集，包含AI服务
-# 时间: 2026-04-16 10:06
-# 条目: 65
-# 规则统计: {"DOMAIN-KEYWORD": 5, "DOMAIN": 24, "DOMAIN-SUFFIX": 34, "IP-CIDR": 2}
+# 时间: 2026-04-16 10:37
+# 条目: 64
+# 规则统计: {"IP-CIDR": 2, "DOMAIN": 24, "DOMAIN-SUFFIX": 33, "DOMAIN-KEYWORD": 5}
 # 引用:
 #   https://raw.githubusercontent.com/cmliu/ACL4SSR/refs/heads/main/Clash/Gemini.list
 #   https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list
@@ -48,7 +48,6 @@ DOMAIN-SUFFIX,challenges.cloudflare.com
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,chatgpt.livekit.cloud
 DOMAIN-SUFFIX,client-api.arkoselabs.com
-DOMAIN-SUFFIX,deepmind.com
 DOMAIN-SUFFIX,deepmind.google
 DOMAIN-SUFFIX,edgeservices.bing.com
 DOMAIN-SUFFIX,events.statsigapi.net

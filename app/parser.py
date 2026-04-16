@@ -1,7 +1,12 @@
 import ipaddress
+import re
 from typing import List, Optional
 
 from .models import RuleItem
+
+_DOMAIN_TOKEN_RE = re.compile(
+    r"^(?=.{1,253}$)(?!-)(?:[A-Za-z0-9-]{1,63}\.)+[A-Za-z0-9-]{1,63}\.?$"
+)
 
 
 def _is_comment_or_empty(line: str) -> bool:
@@ -17,6 +22,17 @@ def _infer_cidr_type(value: str) -> str:
         return "IP-CIDR6" if network.version == 6 else "IP-CIDR"
     except ValueError:
         return "IP-CIDR6" if ":" in value else "IP-CIDR"
+
+
+def _looks_like_domain(value: str) -> bool:
+    text = value.strip().lower()
+    if not text:
+        return False
+    if text.endswith("."):
+        text = text[:-1]
+    if "_" in text or " " in text or "/" in text or "," in text:
+        return False
+    return _DOMAIN_TOKEN_RE.match(text) is not None
 
 
 def _parse_line(line: str, source_url: str) -> Optional[RuleItem]:
@@ -50,6 +66,15 @@ def _parse_line(line: str, source_url: str) -> Optional[RuleItem]:
             raw=text,
             rule_type=_infer_cidr_type(text),
             value=text,
+            options=[],
+            source_url=source_url,
+        )
+
+    if _looks_like_domain(text):
+        return RuleItem(
+            raw=text,
+            rule_type="DOMAIN-SUFFIX",
+            value=text.lower().rstrip("."),
             options=[],
             source_url=source_url,
         )
