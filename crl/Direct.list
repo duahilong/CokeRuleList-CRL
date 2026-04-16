@@ -1,8 +1,8 @@
 # 名称: Direct.list
 # 描述: 全球直连规则集，包含本地网络、CFNAT和解除封锁的规则
-# 时间: 2026-04-16 10:37
-# 条目: 120989
-# 规则统计: {"DOMAIN": 354, "DOMAIN-SUFFIX": 120513, "DOMAIN-KEYWORD": 46, "PROCESS-NAME": 43, "OTHER": 33}
+# 时间: 2026-04-16 10:50
+# 条目: 120956
+# 规则统计: {"DOMAIN": 354, "DOMAIN-SUFFIX": 120513, "DOMAIN-KEYWORD": 46, "PROCESS-NAME": 43}
 # 引用:
 #   https://raw.githubusercontent.com/pmkol/easymosdns/rules/china_domain_list.txt
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Direct/Direct.list
@@ -120967,37 +120967,3 @@ PROCESS-NAME,uTorrent
 PROCESS-NAME,v2ray
 PROCESS-NAME,xray
 PROCESS-NAME,小米云服务.exe
-
-OTHER,cn
-OTHER,xn--1qqw23a
-OTHER,xn--3bst00m
-OTHER,xn--3ds443g
-OTHER,xn--55qw42g
-OTHER,xn--55qx5d
-OTHER,xn--5tzm5g
-OTHER,xn--6frz82g
-OTHER,xn--6qq986b3xl
-OTHER,xn--8y0a063a
-OTHER,xn--9et52u
-OTHER,xn--czr694b
-OTHER,xn--czrs0t
-OTHER,xn--czru2d
-OTHER,xn--fiq228c5hs
-OTHER,xn--fiq64b
-OTHER,xn--fiqs8s
-OTHER,xn--fiqz9s
-OTHER,xn--fjq720a
-OTHER,xn--g2xx48c
-OTHER,xn--hxt814e
-OTHER,xn--imr513n
-OTHER,xn--io0a7i
-OTHER,xn--kput3i
-OTHER,xn--nyqy26a
-OTHER,xn--otu796d
-OTHER,xn--rhqv96g
-OTHER,xn--ses554g
-OTHER,xn--unup4y
-OTHER,xn--vhquv
-OTHER,xn--vuq861b
-OTHER,xn--xhq521b
-OTHER,xn--zfr164b

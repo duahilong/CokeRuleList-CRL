@@ -2,7 +2,7 @@ import os
 from typing import Dict, List, Set
 
 from .models import RuleTask
-from .normalizer import normalize_filter_dedupe
+from .normalizer import normalize_filter_dedupe, normalize_rule
 from .parser import parse_content
 from .sorter import sort_rules
 from .writer import write_rules_file
@@ -42,6 +42,27 @@ def _read_rule_lines(path: str) -> List[str]:
     return rules
 
 
+def _normalized_key(rule_text: str, source: str) -> str:
+    items = parse_content(rule_text, source)
+    if not items:
+        return rule_text.strip()
+    return normalize_rule(items[0]).normalized
+
+
+def _read_manual_override_keys(path: str) -> Set[str]:
+    if not os.path.exists(path):
+        return set()
+
+    keys: Set[str] = set()
+    with open(path, "r", encoding="utf-8") as file:
+        for line in file:
+            text = line.strip()
+            if not text or text.startswith("#"):
+                continue
+            keys.add(_normalized_key(text, path))
+    return keys
+
+
 def _task_order(task_files: List[str]) -> List[str]:
     priority_set = set(RULE_FILE_PRIORITY)
     ordered = [name for name in RULE_FILE_PRIORITY if name in task_files and name != "Coke.list"]
@@ -59,7 +80,7 @@ def apply_priority_cross_file_dedupe(
         return {"total_dropped": 0, "files_touched": 0}
 
     ordered_files = _task_order(list(task_by_file.keys()))
-    seen: Set[str] = set(_read_rule_lines(manual_override_file))
+    seen_keys: Set[str] = _read_manual_override_keys(manual_override_file)
     dropped_total = 0
     files_touched = 0
 
@@ -72,9 +93,10 @@ def apply_priority_cross_file_dedupe(
 
         kept_rules: List[str] = []
         for rule in original_rules:
-            if rule in seen:
+            key = _normalized_key(rule, f"local://{file_name}")
+            if key in seen_keys:
                 continue
-            seen.add(rule)
+            seen_keys.add(key)
             kept_rules.append(rule)
 
         dropped = len(original_rules) - len(kept_rules)

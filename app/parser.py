@@ -7,6 +7,7 @@ from .models import RuleItem
 _DOMAIN_TOKEN_RE = re.compile(
     r"^(?=.{1,253}$)(?!-)(?:[A-Za-z0-9-]{1,63}\.)+[A-Za-z0-9-]{1,63}\.?$"
 )
+_DOMAIN_LABEL_RE = re.compile(r"^(?=.{1,63}$)(?!-)[A-Za-z0-9-]+(?<!-)$")
 
 
 def _is_comment_or_empty(line: str) -> bool:
@@ -32,7 +33,15 @@ def _looks_like_domain(value: str) -> bool:
         text = text[:-1]
     if "_" in text or " " in text or "/" in text or "," in text:
         return False
-    return _DOMAIN_TOKEN_RE.match(text) is not None
+    if _DOMAIN_TOKEN_RE.match(text) is not None:
+        return True
+
+    if _DOMAIN_LABEL_RE.match(text) is None:
+        return False
+
+    # Accept single-label suffix tokens such as "cn" / "xn--fiqs8s"
+    # while avoiding plain numeric strings.
+    return any(ch.isalpha() for ch in text)
 
 
 def _parse_line(line: str, source_url: str) -> Optional[RuleItem]:

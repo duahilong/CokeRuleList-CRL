@@ -35,3 +35,7 @@ wheels/
 Thumbs.db
 
 # Generated files
+tests/_tmp_*
+tests/tx.log
+tests/
+tmp*/

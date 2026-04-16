@@ -1,6 +1,6 @@
 import os
 from datetime import datetime
-from typing import Dict, List, Optional
+from typing import Dict, List, Optional, Sequence
 
 from .models import BuildResult
 
@@ -16,7 +16,9 @@ def _read_rules_from_file(file_path: str) -> List[str]:
 
 
 def generate_global_statistics(
-    output_dir: str = "crl", build_results: Optional[List[BuildResult]] = None
+    output_dir: str = "crl",
+    build_results: Optional[List[BuildResult]] = None,
+    include_files: Optional[Sequence[str]] = None,
 ) -> None:
     if not os.path.exists(output_dir):
         print("crl文件夹不存在")
@@ -25,12 +27,16 @@ def generate_global_statistics(
     file_rules: Dict[str, List[str]] = {}
     all_rules: List[str] = []
 
-    for file_name in os.listdir(output_dir):
-        if file_name.endswith(".list"):
-            file_path = os.path.join(output_dir, file_name)
-            rules = _read_rules_from_file(file_path)
-            file_rules[file_name] = rules
-            all_rules.extend(rules)
+    candidate_files = sorted(file_name for file_name in os.listdir(output_dir) if file_name.endswith(".list"))
+    if include_files is not None:
+        include_set = set(include_files)
+        candidate_files = [file_name for file_name in candidate_files if file_name in include_set]
+
+    for file_name in candidate_files:
+        file_path = os.path.join(output_dir, file_name)
+        rules = _read_rules_from_file(file_path)
+        file_rules[file_name] = rules
+        all_rules.extend(rules)
 
     total_rules = len(all_rules)
     unique_rules = len(set(all_rules))

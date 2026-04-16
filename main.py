@@ -1,5 +1,5 @@
 import os
-from typing import List
+from typing import Dict, List, Tuple
 
 from app.config_loader import load_tasks
 from app.cross_dedupe import apply_priority_cross_file_dedupe
@@ -14,6 +14,23 @@ from app.writer import write_rules_file
 
 CONFIG_FILE = "rule.json"
 OUTPUT_DIR = "crl"
+
+
+def _read_existing_output_stats(output_path: str) -> Tuple[int, Dict[str, int]]:
+    if not os.path.exists(output_path):
+        return 0, {}
+
+    count = 0
+    type_stats: Dict[str, int] = {}
+    with open(output_path, "r", encoding="utf-8") as file:
+        for line in file:
+            text = line.strip()
+            if not text or text.startswith("#"):
+                continue
+            count += 1
+            rule_type = text.split(",", 1)[0].strip().upper()
+            type_stats[rule_type] = type_stats.get(rule_type, 0) + 1
+    return count, type_stats
 
 
 def build_task(task: RuleTask) -> BuildResult:
@@ -43,21 +60,32 @@ def build_task(task: RuleTask) -> BuildResult:
     normalized_rules, type_stats, filtered_count = normalize_filter_dedupe(parsed_rules)
     sorted_rules = sort_rules(normalized_rules)
 
-    output_path = write_rules_file(
-        output_dir=OUTPUT_DIR,
-        file_name=task.output_file,
-        description=task.description,
-        urls=task.urls,
-        rules=sorted_rules,
-        type_stats=type_stats,
-    )
+    output_path = os.path.join(OUTPUT_DIR, task.output_file)
+    preserved_existing = False
+    if success_count == 0 and os.path.exists(output_path):
+        preserved_existing = True
+        final_rule_count, existing_type_stats = _read_existing_output_stats(output_path)
+        if existing_type_stats:
+            type_stats = existing_type_stats
+    else:
+        output_path = write_rules_file(
+            output_dir=OUTPUT_DIR,
+            file_name=task.output_file,
+            description=task.description,
+            urls=task.urls,
+            rules=sorted_rules,
+            type_stats=type_stats,
+        )
+        final_rule_count = len(sorted_rules)
 
     print(f"已生成: {output_path}")
     print(f"   抓取成功/失败: {success_count}/{len(task.urls) - success_count}")
     print(f"   原始行数: {raw_rule_count}")
     print(f"   解析条数: {len(parsed_rules)}")
     print(f"   过滤条数: {filtered_count}")
-    print(f"   输出条数: {len(sorted_rules)}")
+    if preserved_existing:
+        print("   写入策略: 全部来源失败，保留历史产物")
+    print(f"   输出条数: {final_rule_count}")
 
     return BuildResult(
         output_file=task.output_file,
@@ -67,7 +95,7 @@ def build_task(task: RuleTask) -> BuildResult:
         failed_count=len(task.urls) - success_count,
         raw_rule_count=raw_rule_count,
         parsed_rule_count=len(parsed_rules),
-        final_rule_count=len(sorted_rules),
+        final_rule_count=final_rule_count,
         type_stats=type_stats,
         urls=task.urls,
         failed_urls=failed_urls,
@@ -95,7 +123,11 @@ def run() -> List[BuildResult]:
             f"删除重复规则 {dedupe_stats['total_dropped']} 条"
         )
 
-    generate_global_statistics(OUTPUT_DIR, results)
+    generate_global_statistics(
+        OUTPUT_DIR,
+        results,
+        include_files=[task.output_file for task in tasks],
+    )
     return results
 
 
