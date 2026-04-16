@@ -1,3 +1,4 @@
+import ipaddress
 from typing import List, Optional
 
 from .models import RuleItem
@@ -8,6 +9,14 @@ def _is_comment_or_empty(line: str) -> bool:
     if not stripped:
         return True
     return stripped.startswith(("#", ";", "//"))
+
+
+def _infer_cidr_type(value: str) -> str:
+    try:
+        network = ipaddress.ip_network(value, strict=False)
+        return "IP-CIDR6" if network.version == 6 else "IP-CIDR"
+    except ValueError:
+        return "IP-CIDR6" if ":" in value else "IP-CIDR"
 
 
 def _parse_line(line: str, source_url: str) -> Optional[RuleItem]:
@@ -39,7 +48,7 @@ def _parse_line(line: str, source_url: str) -> Optional[RuleItem]:
     if "/" in text:
         return RuleItem(
             raw=text,
-            rule_type="IP-CIDR",
+            rule_type=_infer_cidr_type(text),
             value=text,
             options=[],
             source_url=source_url,

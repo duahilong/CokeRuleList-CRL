@@ -1,3 +1,4 @@
+import ipaddress
 from typing import Dict, List, Set, Tuple
 
 from .models import RuleItem
@@ -6,12 +7,25 @@ from .models import RuleItem
 EXCLUDED_TYPES = {"IP-ASN"}
 
 
+def _normalize_cidr_rule_type(rule_type: str, value: str) -> str:
+    if rule_type not in {"IP-CIDR", "IP-CIDR6"} or "/" not in value:
+        return rule_type
+
+    try:
+        network = ipaddress.ip_network(value, strict=False)
+        return "IP-CIDR6" if network.version == 6 else "IP-CIDR"
+    except ValueError:
+        return "IP-CIDR6" if ":" in value else rule_type
+
+
 def normalize_rule(item: RuleItem) -> RuleItem:
     rule_type = item.rule_type.strip().upper()
     value = item.value.strip()
     options = [opt.strip() for opt in item.options if opt.strip()]
+    rule_type = _normalize_cidr_rule_type(rule_type, value)
+    lower_options = {opt.lower() for opt in options}
 
-    if rule_type == "IP-CIDR" and value and "no-resolve" not in [opt.lower() for opt in options]:
+    if rule_type in {"IP-CIDR", "IP-CIDR6"} and value and "no-resolve" not in lower_options:
         options.append("no-resolve")
 
     return RuleItem(
