@@ -1,8 +1,8 @@
 # 名称: Direct.list
 # 描述: 全球直连规则集，包含本地网络、CFNAT和解除封锁的规则
-# 时间: 2026-04-16 22:48
-# 条目: 120956
-# 规则统计: {"DOMAIN": 354, "DOMAIN-SUFFIX": 120513, "DOMAIN-KEYWORD": 46, "PROCESS-NAME": 43}
+# 时间: 2026-04-17 22:46
+# 条目: 120955
+# 规则统计: {"DOMAIN": 354, "DOMAIN-SUFFIX": 120512, "DOMAIN-KEYWORD": 46, "PROCESS-NAME": 43}
 # 引用:
 #   https://raw.githubusercontent.com/pmkol/easymosdns/rules/china_domain_list.txt
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Direct/Direct.list
@@ -14957,7 +14957,6 @@ DOMAIN-SUFFIX,avicui.com
 DOMAIN-SUFFIX,avilive.com
 DOMAIN-SUFFIX,avinex.com
 DOMAIN-SUFFIX,avischina.com
-DOMAIN-SUFFIX,avistaz.to
 DOMAIN-SUFFIX,avivaqueen.com
 DOMAIN-SUFFIX,avl-hitec.com
 DOMAIN-SUFFIX,avlinsight.com
