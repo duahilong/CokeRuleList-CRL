@@ -1,8 +1,8 @@
 # 名称: Proxy.list
 # 描述: 代理规则集相关规则
-# 时间: 2026-04-24 22:43
-# 条目: 6419
-# 规则统计: {"IP-CIDR": 82, "IP-CIDR6": 1, "DOMAIN": 8, "DOMAIN-SUFFIX": 6312, "DOMAIN-KEYWORD": 16}
+# 时间: 2026-04-25 22:41
+# 条目: 6420
+# 规则统计: {"IP-CIDR": 82, "IP-CIDR6": 1, "DOMAIN": 8, "DOMAIN-SUFFIX": 6313, "DOMAIN-KEYWORD": 16}
 # 引用:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Proxy/Proxy.list
 
@@ -5132,6 +5132,7 @@ DOMAIN-SUFFIX,tcsovi.org
 DOMAIN-SUFFIX,tdm.com.mo
 DOMAIN-SUFFIX,teamamericany.com
 DOMAIN-SUFFIX,teamviewer.com
+DOMAIN-SUFFIX,techbang.com
 DOMAIN-SUFFIX,techcrunch.com
 DOMAIN-SUFFIX,technews.tw
 DOMAIN-SUFFIX,technorati.com
