@@ -1,8 +1,8 @@
 # 名称: Direct.list
 # 描述: 全球直连规则集，包含本地网络、CFNAT和解除封锁的规则
-# 时间: 2026-04-30 22:55
-# 条目: 118750
-# 规则统计: {"DOMAIN": 349, "DOMAIN-SUFFIX": 118312, "DOMAIN-KEYWORD": 46, "PROCESS-NAME": 43}
+# 时间: 2026-05-01 22:53
+# 条目: 118760
+# 规则统计: {"DOMAIN": 349, "DOMAIN-SUFFIX": 118322, "DOMAIN-KEYWORD": 46, "PROCESS-NAME": 43}
 # 引用:
 #   https://raw.githubusercontent.com/pmkol/easymosdns/rules/china_domain_list.txt
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Direct/Direct.list
@@ -11183,6 +11183,7 @@ DOMAIN-SUFFIX,abtpaper.com
 DOMAIN-SUFFIX,abtt266.com
 DOMAIN-SUFFIX,abublue.com
 DOMAIN-SUFFIX,abundancen.com
+DOMAIN-SUFFIX,abupdate.com
 DOMAIN-SUFFIX,abuquant.com
 DOMAIN-SUFFIX,abusi.net
 DOMAIN-SUFFIX,abusky.com
@@ -11233,6 +11234,7 @@ DOMAIN-SUFFIX,account.djicdn.com
 DOMAIN-SUFFIX,account.htcvive.com
 DOMAIN-SUFFIX,account.lenovo.com
 DOMAIN-SUFFIX,account.uds-sit.lenovo.com
+DOMAIN-SUFFIX,accountboy.com
 DOMAIN-SUFFIX,accr.cc
 DOMAIN-SUFFIX,accsh.org
 DOMAIN-SUFFIX,acctdns.com
@@ -12261,6 +12263,7 @@ DOMAIN-SUFFIX,ailete.com
 DOMAIN-SUFFIX,ailewan.com
 DOMAIN-SUFFIX,aileyun.net
 DOMAIN-SUFFIX,aili.com
+DOMAIN-SUFFIX,ailiangzhu.com
 DOMAIN-SUFFIX,ailiao360.com
 DOMAIN-SUFFIX,ailibang.com
 DOMAIN-SUFFIX,ailibi.com
@@ -50432,6 +50435,7 @@ DOMAIN-SUFFIX,hqsgw.com
 DOMAIN-SUFFIX,hqshuaimi.com
 DOMAIN-SUFFIX,hqsmartcloud.com
 DOMAIN-SUFFIX,hqsoft.cc
+DOMAIN-SUFFIX,hqsuntek.com
 DOMAIN-SUFFIX,hqswuye.com
 DOMAIN-SUFFIX,hqthw.com
 DOMAIN-SUFFIX,hqtong.com
@@ -52556,6 +52560,7 @@ DOMAIN-SUFFIX,hyxt.com
 DOMAIN-SUFFIX,hyy99.com
 DOMAIN-SUFFIX,hyybj.com
 DOMAIN-SUFFIX,hyyf.net
+DOMAIN-SUFFIX,hyyhb.com
 DOMAIN-SUFFIX,hyyl.net
 DOMAIN-SUFFIX,hyyoa.com
 DOMAIN-SUFFIX,hyypjs.com
@@ -53567,6 +53572,7 @@ DOMAIN-SUFFIX,icoderobot.com
 DOMAIN-SUFFIX,icofchina.com
 DOMAIN-SUFFIX,icomuimi.com
 DOMAIN-SUFFIX,iconntech.com
+DOMAIN-SUFFIX,iconsapi.com
 DOMAIN-SUFFIX,icoolby.com
 DOMAIN-SUFFIX,icoonal.xyz
 DOMAIN-SUFFIX,icoou.com
@@ -92436,6 +92442,7 @@ DOMAIN-SUFFIX,szzesee.com
 DOMAIN-SUFFIX,szzfgjj.com
 DOMAIN-SUFFIX,szzh365.com
 DOMAIN-SUFFIX,szzhangchu.com
+DOMAIN-SUFFIX,szzhangyue.com
 DOMAIN-SUFFIX,szzhaodaxin.com
 DOMAIN-SUFFIX,szzhijun.com
 DOMAIN-SUFFIX,szzhuoju.com
@@ -94939,6 +94946,7 @@ DOMAIN-SUFFIX,tjllhbkj.com
 DOMAIN-SUFFIX,tjluohuzhijia.com
 DOMAIN-SUFFIX,tjmama.com
 DOMAIN-SUFFIX,tjmcgc.com
+DOMAIN-SUFFIX,tjmenglan.com
 DOMAIN-SUFFIX,tjmhc.com
 DOMAIN-SUFFIX,tjmldy.com
 DOMAIN-SUFFIX,tjmuch.com
@@ -95599,6 +95607,7 @@ DOMAIN-SUFFIX,topsayauto.com
 DOMAIN-SUFFIX,topscan.com
 DOMAIN-SUFFIX,topsedu.com
 DOMAIN-SUFFIX,topsem.com
+DOMAIN-SUFFIX,topsfuture.com
 DOMAIN-SUFFIX,topsim.cc
 DOMAIN-SUFFIX,topsmartinfo.com
 DOMAIN-SUFFIX,topsmt.com
@@ -98257,6 +98266,7 @@ DOMAIN-SUFFIX,v5.net
 DOMAIN-SUFFIX,v50307shvkaa.art
 DOMAIN-SUFFIX,v51124-3.qpon
 DOMAIN-SUFFIX,v51124-3a.qpon
+DOMAIN-SUFFIX,v51124-5.qpon
 DOMAIN-SUFFIX,v51124.qpon
 DOMAIN-SUFFIX,v5875.com
 DOMAIN-SUFFIX,v5cg.com
