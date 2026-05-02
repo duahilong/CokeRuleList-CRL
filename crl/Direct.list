@@ -1,8 +1,8 @@
 # 名称: Direct.list
 # 描述: 全球直连规则集，包含本地网络、CFNAT和解除封锁的规则
-# 时间: 2026-05-02 15:26
-# 条目: 118708
-# 规则统计: {"DOMAIN": 349, "DOMAIN-SUFFIX": 118270, "DOMAIN-KEYWORD": 46, "PROCESS-NAME": 43}
+# 时间: 2026-05-02 22:49
+# 条目: 118714
+# 规则统计: {"DOMAIN": 349, "DOMAIN-SUFFIX": 118276, "DOMAIN-KEYWORD": 46, "PROCESS-NAME": 43}
 # 引用:
 #   https://raw.githubusercontent.com/pmkol/easymosdns/rules/china_domain_list.txt
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Direct/Direct.list
@@ -12302,6 +12302,7 @@ DOMAIN-SUFFIX,aimoneshoes.com
 DOMAIN-SUFFIX,aimoon.com
 DOMAIN-SUFFIX,aimsen.com
 DOMAIN-SUFFIX,aimu-app.com
+DOMAIN-SUFFIX,aimx333.com
 DOMAIN-SUFFIX,ainas.cc
 DOMAIN-SUFFIX,ainb01010zh.com
 DOMAIN-SUFFIX,ainb12251zh.com
@@ -16207,6 +16208,7 @@ DOMAIN-SUFFIX,bazi.run
 DOMAIN-SUFFIX,bazi.xin
 DOMAIN-SUFFIX,bazi5.com
 DOMAIN-SUFFIX,baziguwen.com
+DOMAIN-SUFFIX,bazixinli.com
 DOMAIN-SUFFIX,bazizeri.com
 DOMAIN-SUFFIX,bb-game.com
 DOMAIN-SUFFIX,bb-hy.com
@@ -57443,6 +57445,7 @@ DOMAIN-SUFFIX,jiemaiyang.com
 DOMAIN-SUFFIX,jiemeng.cc
 DOMAIN-SUFFIX,jiemeng.tw
 DOMAIN-SUFFIX,jiemeng8.com
+DOMAIN-SUFFIX,jiemengjia.com
 DOMAIN-SUFFIX,jiement.com
 DOMAIN-SUFFIX,jiemian.com
 DOMAIN-SUFFIX,jiemin.com
@@ -98224,6 +98227,7 @@ DOMAIN-SUFFIX,v5.net
 DOMAIN-SUFFIX,v50307shvkaa.art
 DOMAIN-SUFFIX,v51124-3.qpon
 DOMAIN-SUFFIX,v51124-3a.qpon
+DOMAIN-SUFFIX,v51124-4.qpon
 DOMAIN-SUFFIX,v51124-5.qpon
 DOMAIN-SUFFIX,v51124.qpon
 DOMAIN-SUFFIX,v5875.com
@@ -111372,10 +111376,12 @@ DOMAIN-SUFFIX,youkia.net
 DOMAIN-SUFFIX,youking.com
 DOMAIN-SUFFIX,youkongkan.com
 DOMAIN-SUFFIX,youkongwan.com
+DOMAIN-SUFFIX,youku.icu
 DOMAIN-SUFFIX,youkua.net
 DOMAIN-SUFFIX,youkuaiyun.com
 DOMAIN-SUFFIX,youkud.com
 DOMAIN-SUFFIX,youkupic.com
+DOMAIN-SUFFIX,youkuyouku.pro
 DOMAIN-SUFFIX,youlai.tech
 DOMAIN-SUFFIX,youlanw.com
 DOMAIN-SUFFIX,youle55.com
