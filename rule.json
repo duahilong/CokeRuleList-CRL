@@ -54,6 +54,7 @@
     "Ai.list": {
         "description": "AI服务规则集，包含AI服务",
         "urls": [
+            "https://raw.githubusercontent.com/duahilong/CokeRuleList-CRL/refs/heads/main/Coke-AI.List",
             "https://raw.githubusercontent.com/cmliu/ACL4SSR/refs/heads/main/Clash/Gemini.list",
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list",
             "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Copilot/Copilot.list",
