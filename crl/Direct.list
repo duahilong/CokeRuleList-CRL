@@ -1,6 +1,6 @@
 # 名称: Direct.list
 # 描述: 全球直连规则集，包含本地网络、CFNAT和解除封锁的规则
-# 时间: 2026-05-03 22:49
+# 时间: 2026-05-04 22:59
 # 条目: 117616
 # 规则统计: {"DOMAIN": 350, "DOMAIN-SUFFIX": 117177, "DOMAIN-KEYWORD": 46, "PROCESS-NAME": 43}
 # 引用:
@@ -2324,7 +2324,6 @@ DOMAIN-SUFFIX,133300.com
 DOMAIN-SUFFIX,13377608388.com
 DOMAIN-SUFFIX,13384.com
 DOMAIN-SUFFIX,133998.com
-DOMAIN-SUFFIX,133u.com
 DOMAIN-SUFFIX,13482896776.com
 DOMAIN-SUFFIX,1350135.com
 DOMAIN-SUFFIX,135031.com
@@ -10891,7 +10890,6 @@ DOMAIN-SUFFIX,a9market.com
 DOMAIN-SUFFIX,a9vg.com
 DOMAIN-SUFFIX,a9x9.com
 DOMAIN-SUFFIX,aa-lsk.com
-DOMAIN-SUFFIX,aa03010iiko.com
 DOMAIN-SUFFIX,aa08072678.xyz
 DOMAIN-SUFFIX,aa152.com
 DOMAIN-SUFFIX,aa360.net
@@ -12184,6 +12182,7 @@ DOMAIN-SUFFIX,aimx333.com
 DOMAIN-SUFFIX,ainas.cc
 DOMAIN-SUFFIX,ainb01010zh.com
 DOMAIN-SUFFIX,ainb12251zh.com
+DOMAIN-SUFFIX,ainiankj.com
 DOMAIN-SUFFIX,ainiapp.com
 DOMAIN-SUFFIX,ainirobot.com
 DOMAIN-SUFFIX,ainiseo.com
@@ -54227,6 +54226,7 @@ DOMAIN-SUFFIX,infini-ai.com
 DOMAIN-SUFFIX,infinisign.com
 DOMAIN-SUFFIX,infiniteborders3kingdoms.com
 DOMAIN-SUFFIX,infinitescript.com
+DOMAIN-SUFFIX,infinitiesai.com
 DOMAIN-SUFFIX,infinity8ball.com
 DOMAIN-SUFFIX,infinitynewtab.com
 DOMAIN-SUFFIX,infinitytab.com
