@@ -1,8 +1,8 @@
 # 名称: Direct.list
 # 描述: 全球直连规则集，包含本地网络、CFNAT和解除封锁的规则
-# 时间: 2026-05-09 22:51
-# 条目: 116689
-# 规则统计: {"DOMAIN": 350, "DOMAIN-SUFFIX": 116250, "DOMAIN-KEYWORD": 46, "PROCESS-NAME": 43}
+# 时间: 2026-05-10 22:53
+# 条目: 116678
+# 规则统计: {"DOMAIN": 350, "DOMAIN-SUFFIX": 116239, "DOMAIN-KEYWORD": 46, "PROCESS-NAME": 43}
 # 引用:
 #   https://raw.githubusercontent.com/pmkol/easymosdns/rules/china_domain_list.txt
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Direct/Direct.list
@@ -10959,7 +10959,6 @@ DOMAIN-SUFFIX,accopower.com
 DOMAIN-SUFFIX,account-api.dji.com
 DOMAIN-SUFFIX,account.djicdn.com
 DOMAIN-SUFFIX,account.htcvive.com
-DOMAIN-SUFFIX,account.lenovo.com
 DOMAIN-SUFFIX,account.uds-sit.lenovo.com
 DOMAIN-SUFFIX,accountboy.com
 DOMAIN-SUFFIX,accr.cc
@@ -16375,7 +16374,6 @@ DOMAIN-SUFFIX,beiyijt.com
 DOMAIN-SUFFIX,beiyinqi.com
 DOMAIN-SUFFIX,beiyiskjc.com
 DOMAIN-SUFFIX,beiyongzhan.com
-DOMAIN-SUFFIX,beiyu.xin
 DOMAIN-SUFFIX,beiyuwangxiao.com
 DOMAIN-SUFFIX,beizhua.com
 DOMAIN-SUFFIX,beizi.biz
@@ -24428,7 +24426,6 @@ DOMAIN-SUFFIX,cl-kongtiao.com
 DOMAIN-SUFFIX,cl-power.com
 DOMAIN-SUFFIX,cl0438.com
 DOMAIN-SUFFIX,cl0579.com
-DOMAIN-SUFFIX,cl2.apple.com.edgekey.net.globalredir.akadns.net
 DOMAIN-SUFFIX,cl2009.com
 DOMAIN-SUFFIX,cl868.com
 DOMAIN-SUFFIX,clady.cc
@@ -27632,7 +27629,6 @@ DOMAIN-SUFFIX,csoly.com
 DOMAIN-SUFFIX,csomdmyxy.com
 DOMAIN-SUFFIX,csomick.com
 DOMAIN-SUFFIX,csp.djicdn.com
-DOMAIN-SUFFIX,csp.lenovo.com
 DOMAIN-SUFFIX,cspasz.org
 DOMAIN-SUFFIX,cspbj.com
 DOMAIN-SUFFIX,cspcbaike.com
@@ -31034,7 +31030,6 @@ DOMAIN-SUFFIX,dl-rc.com
 DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com
 DOMAIN-SUFFIX,dl.djicdn.com
 DOMAIN-SUFFIX,dl.razerzone.com
-DOMAIN-SUFFIX,dl.ubnt.com
 DOMAIN-SUFFIX,dl0728.com
 DOMAIN-SUFFIX,dl23zx.com
 DOMAIN-SUFFIX,dl2link.com
@@ -31406,7 +31401,6 @@ DOMAIN-SUFFIX,docoi.cc
 DOMAIN-SUFFIX,docpe.com
 DOMAIN-SUFFIX,docs.cdnetworks.com
 DOMAIN-SUFFIX,docs.djicdn.com
-DOMAIN-SUFFIX,docs.oracle.com
 DOMAIN-SUFFIX,docschina.org
 DOMAIN-SUFFIX,docshare.org
 DOMAIN-SUFFIX,docsj.com
@@ -31495,6 +31489,7 @@ DOMAIN-SUFFIX,dolphinpaper.com
 DOMAIN-SUFFIX,dolphinphp.com
 DOMAIN-SUFFIX,dom-3d.net
 DOMAIN-SUFFIX,domabio.com
+DOMAIN-SUFFIX,domain.email
 DOMAIN-SUFFIX,domaingz.com
 DOMAIN-SUFFIX,domigewear.com
 DOMAIN-SUFFIX,domilight.com
@@ -41653,8 +41648,6 @@ DOMAIN-SUFFIX,gsmpers.com
 DOMAIN-SUFFIX,gsmuban.com
 DOMAIN-SUFFIX,gsnhcg.com
 DOMAIN-SUFFIX,gsnytz.com
-DOMAIN-SUFFIX,gsp11-cn.ls.apple.com
-DOMAIN-SUFFIX,gsp12-cn.ls.apple.com
 DOMAIN-SUFFIX,gspaceteam.com
 DOMAIN-SUFFIX,gspst.com
 DOMAIN-SUFFIX,gspt.com
@@ -48905,8 +48898,6 @@ DOMAIN-SUFFIX,holmesbio.com
 DOMAIN-SUFFIX,holmesian.org
 DOMAIN-SUFFIX,holoalpha.com
 DOMAIN-SUFFIX,holoremax.com
-DOMAIN-SUFFIX,holoway.lenovo.com
-DOMAIN-SUFFIX,holowaytest.lenovo.com
 DOMAIN-SUFFIX,holsauto.com
 DOMAIN-SUFFIX,holteksupport.com
 DOMAIN-SUFFIX,holymalls.com
@@ -63405,7 +63396,6 @@ DOMAIN-SUFFIX,lenovohuishang.com
 DOMAIN-SUFFIX,lenovoimage.com
 DOMAIN-SUFFIX,lenovomm.com
 DOMAIN-SUFFIX,lenovomobile.com
-DOMAIN-SUFFIX,lenovomobilesupport.lenovo.com
 DOMAIN-SUFFIX,lenovonetapp.com
 DOMAIN-SUFFIX,lenovonowgo.com
 DOMAIN-SUFFIX,lenovopoc.com
@@ -63434,6 +63424,7 @@ DOMAIN-SUFFIX,lepaicm.com
 DOMAIN-SUFFIX,lepiaoyun.com
 DOMAIN-SUFFIX,lepidard.com
 DOMAIN-SUFFIX,leptv.com
+DOMAIN-SUFFIX,lepudding.com
 DOMAIN-SUFFIX,lepumedical.com
 DOMAIN-SUFFIX,leqi.us
 DOMAIN-SUFFIX,leqian.com
@@ -76963,7 +76954,6 @@ DOMAIN-SUFFIX,psoneart.com
 DOMAIN-SUFFIX,psp99.com
 DOMAIN-SUFFIX,psr-china.com
 DOMAIN-SUFFIX,psrar.com
-DOMAIN-SUFFIX,psrefstuff.lenovo.com
 DOMAIN-SUFFIX,psrss.com
 DOMAIN-SUFFIX,pstatp.com
 DOMAIN-SUFFIX,pstips.net
@@ -78829,6 +78819,7 @@ DOMAIN-SUFFIX,qm41.com
 DOMAIN-SUFFIX,qm69.com
 DOMAIN-SUFFIX,qm989.com
 DOMAIN-SUFFIX,qmacro.com
+DOMAIN-SUFFIX,qmai.com
 DOMAIN-SUFFIX,qmail.com
 DOMAIN-SUFFIX,qmango.com
 DOMAIN-SUFFIX,qmceo.com
@@ -105089,7 +105080,6 @@ DOMAIN-SUFFIX,xn--fiq64b
 DOMAIN-SUFFIX,xn--fiq6q20pz51d.com
 DOMAIN-SUFFIX,xn--fiq73f39fwr0b4wk.net
 DOMAIN-SUFFIX,xn--fiq7v55hnsepqz.net
-DOMAIN-SUFFIX,xn--fiq7vggk68aq1fe49byv8a.xn--zfr164b
 DOMAIN-SUFFIX,xn--fiq8ituh5mn9d1qbc28lu5dusc.xn--vuq861b
 DOMAIN-SUFFIX,xn--fiqs8s
 DOMAIN-SUFFIX,xn--fiqs8s5zfwtksc224s.xn--3ds443g
@@ -108942,7 +108932,6 @@ DOMAIN-SUFFIX,ylturl.com
 DOMAIN-SUFFIX,yltvb.com
 DOMAIN-SUFFIX,yltxxx.com
 DOMAIN-SUFFIX,ylun8.com
-DOMAIN-SUFFIX,ylunion.com
 DOMAIN-SUFFIX,yluu.com
 DOMAIN-SUFFIX,ylwdec.com
 DOMAIN-SUFFIX,ylwl.cc
