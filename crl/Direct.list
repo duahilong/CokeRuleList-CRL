@@ -1,8 +1,8 @@
 # 名称: Direct.list
 # 描述: 全球直连规则集，包含本地网络、CFNAT和解除封锁的规则
-# 时间: 2026-05-15 22:58
-# 条目: 116023
-# 规则统计: {"DOMAIN": 353, "DOMAIN-SUFFIX": 115581, "DOMAIN-KEYWORD": 46, "PROCESS-NAME": 43}
+# 时间: 2026-05-16 22:52
+# 条目: 116024
+# 规则统计: {"DOMAIN": 353, "DOMAIN-SUFFIX": 115582, "DOMAIN-KEYWORD": 46, "PROCESS-NAME": 43}
 # 引用:
 #   https://raw.githubusercontent.com/pmkol/easymosdns/rules/china_domain_list.txt
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Direct/Direct.list
@@ -27731,6 +27731,7 @@ DOMAIN-SUFFIX,ctfund.com
 DOMAIN-SUFFIX,ctgapp.com
 DOMAIN-SUFFIX,ctgcdn.biz
 DOMAIN-SUFFIX,ctgcdn.com
+DOMAIN-SUFFIX,ctgcdn.info
 DOMAIN-SUFFIX,ctghealthy.com
 DOMAIN-SUFFIX,ctghr.com
 DOMAIN-SUFFIX,ctghro.com
@@ -41030,7 +41031,6 @@ DOMAIN-SUFFIX,googlebbs.net
 DOMAIN-SUFFIX,googlenav.com
 DOMAIN-SUFFIX,googleplus.party
 DOMAIN-SUFFIX,googleppy.com
-DOMAIN-SUFFIX,googlevip8.com
 DOMAIN-SUFFIX,googlevoice.org
 DOMAIN-SUFFIX,googley8rb.com
 DOMAIN-SUFFIX,googleyixia.com
@@ -50962,6 +50962,7 @@ DOMAIN-SUFFIX,hwsupplychain.com
 DOMAIN-SUFFIX,hwtelcloud.com
 DOMAIN-SUFFIX,hwtrip.com
 DOMAIN-SUFFIX,hwtzdl.com
+DOMAIN-SUFFIX,hwwlyz.com
 DOMAIN-SUFFIX,hwwt2.com
 DOMAIN-SUFFIX,hwwt8.com
 DOMAIN-SUFFIX,hwxc.com
@@ -88865,6 +88866,7 @@ DOMAIN-SUFFIX,sutpc.com
 DOMAIN-SUFFIX,sutune.me
 DOMAIN-SUFFIX,sutuobang.com
 DOMAIN-SUFFIX,suu-fun.com
+DOMAIN-SUFFIX,suufun.com
 DOMAIN-SUFFIX,suujee.com
 DOMAIN-SUFFIX,suuny0826.com
 DOMAIN-SUFFIX,suv-trip.com
@@ -92150,7 +92152,6 @@ DOMAIN-SUFFIX,tiamaes.com
 DOMAIN-SUFFIX,tian-gang.com
 DOMAIN-SUFFIX,tian-jie.com
 DOMAIN-SUFFIX,tian-run.com
-DOMAIN-SUFFIX,tian-ting.ink
 DOMAIN-SUFFIX,tian10.com
 DOMAIN-SUFFIX,tianan-cyber.com
 DOMAIN-SUFFIX,tianan-insurance.com
