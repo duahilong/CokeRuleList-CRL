@@ -1,8 +1,8 @@
 # 名称: Direct.list
 # 描述: 全球直连规则集，包含本地网络、CFNAT和解除封锁的规则
-# 时间: 2026-05-17 22:56
-# 条目: 115923
-# 规则统计: {"DOMAIN": 353, "DOMAIN-SUFFIX": 115481, "DOMAIN-KEYWORD": 46, "PROCESS-NAME": 43}
+# 时间: 2026-05-18 23:05
+# 条目: 115921
+# 规则统计: {"DOMAIN": 353, "DOMAIN-SUFFIX": 115479, "DOMAIN-KEYWORD": 46, "PROCESS-NAME": 43}
 # 引用:
 #   https://raw.githubusercontent.com/pmkol/easymosdns/rules/china_domain_list.txt
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Direct/Direct.list
@@ -62570,7 +62570,6 @@ DOMAIN-SUFFIX,lc044.love
 DOMAIN-SUFFIX,lc1001.com
 DOMAIN-SUFFIX,lc123.net
 DOMAIN-SUFFIX,lc1618.com
-DOMAIN-SUFFIX,lc442.com
 DOMAIN-SUFFIX,lc787.com
 DOMAIN-SUFFIX,lcang.com
 DOMAIN-SUFFIX,lcatgame.com
@@ -67420,7 +67419,6 @@ DOMAIN-SUFFIX,meetwhale.com
 DOMAIN-SUFFIX,meetxian.com
 DOMAIN-SUFFIX,meetyoumuseum.com
 DOMAIN-SUFFIX,meetzoom.net
-DOMAIN-SUFFIX,meexx.xyz
 DOMAIN-SUFFIX,mefcl.com
 DOMAIN-SUFFIX,mefenglife.com
 DOMAIN-SUFFIX,mefenlife.com
