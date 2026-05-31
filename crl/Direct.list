@@ -1,8 +1,8 @@
 # 名称: Direct.list
 # 描述: 全球直连规则集，包含本地网络、CFNAT和解除封锁的规则
-# 时间: 2026-05-30 23:01
-# 条目: 115561
-# 规则统计: {"DOMAIN": 344, "DOMAIN-SUFFIX": 115128, "DOMAIN-KEYWORD": 46, "PROCESS-NAME": 43}
+# 时间: 2026-05-31 23:03
+# 条目: 115572
+# 规则统计: {"DOMAIN": 344, "DOMAIN-SUFFIX": 115139, "DOMAIN-KEYWORD": 46, "PROCESS-NAME": 43}
 # 引用:
 #   https://raw.githubusercontent.com/pmkol/easymosdns/rules/china_domain_list.txt
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Direct/Direct.list
@@ -5931,6 +5931,7 @@ DOMAIN-SUFFIX,51csr.com
 DOMAIN-SUFFIX,51cto.com
 DOMAIN-SUFFIX,51cube.com
 DOMAIN-SUFFIX,51cxsoft.com
+DOMAIN-SUFFIX,51cywx.com
 DOMAIN-SUFFIX,51czapp.com
 DOMAIN-SUFFIX,51dai.com
 DOMAIN-SUFFIX,51daifu.com
@@ -13895,7 +13896,6 @@ DOMAIN-SUFFIX,arvinhk.com
 DOMAIN-SUFFIX,aryasec.com
 DOMAIN-SUFFIX,as-doll.com
 DOMAIN-SUFFIX,as-hitech.com
-DOMAIN-SUFFIX,as.mr
 DOMAIN-SUFFIX,as16.com
 DOMAIN-SUFFIX,as3f.com
 DOMAIN-SUFFIX,as5.com
@@ -14916,6 +14916,7 @@ DOMAIN-SUFFIX,baicaosoft.com
 DOMAIN-SUFFIX,baiccapital.com
 DOMAIN-SUFFIX,baiccl.com
 DOMAIN-SUFFIX,baicdnx.com
+DOMAIN-SUFFIX,baicebao.com
 DOMAIN-SUFFIX,baicells.com
 DOMAIN-SUFFIX,baicfc.com
 DOMAIN-SUFFIX,baicheng.com
@@ -29330,6 +29331,7 @@ DOMAIN-SUFFIX,dd01.com
 DOMAIN-SUFFIX,dd0415.net
 DOMAIN-SUFFIX,dd0513702337fb4b.com
 DOMAIN-SUFFIX,dd0d7e15310311.beer
+DOMAIN-SUFFIX,dd0ss-waf.com
 DOMAIN-SUFFIX,dd128.com
 DOMAIN-SUFFIX,dd2007.com
 DOMAIN-SUFFIX,dd208.com
@@ -64622,6 +64624,7 @@ DOMAIN-SUFFIX,longfanshipping.com
 DOMAIN-SUFFIX,longfengmarathon.com
 DOMAIN-SUFFIX,longfor.com
 DOMAIN-SUFFIX,longfu360.com
+DOMAIN-SUFFIX,longget.com
 DOMAIN-SUFFIX,longguanjia.so
 DOMAIN-SUFFIX,longhoo.net
 DOMAIN-SUFFIX,longhorn-auto.com
@@ -64818,6 +64821,7 @@ DOMAIN-SUFFIX,love21cn.com
 DOMAIN-SUFFIX,love5201314.net
 DOMAIN-SUFFIX,love5209420.com
 DOMAIN-SUFFIX,love85g.com
+DOMAIN-SUFFIX,love9w.com
 DOMAIN-SUFFIX,loveabc.net
 DOMAIN-SUFFIX,lovean.com
 DOMAIN-SUFFIX,loveapp.com
@@ -68325,6 +68329,7 @@ DOMAIN-SUFFIX,minihaowan.com
 DOMAIN-SUFFIX,miniluck.com
 DOMAIN-SUFFIX,minimaituan.com
 DOMAIN-SUFFIX,minimax.chat
+DOMAIN-SUFFIX,minimax.io
 DOMAIN-SUFFIX,minimaxi.com
 DOMAIN-SUFFIX,mining120.com
 DOMAIN-SUFFIX,mininglamp.com
@@ -72887,6 +72892,7 @@ DOMAIN-SUFFIX,nvcam.net
 DOMAIN-SUFFIX,nvcong.com
 DOMAIN-SUFFIX,nvgate16.nvidia.com
 DOMAIN-SUFFIX,nvidia-china.com
+DOMAIN-SUFFIX,nvidia.net
 DOMAIN-SUFFIX,nvkan.com
 DOMAIN-SUFFIX,nvpuse.com
 DOMAIN-SUFFIX,nvpuwo.com
@@ -80268,6 +80274,7 @@ DOMAIN-SUFFIX,rjreducer.com
 DOMAIN-SUFFIX,rjs.com
 DOMAIN-SUFFIX,rjsjmbwx.com
 DOMAIN-SUFFIX,rjsos.com
+DOMAIN-SUFFIX,rjsth.uno
 DOMAIN-SUFFIX,rjtx.net
 DOMAIN-SUFFIX,rjty.com
 DOMAIN-SUFFIX,rjxzjx.com
@@ -83866,6 +83873,7 @@ DOMAIN-SUFFIX,shenduwin7.com
 DOMAIN-SUFFIX,shenduxiyin.com
 DOMAIN-SUFFIX,shengangzc.com
 DOMAIN-SUFFIX,shengaohua.com
+DOMAIN-SUFFIX,shengaowl.com
 DOMAIN-SUFFIX,shengbaihui.com
 DOMAIN-SUFFIX,shengbangshenghua.com
 DOMAIN-SUFFIX,shengbaoluo.com
@@ -86504,6 +86512,7 @@ DOMAIN-SUFFIX,smrmyy.com
 DOMAIN-SUFFIX,sms18.com
 DOMAIN-SUFFIX,sms9.net
 DOMAIN-SUFFIX,smsbao.com
+DOMAIN-SUFFIX,smshj.com
 DOMAIN-SUFFIX,smshos.com
 DOMAIN-SUFFIX,smshx.com
 DOMAIN-SUFFIX,smskb.com
@@ -105859,6 +105868,8 @@ DOMAIN-SUFFIX,yao.com
 DOMAIN-SUFFIX,yao123.com
 DOMAIN-SUFFIX,yao51.com
 DOMAIN-SUFFIX,yaobo.net
+DOMAIN-SUFFIX,yaobw18.com
+DOMAIN-SUFFIX,yaobx18.com
 DOMAIN-SUFFIX,yaocai.com
 DOMAIN-SUFFIX,yaocaicang.com
 DOMAIN-SUFFIX,yaocaizhongzi.com
