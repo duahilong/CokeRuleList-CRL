@@ -1,8 +1,8 @@
 # 名称: Direct.list
 # 描述: 全球直连规则集，包含本地网络、CFNAT和解除封锁的规则
-# 时间: 2026-06-01 23:37
-# 条目: 115506
-# 规则统计: {"DOMAIN": 344, "DOMAIN-SUFFIX": 115073, "DOMAIN-KEYWORD": 46, "PROCESS-NAME": 43}
+# 时间: 2026-06-02 23:49
+# 条目: 115509
+# 规则统计: {"DOMAIN": 344, "DOMAIN-SUFFIX": 115076, "DOMAIN-KEYWORD": 46, "PROCESS-NAME": 43}
 # 引用:
 #   https://raw.githubusercontent.com/pmkol/easymosdns/rules/china_domain_list.txt
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Direct/Direct.list
@@ -25490,6 +25490,7 @@ DOMAIN-SUFFIX,cnside.com
 DOMAIN-SUFFIX,cnsihai.com
 DOMAIN-SUFFIX,cnsikao.com
 DOMAIN-SUFFIX,cnsimeng.com
+DOMAIN-SUFFIX,cnsimg.net
 DOMAIN-SUFFIX,cnsimin.com
 DOMAIN-SUFFIX,cnsiwu.com
 DOMAIN-SUFFIX,cnskg.com
@@ -91940,6 +91941,7 @@ DOMAIN-SUFFIX,tianxing.com
 DOMAIN-SUFFIX,tianxingjianyiliao.com
 DOMAIN-SUFFIX,tianxinkeji.com
 DOMAIN-SUFFIX,tianya.com
+DOMAIN-SUFFIX,tianya.net
 DOMAIN-SUFFIX,tianya.tv
 DOMAIN-SUFFIX,tianya66.com
 DOMAIN-SUFFIX,tianyablog.com
@@ -103086,6 +103088,7 @@ DOMAIN-SUFFIX,xinmeihu.com
 DOMAIN-SUFFIX,xinmeijiutian.com
 DOMAIN-SUFFIX,xinmeinuo.com
 DOMAIN-SUFFIX,xinmem.com
+DOMAIN-SUFFIX,xinmeng.info
 DOMAIN-SUFFIX,xinmenglife.com
 DOMAIN-SUFFIX,xinmeow.com
 DOMAIN-SUFFIX,xinmeti.com
