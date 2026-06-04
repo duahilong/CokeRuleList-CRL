@@ -1,8 +1,8 @@
 # 名称: Direct.list
 # 描述: 全球直连规则集，包含本地网络、CFNAT和解除封锁的规则
-# 时间: 2026-06-03 23:47
-# 条目: 115390
-# 规则统计: {"DOMAIN": 345, "DOMAIN-SUFFIX": 114956, "DOMAIN-KEYWORD": 46, "PROCESS-NAME": 43}
+# 时间: 2026-06-04 23:11
+# 条目: 115401
+# 规则统计: {"DOMAIN": 345, "DOMAIN-SUFFIX": 114967, "DOMAIN-KEYWORD": 46, "PROCESS-NAME": 43}
 # 引用:
 #   https://raw.githubusercontent.com/pmkol/easymosdns/rules/china_domain_list.txt
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Direct/Direct.list
@@ -18554,6 +18554,7 @@ DOMAIN-SUFFIX,bright21cn.com
 DOMAIN-SUFFIX,brightdairy.com
 DOMAIN-SUFFIX,brightdecolighting.com
 DOMAIN-SUFFIX,brightfood.com
+DOMAIN-SUFFIX,brighticecream.com
 DOMAIN-SUFFIX,brightliao.com
 DOMAIN-SUFFIX,brightmeat.com
 DOMAIN-SUFFIX,brilliance-auto.com
@@ -22555,6 +22556,7 @@ DOMAIN-SUFFIX,chinaconveyor.com
 DOMAIN-SUFFIX,chinacordblood.org
 DOMAIN-SUFFIX,chinacosco.com
 DOMAIN-SUFFIX,chinacourt.org
+DOMAIN-SUFFIX,chinacow.com
 DOMAIN-SUFFIX,chinacpda.com
 DOMAIN-SUFFIX,chinacpda.org
 DOMAIN-SUFFIX,chinacqme.com
@@ -50074,6 +50076,7 @@ DOMAIN-SUFFIX,huihezx.com
 DOMAIN-SUFFIX,huihua365.com
 DOMAIN-SUFFIX,huihua8.com
 DOMAIN-SUFFIX,huihuaren.com
+DOMAIN-SUFFIX,huihui.moe
 DOMAIN-SUFFIX,huii.cc
 DOMAIN-SUFFIX,huiidea.com
 DOMAIN-SUFFIX,huiji.wiki
@@ -52136,6 +52139,7 @@ DOMAIN-SUFFIX,idcay.com
 DOMAIN-SUFFIX,idcbdy.com
 DOMAIN-SUFFIX,idcbest.com
 DOMAIN-SUFFIX,idcbest.hk
+DOMAIN-SUFFIX,idccdns.com
 DOMAIN-SUFFIX,idccenter.net
 DOMAIN-SUFFIX,idccom.net
 DOMAIN-SUFFIX,idccun.com
@@ -66836,6 +66840,7 @@ DOMAIN-SUFFIX,mbg06270pg.com
 DOMAIN-SUFFIX,mbg06290pg.com
 DOMAIN-SUFFIX,mbg06301pg.com
 DOMAIN-SUFFIX,mbgo.com
+DOMAIN-SUFFIX,mbhcibe.com
 DOMAIN-SUFFIX,mbhfit.com
 DOMAIN-SUFFIX,mbian.com
 DOMAIN-SUFFIX,mbiaohui.com
@@ -67314,6 +67319,7 @@ DOMAIN-SUFFIX,meitu-mobile.com
 DOMAIN-SUFFIX,meitu.com
 DOMAIN-SUFFIX,meitu.net
 DOMAIN-SUFFIX,meituaccount.com
+DOMAIN-SUFFIX,meituan-ad.com
 DOMAIN-SUFFIX,meituan.com
 DOMAIN-SUFFIX,meituan.net
 DOMAIN-SUFFIX,meitubase.com
@@ -82464,6 +82470,7 @@ DOMAIN-SUFFIX,sdxwyy.net
 DOMAIN-SUFFIX,sdxxjmgg.com
 DOMAIN-SUFFIX,sdxyxhj.com
 DOMAIN-SUFFIX,sdxzt.com
+DOMAIN-SUFFIX,sdyanbao.com
 DOMAIN-SUFFIX,sdyftr.com
 DOMAIN-SUFFIX,sdyhne.com
 DOMAIN-SUFFIX,sdyhqp.com
@@ -90846,6 +90853,7 @@ DOMAIN-SUFFIX,tecmz.com
 DOMAIN-SUFFIX,tecochina.net
 DOMAIN-SUFFIX,tecolighting.com
 DOMAIN-SUFFIX,tecompharma.com
+DOMAIN-SUFFIX,tecorigin.com
 DOMAIN-SUFFIX,tecreal.com
 DOMAIN-SUFFIX,tecunonline.com
 DOMAIN-SUFFIX,tecyle.com
@@ -95755,6 +95763,7 @@ DOMAIN-SUFFIX,versetech.space
 DOMAIN-SUFFIX,versolsolar.com
 DOMAIN-SUFFIX,versoventure.com
 DOMAIN-SUFFIX,vertciot.com
+DOMAIN-SUFFIX,vertexdoc.com
 DOMAIN-SUFFIX,vertical-china.com
 DOMAIN-SUFFIX,vertu.com
 DOMAIN-SUFFIX,very361.com
@@ -102971,6 +102980,7 @@ DOMAIN-SUFFIX,xinlinghuayuan.com
 DOMAIN-SUFFIX,xinlingletu.com
 DOMAIN-SUFFIX,xinlip.com
 DOMAIN-SUFFIX,xinlischool.com
+DOMAIN-SUFFIX,xinlishumeng.com
 DOMAIN-SUFFIX,xinliwanju.com
 DOMAIN-SUFFIX,xinlixinli.net
 DOMAIN-SUFFIX,xinlong-holding.com
@@ -109058,6 +109068,7 @@ DOMAIN-SUFFIX,yuanzun.fun
 DOMAIN-SUFFIX,yuaoq.com
 DOMAIN-SUFFIX,yuapt.com
 DOMAIN-SUFFIX,yubaike.com
+DOMAIN-SUFFIX,yuban.cloud
 DOMAIN-SUFFIX,yubangweb.com
 DOMAIN-SUFFIX,yuboinfo.com
 DOMAIN-SUFFIX,yuboqj.com
