@@ -1,8 +1,8 @@
 # 名称: Direct.list
 # 描述: 全球直连规则集，包含本地网络、CFNAT和解除封锁的规则
-# 时间: 2026-06-13 23:09
-# 条目: 115129
-# 规则统计: {"DOMAIN": 344, "DOMAIN-SUFFIX": 114696, "DOMAIN-KEYWORD": 46, "PROCESS-NAME": 43}
+# 时间: 2026-06-14 23:11
+# 条目: 115128
+# 规则统计: {"DOMAIN": 344, "DOMAIN-SUFFIX": 114695, "DOMAIN-KEYWORD": 46, "PROCESS-NAME": 43}
 # 引用:
 #   https://raw.githubusercontent.com/pmkol/easymosdns/rules/china_domain_list.txt
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Direct/Direct.list
@@ -7895,7 +7895,6 @@ DOMAIN-SUFFIX,682.com
 DOMAIN-SUFFIX,68211.com
 DOMAIN-SUFFIX,6822.com
 DOMAIN-SUFFIX,68287zubo85737.com
-DOMAIN-SUFFIX,682891.com
 DOMAIN-SUFFIX,682ff8a9c89d5d88.com
 DOMAIN-SUFFIX,6832123.com
 DOMAIN-SUFFIX,6840011.com
@@ -12595,6 +12594,7 @@ DOMAIN-SUFFIX,allawntech.com
 DOMAIN-SUFFIX,allbrightlaw.com
 DOMAIN-SUFFIX,allchips.com
 DOMAIN-SUFFIX,allcitygo.com
+DOMAIN-SUFFIX,allday.work
 DOMAIN-SUFFIX,alldk.com
 DOMAIN-SUFFIX,alldobetter.com
 DOMAIN-SUFFIX,alldragon.com
@@ -18553,7 +18553,6 @@ DOMAIN-SUFFIX,brtbeacon.net
 DOMAIN-SUFFIX,brtn.org
 DOMAIN-SUFFIX,brtpawn.com
 DOMAIN-SUFFIX,brttc.com
-DOMAIN-SUFFIX,brtv.xyz
 DOMAIN-SUFFIX,brtvcloud.com
 DOMAIN-SUFFIX,brxjzp.com
 DOMAIN-SUFFIX,brxtal.com
@@ -19720,6 +19719,7 @@ DOMAIN-SUFFIX,canglanghospital.com
 DOMAIN-SUFFIX,cangmang.xyz
 DOMAIN-SUFFIX,cangoonline.com
 DOMAIN-SUFFIX,cangowin.com
+DOMAIN-SUFFIX,cangpeng.com
 DOMAIN-SUFFIX,cangpie.com
 DOMAIN-SUFFIX,cangqiang.com
 DOMAIN-SUFFIX,cangqiongkanshu.com
@@ -19798,7 +19798,6 @@ DOMAIN-SUFFIX,caomei.wiki
 DOMAIN-SUFFIX,caomeipai.com
 DOMAIN-SUFFIX,caomeixz7.xyz
 DOMAIN-SUFFIX,caoniang.com
-DOMAIN-SUFFIX,caonimazuzong.com
 DOMAIN-SUFFIX,caonmp.com
 DOMAIN-SUFFIX,caos-china.org
 DOMAIN-SUFFIX,caoshiyabo.com
@@ -34131,6 +34130,7 @@ DOMAIN-SUFFIX,ernaonet.com
 DOMAIN-SUFFIX,ernest.me
 DOMAIN-SUFFIX,eroacg.com
 DOMAIN-SUFFIX,erongdu.com
+DOMAIN-SUFFIX,erp198.com
 DOMAIN-SUFFIX,erp321.com
 DOMAIN-SUFFIX,erp321.net
 DOMAIN-SUFFIX,erpang.cc
@@ -81200,7 +81200,6 @@ DOMAIN-SUFFIX,sanxin-med.com
 DOMAIN-SUFFIX,sanxinbook.com
 DOMAIN-SUFFIX,sanxing.com
 DOMAIN-SUFFIX,sanxinwin.com
-DOMAIN-SUFFIX,sanya1.com
 DOMAIN-SUFFIX,sanyaairport.com
 DOMAIN-SUFFIX,sanyachloe.com
 DOMAIN-SUFFIX,sanyajob.com
