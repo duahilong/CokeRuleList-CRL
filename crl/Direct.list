@@ -1,8 +1,8 @@
 # 名称: Direct.list
 # 描述: 全球直连规则集，包含本地网络、CFNAT和解除封锁的规则
-# 时间: 2026-06-17 23:41
-# 条目: 114851
-# 规则统计: {"DOMAIN": 347, "DOMAIN-SUFFIX": 114415, "DOMAIN-KEYWORD": 46, "PROCESS-NAME": 43}
+# 时间: 2026-06-18 23:47
+# 条目: 114865
+# 规则统计: {"DOMAIN": 347, "DOMAIN-SUFFIX": 114429, "DOMAIN-KEYWORD": 46, "PROCESS-NAME": 43}
 # 引用:
 #   https://raw.githubusercontent.com/pmkol/easymosdns/rules/china_domain_list.txt
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Direct/Direct.list
@@ -3102,6 +3102,7 @@ DOMAIN-SUFFIX,1ggame.com
 DOMAIN-SUFFIX,1gow.net
 DOMAIN-SUFFIX,1haigtm.com
 DOMAIN-SUFFIX,1haitao.com
+DOMAIN-SUFFIX,1haitun.com
 DOMAIN-SUFFIX,1hangye.com
 DOMAIN-SUFFIX,1haogu.com
 DOMAIN-SUFFIX,1haosuo.com
@@ -25956,6 +25957,7 @@ DOMAIN-SUFFIX,copywatchstyle.com
 DOMAIN-SUFFIX,cor-games.com
 DOMAIN-SUFFIX,coralset.com
 DOMAIN-SUFFIX,core-biopharma.com
+DOMAIN-SUFFIX,core-flow.org
 DOMAIN-SUFFIX,corebai.com
 DOMAIN-SUFFIX,coreesports.net
 DOMAIN-SUFFIX,corehalo.com
@@ -31232,6 +31234,7 @@ DOMAIN-SUFFIX,doteck.com
 DOMAIN-SUFFIX,dotgate.com
 DOMAIN-SUFFIX,dothantech.com
 DOMAIN-SUFFIX,doticloud.com
+DOMAIN-SUFFIX,dotreamexpo.com
 DOMAIN-SUFFIX,dotty-china.com
 DOMAIN-SUFFIX,dotwe.org
 DOMAIN-SUFFIX,dou.bz
@@ -33252,6 +33255,7 @@ DOMAIN-SUFFIX,effapp.com
 DOMAIN-SUFFIX,efficient.hk
 DOMAIN-SUFFIX,effirst.com
 DOMAIN-SUFFIX,efglobal-gy.com
+DOMAIN-SUFFIX,efindtravel.com
 DOMAIN-SUFFIX,efivestar.com
 DOMAIN-SUFFIX,efl-tech.com
 DOMAIN-SUFFIX,eflagcomm.com
@@ -37788,6 +37792,7 @@ DOMAIN-SUFFIX,gajsk.com
 DOMAIN-SUFFIX,gal3d.info
 DOMAIN-SUFFIX,gala-v.com
 DOMAIN-SUFFIX,galaxix.com
+DOMAIN-SUFFIX,galaxy-adx.com
 DOMAIN-SUFFIX,galaxy-geely.com
 DOMAIN-SUFFIX,galaxy-immi.com
 DOMAIN-SUFFIX,galaxyappstore.com
@@ -44121,6 +44126,7 @@ DOMAIN-SUFFIX,gzsg.org
 DOMAIN-SUFFIX,gzsgczb.com
 DOMAIN-SUFFIX,gzshaudio.com
 DOMAIN-SUFFIX,gzsheraton.com
+DOMAIN-SUFFIX,gzshik.com
 DOMAIN-SUFFIX,gzshiran.com
 DOMAIN-SUFFIX,gzshuangbao.com
 DOMAIN-SUFFIX,gzshuimh.com
@@ -63276,6 +63282,7 @@ DOMAIN-SUFFIX,lingxicloud.com
 DOMAIN-SUFFIX,lingxigames.com
 DOMAIN-SUFFIX,lingxing.com
 DOMAIN-SUFFIX,lingxingkj.com
+DOMAIN-SUFFIX,lingxingxinli.com
 DOMAIN-SUFFIX,lingxiuwenlv.com
 DOMAIN-SUFFIX,lingxmall.com
 DOMAIN-SUFFIX,lingy.cc
@@ -68448,6 +68455,7 @@ DOMAIN-SUFFIX,moe.tips
 DOMAIN-SUFFIX,moe.xin
 DOMAIN-SUFFIX,moe123.com
 DOMAIN-SUFFIX,moe123.org
+DOMAIN-SUFFIX,moe233.org
 DOMAIN-SUFFIX,moe321.com
 DOMAIN-SUFFIX,moecat.best
 DOMAIN-SUFFIX,moeclub.org
@@ -80369,6 +80377,7 @@ DOMAIN-SUFFIX,ruixuncw.com
 DOMAIN-SUFFIX,ruixunidc.com
 DOMAIN-SUFFIX,ruixunidc.net
 DOMAIN-SUFFIX,ruiyang-ra.com
+DOMAIN-SUFFIX,ruiying.online
 DOMAIN-SUFFIX,ruiying3d.com
 DOMAIN-SUFFIX,ruiyingkeji.com
 DOMAIN-SUFFIX,ruiyitech.com
@@ -93804,6 +93813,7 @@ DOMAIN-SUFFIX,typhoon.vip
 DOMAIN-SUFFIX,typicalchn.com
 DOMAIN-SUFFIX,typora.net
 DOMAIN-SUFFIX,typrotech.com
+DOMAIN-SUFFIX,typstify.com
 DOMAIN-SUFFIX,tyqian.com
 DOMAIN-SUFFIX,tyqxzx.com
 DOMAIN-SUFFIX,tyrantg.com
@@ -94069,6 +94079,7 @@ DOMAIN-SUFFIX,uccastore.com
 DOMAIN-SUFFIX,uccbikes.com
 DOMAIN-SUFFIX,uccpd.com
 DOMAIN-SUFFIX,ucdchina.com
+DOMAIN-SUFFIX,ucdns22.com
 DOMAIN-SUFFIX,ucdns7.com
 DOMAIN-SUFFIX,ucdok.com
 DOMAIN-SUFFIX,ucdrs.net
@@ -101583,6 +101594,7 @@ DOMAIN-SUFFIX,xiaohe-jiankang.com
 DOMAIN-SUFFIX,xiaohe666.com
 DOMAIN-SUFFIX,xiaoheihegame.com
 DOMAIN-SUFFIX,xiaoheima.com
+DOMAIN-SUFFIX,xiaoheiribao.com
 DOMAIN-SUFFIX,xiaohelive.com
 DOMAIN-SUFFIX,xiaohengmaidan.com
 DOMAIN-SUFFIX,xiaohi.cc
@@ -104596,6 +104608,7 @@ DOMAIN-SUFFIX,xyhtml5.com
 DOMAIN-SUFFIX,xyhygs.com
 DOMAIN-SUFFIX,xyict.com
 DOMAIN-SUFFIX,xyimg.net
+DOMAIN-SUFFIX,xyingsoft.com
 DOMAIN-SUFFIX,xyj.link
 DOMAIN-SUFFIX,xyj321.com
 DOMAIN-SUFFIX,xyj618.com
@@ -114115,6 +114128,7 @@ DOMAIN-SUFFIX,zuiyouxi.com
 DOMAIN-SUFFIX,zuizhifu.com
 DOMAIN-SUFFIX,zuji360.com
 DOMAIN-SUFFIX,zujiant.com
+DOMAIN-SUFFIX,zujingpai.com
 DOMAIN-SUFFIX,zujuan.com
 DOMAIN-SUFFIX,zujuanku.com
 DOMAIN-SUFFIX,zujuanyi.com
