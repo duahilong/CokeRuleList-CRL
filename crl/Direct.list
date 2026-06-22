@@ -1,8 +1,8 @@
 # 名称: Direct.list
 # 描述: 全球直连规则集，包含本地网络、CFNAT和解除封锁的规则
-# 时间: 2026-06-21 23:18
-# 条目: 114703
-# 规则统计: {"DOMAIN": 342, "DOMAIN-SUFFIX": 114272, "DOMAIN-KEYWORD": 46, "PROCESS-NAME": 43}
+# 时间: 2026-06-22 23:22
+# 条目: 114713
+# 规则统计: {"DOMAIN": 342, "DOMAIN-SUFFIX": 114282, "DOMAIN-KEYWORD": 46, "PROCESS-NAME": 43}
 # 引用:
 #   https://raw.githubusercontent.com/pmkol/easymosdns/rules/china_domain_list.txt
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Direct/Direct.list
@@ -11029,6 +11029,7 @@ DOMAIN-SUFFIX,adxmax.com
 DOMAIN-SUFFIX,adxmq.com
 DOMAIN-SUFFIX,adxpand.com
 DOMAIN-SUFFIX,adxqd.com
+DOMAIN-SUFFIX,adxsenmeng.com
 DOMAIN-SUFFIX,adxvip.com
 DOMAIN-SUFFIX,adxwork.com
 DOMAIN-SUFFIX,adxyun.com
@@ -12233,6 +12234,7 @@ DOMAIN-SUFFIX,aliddmall.com
 DOMAIN-SUFFIX,alidns.com
 DOMAIN-SUFFIX,alidns.net
 DOMAIN-SUFFIX,alidnsv4.com
+DOMAIN-SUFFIX,alidnsv5.com
 DOMAIN-SUFFIX,alidz.net
 DOMAIN-SUFFIX,aliedge.com
 DOMAIN-SUFFIX,aliensidea.com
@@ -32077,6 +32079,7 @@ DOMAIN-SUFFIX,dxlfile.com
 DOMAIN-SUFFIX,dxm-cdn.com
 DOMAIN-SUFFIX,dxm-int.com
 DOMAIN-SUFFIX,dxm-yibai.com
+DOMAIN-SUFFIX,dxmbaoxian.com
 DOMAIN-SUFFIX,dxmjinr.com
 DOMAIN-SUFFIX,dxmjuhe.com
 DOMAIN-SUFFIX,dxmlcf.com
@@ -66517,6 +66520,7 @@ DOMAIN-SUFFIX,mcool.com
 DOMAIN-SUFFIX,mcpemaster.com
 DOMAIN-SUFFIX,mcpfks.com
 DOMAIN-SUFFIX,mcpmaid.com
+DOMAIN-SUFFIX,mcpworld.com
 DOMAIN-SUFFIX,mcq93.app
 DOMAIN-SUFFIX,mcqy.net
 DOMAIN-SUFFIX,mcsafebox.com
@@ -69547,6 +69551,7 @@ DOMAIN-SUFFIX,myspain.org
 DOMAIN-SUFFIX,mysqil.com
 DOMAIN-SUFFIX,mysql360.com
 DOMAIN-SUFFIX,mysqlab.net
+DOMAIN-SUFFIX,myssl-uri.com
 DOMAIN-SUFFIX,myssl.com
 DOMAIN-SUFFIX,mystarch.com
 DOMAIN-SUFFIX,mysteel.com
@@ -74418,6 +74423,7 @@ DOMAIN-SUFFIX,perfcode.com
 DOMAIN-SUFFIX,perfect-input.com
 DOMAIN-SUFFIX,perfect99.com
 DOMAIN-SUFFIX,perfectdiary.com
+DOMAIN-SUFFIX,perfectlingo.com
 DOMAIN-SUFFIX,perfecttradinghk.com
 DOMAIN-SUFFIX,perfectwatchen.com
 DOMAIN-SUFFIX,perfertw.com
@@ -75881,6 +75887,7 @@ DOMAIN-SUFFIX,pw-partners.com
 DOMAIN-SUFFIX,pw1999.com
 DOMAIN-SUFFIX,pw88.com
 DOMAIN-SUFFIX,pwand.com
+DOMAIN-SUFFIX,pwcinema.com
 DOMAIN-SUFFIX,pwdding.icu
 DOMAIN-SUFFIX,pwithe.com
 DOMAIN-SUFFIX,pwjptdg.xyz
@@ -82381,6 +82388,7 @@ DOMAIN-SUFFIX,sf-laas.com
 DOMAIN-SUFFIX,sf-pay.com
 DOMAIN-SUFFIX,sf-saas.com
 DOMAIN-SUFFIX,sf-zs.net
+DOMAIN-SUFFIX,sf.global
 DOMAIN-SUFFIX,sf007.com
 DOMAIN-SUFFIX,sf024.com
 DOMAIN-SUFFIX,sf2021.com
@@ -90069,6 +90077,7 @@ DOMAIN-SUFFIX,tcnews.cc
 DOMAIN-SUFFIX,tcnvmms.com
 DOMAIN-SUFFIX,tcoejox.shop
 DOMAIN-SUFFIX,tcomall.com
+DOMAIN-SUFFIX,tcp-crm.com
 DOMAIN-SUFFIX,tcp.hk
 DOMAIN-SUFFIX,tcp.mk
 DOMAIN-SUFFIX,tcp.pub
@@ -92831,6 +92840,7 @@ DOMAIN-SUFFIX,trust-one.com
 DOMAIN-SUFFIX,trust400.com
 DOMAIN-SUFFIX,trusta-lawyer.com
 DOMAIN-SUFFIX,trustasia.com
+DOMAIN-SUFFIX,trustasia.net
 DOMAIN-SUFFIX,trustcn.com
 DOMAIN-SUFFIX,trustdecision.com
 DOMAIN-SUFFIX,trustedsign.com
