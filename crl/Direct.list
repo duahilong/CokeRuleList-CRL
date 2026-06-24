@@ -1,8 +1,8 @@
 # 名称: Direct.list
 # 描述: 全球直连规则集，包含本地网络、CFNAT和解除封锁的规则
-# 时间: 2026-06-23 23:10
-# 条目: 114651
-# 规则统计: {"DOMAIN": 330, "DOMAIN-SUFFIX": 114232, "DOMAIN-KEYWORD": 46, "PROCESS-NAME": 43}
+# 时间: 2026-06-24 23:07
+# 条目: 114650
+# 规则统计: {"DOMAIN": 330, "DOMAIN-SUFFIX": 114231, "DOMAIN-KEYWORD": 46, "PROCESS-NAME": 43}
 # 引用:
 #   https://raw.githubusercontent.com/pmkol/easymosdns/rules/china_domain_list.txt
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Direct/Direct.list
@@ -73436,7 +73436,6 @@ DOMAIN-SUFFIX,oupeng9.com
 DOMAIN-SUFFIX,oupengcloud.net
 DOMAIN-SUFFIX,oupula.com
 DOMAIN-SUFFIX,oupuzw.com
-DOMAIN-SUFFIX,ouqo05161luj.com
 DOMAIN-SUFFIX,our360vr.com
 DOMAIN-SUFFIX,ourai.ws
 DOMAIN-SUFFIX,ourail.com
