@@ -1,8 +1,8 @@
 # 名称: Proxy.list
 # 描述: 代理规则集相关规则
-# 时间: 2026-06-24 23:07
-# 条目: 6541
-# 规则统计: {"IP-CIDR": 82, "IP-CIDR6": 1, "DOMAIN": 8, "DOMAIN-SUFFIX": 6434, "DOMAIN-KEYWORD": 16}
+# 时间: 2026-06-25 23:21
+# 条目: 6542
+# 规则统计: {"IP-CIDR": 82, "IP-CIDR6": 1, "DOMAIN": 8, "DOMAIN-SUFFIX": 6435, "DOMAIN-KEYWORD": 16}
 # 引用:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Proxy/Proxy.list
 
@@ -2221,6 +2221,7 @@ DOMAIN-SUFFIX,geocities.com
 DOMAIN-SUFFIX,geocities.jp
 DOMAIN-SUFFIX,geph.io
 DOMAIN-SUFFIX,gerefoundation.org
+DOMAIN-SUFFIX,get.dappcdn.com
 DOMAIN-SUFFIX,getastrill.com
 DOMAIN-SUFFIX,getchu.com
 DOMAIN-SUFFIX,getcloak.com
