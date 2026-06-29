@@ -1,8 +1,8 @@
 # 名称: Direct.list
 # 描述: 全球直连规则集，包含本地网络、CFNAT和解除封锁的规则
-# 时间: 2026-06-28 23:07
-# 条目: 114630
-# 规则统计: {"DOMAIN": 330, "DOMAIN-SUFFIX": 114211, "DOMAIN-KEYWORD": 46, "PROCESS-NAME": 43}
+# 时间: 2026-06-29 23:01
+# 条目: 114636
+# 规则统计: {"DOMAIN": 330, "DOMAIN-SUFFIX": 114217, "DOMAIN-KEYWORD": 46, "PROCESS-NAME": 43}
 # 引用:
 #   https://raw.githubusercontent.com/pmkol/easymosdns/rules/china_domain_list.txt
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Direct/Direct.list
@@ -35618,6 +35618,7 @@ DOMAIN-SUFFIX,fengli.com
 DOMAIN-SUFFIX,fengli.su
 DOMAIN-SUFFIX,fengliankeji.com
 DOMAIN-SUFFIX,fenglichem.com
+DOMAIN-SUFFIX,fenglingkj.com
 DOMAIN-SUFFIX,fenglingroup.com
 DOMAIN-SUFFIX,fenglinjiu.com
 DOMAIN-SUFFIX,fenglinlab.com
@@ -46928,6 +46929,7 @@ DOMAIN-SUFFIX,hibace.net
 DOMAIN-SUFFIX,hibbw.net
 DOMAIN-SUFFIX,hibelarus.com
 DOMAIN-SUFFIX,hibgm.com
+DOMAIN-SUFFIX,hibianli.com
 DOMAIN-SUFFIX,hibixin.com
 DOMAIN-SUFFIX,hibogroup.com
 DOMAIN-SUFFIX,hibor.net
@@ -56635,6 +56637,7 @@ DOMAIN-SUFFIX,jlsegx.com
 DOMAIN-SUFFIX,jlsemi.com
 DOMAIN-SUFFIX,jlsfcyy.com
 DOMAIN-SUFFIX,jlsgjt.com
+DOMAIN-SUFFIX,jlshuiyuan.com
 DOMAIN-SUFFIX,jlsjsjlhgczxxh.com
 DOMAIN-SUFFIX,jlsjsxxw.com
 DOMAIN-SUFFIX,jlsports.com
@@ -60175,6 +60178,7 @@ DOMAIN-SUFFIX,koba8.com
 DOMAIN-SUFFIX,kobelco-zh.com
 DOMAIN-SUFFIX,kobox.tv
 DOMAIN-SUFFIX,kocla.com
+DOMAIN-SUFFIX,kodakbanjara.com
 DOMAIN-SUFFIX,kodcloud.com
 DOMAIN-SUFFIX,koderover.com
 DOMAIN-SUFFIX,kodmp.com
@@ -60412,7 +60416,6 @@ DOMAIN-SUFFIX,kscdns.com
 DOMAIN-SUFFIX,kschuangku.com
 DOMAIN-SUFFIX,kscloudapi.com
 DOMAIN-SUFFIX,ksco.cc
-DOMAIN-SUFFIX,kscord.com
 DOMAIN-SUFFIX,ksdedu.com
 DOMAIN-SUFFIX,ksdhgy.com
 DOMAIN-SUFFIX,ksecit.com
@@ -77042,6 +77045,7 @@ DOMAIN-SUFFIX,qingxinjs.com
 DOMAIN-SUFFIX,qingxuetang.com
 DOMAIN-SUFFIX,qingxun.com
 DOMAIN-SUFFIX,qingyantek.com
+DOMAIN-SUFFIX,qingye.org
 DOMAIN-SUFFIX,qingyeyun.com
 DOMAIN-SUFFIX,qingyi.com
 DOMAIN-SUFFIX,qingying.net
@@ -93886,6 +93890,7 @@ DOMAIN-SUFFIX,uccbikes.com
 DOMAIN-SUFFIX,uccpd.com
 DOMAIN-SUFFIX,ucdchina.com
 DOMAIN-SUFFIX,ucdns22.com
+DOMAIN-SUFFIX,ucdns4.com
 DOMAIN-SUFFIX,ucdns7.com
 DOMAIN-SUFFIX,ucdok.com
 DOMAIN-SUFFIX,ucdrs.net
@@ -105778,6 +105783,7 @@ DOMAIN-SUFFIX,ygibao.com
 DOMAIN-SUFFIX,yginsight.com
 DOMAIN-SUFFIX,ygjctech.com
 DOMAIN-SUFFIX,ygjj.com
+DOMAIN-SUFFIX,yglsr.com
 DOMAIN-SUFFIX,ygmsy.com
 DOMAIN-SUFFIX,ygread.com
 DOMAIN-SUFFIX,ygrtt.com
