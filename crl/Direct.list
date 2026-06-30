@@ -1,8 +1,8 @@
 # 名称: Direct.list
 # 描述: 全球直连规则集，包含本地网络、CFNAT和解除封锁的规则
-# 时间: 2026-06-29 23:01
-# 条目: 114636
-# 规则统计: {"DOMAIN": 330, "DOMAIN-SUFFIX": 114217, "DOMAIN-KEYWORD": 46, "PROCESS-NAME": 43}
+# 时间: 2026-06-30 23:16
+# 条目: 114634
+# 规则统计: {"DOMAIN": 330, "DOMAIN-SUFFIX": 114215, "DOMAIN-KEYWORD": 46, "PROCESS-NAME": 43}
 # 引用:
 #   https://raw.githubusercontent.com/pmkol/easymosdns/rules/china_domain_list.txt
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Direct/Direct.list
@@ -15057,7 +15057,6 @@ DOMAIN-SUFFIX,balihe.com
 DOMAIN-SUFFIX,balijieji.com
 DOMAIN-SUFFIX,balimtoy.com
 DOMAIN-SUFFIX,balingtxt.com
-DOMAIN-SUFFIX,balldollars.com
 DOMAIN-SUFFIX,ballgametime.com
 DOMAIN-SUFFIX,ballpure.com
 DOMAIN-SUFFIX,balltv.cc
@@ -76219,7 +76218,6 @@ DOMAIN-SUFFIX,qdmama.net
 DOMAIN-SUFFIX,qdmcxh.com
 DOMAIN-SUFFIX,qdmm.com
 DOMAIN-SUFFIX,qdmswx.com
-DOMAIN-SUFFIX,qdn4ydsg3s.com
 DOMAIN-SUFFIX,qdnsyh.com
 DOMAIN-SUFFIX,qdnxsyy.com
 DOMAIN-SUFFIX,qdnzrmyy.com
