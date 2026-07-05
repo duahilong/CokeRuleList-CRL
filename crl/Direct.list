@@ -1,8 +1,8 @@
 # 名称: Direct.list
 # 描述: 全球直连规则集，包含本地网络、CFNAT和解除封锁的规则
-# 时间: 2026-07-04 23:00
-# 条目: 114469
-# 规则统计: {"DOMAIN": 330, "DOMAIN-SUFFIX": 114050, "DOMAIN-KEYWORD": 46, "PROCESS-NAME": 43}
+# 时间: 2026-07-05 23:04
+# 条目: 114475
+# 规则统计: {"DOMAIN": 330, "DOMAIN-SUFFIX": 114056, "DOMAIN-KEYWORD": 46, "PROCESS-NAME": 43}
 # 引用:
 #   https://raw.githubusercontent.com/pmkol/easymosdns/rules/china_domain_list.txt
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Direct/Direct.list
@@ -12881,6 +12881,7 @@ DOMAIN-SUFFIX,anqingonline.com
 DOMAIN-SUFFIX,anqingzhiyun.com
 DOMAIN-SUFFIX,anqn.com
 DOMAIN-SUFFIX,anqu.com
+DOMAIN-SUFFIX,anquan
 DOMAIN-SUFFIX,anquan.info
 DOMAIN-SUFFIX,anquan.org
 DOMAIN-SUFFIX,anquanbao.com
@@ -83869,6 +83870,7 @@ DOMAIN-SUFFIX,shouhuigroup.com
 DOMAIN-SUFFIX,shouhuisoft.com
 DOMAIN-SUFFIX,shouhuojiyun.com
 DOMAIN-SUFFIX,shouhuola.com
+DOMAIN-SUFFIX,shouji
 DOMAIN-SUFFIX,shouji.com
 DOMAIN-SUFFIX,shouji.racing
 DOMAIN-SUFFIX,shouji10086.com
@@ -84785,6 +84787,7 @@ DOMAIN-SUFFIX,simuwang.com
 DOMAIN-SUFFIX,simwe.com
 DOMAIN-SUFFIX,simxhs.com
 DOMAIN-SUFFIX,sin0sites.com
+DOMAIN-SUFFIX,sina
 DOMAIN-SUFFIX,sina-cf.com
 DOMAIN-SUFFIX,sina.com
 DOMAIN-SUFFIX,sina.lt
@@ -101732,6 +101735,7 @@ DOMAIN-SUFFIX,xihaxueche.com
 DOMAIN-SUFFIX,xihazsww.com
 DOMAIN-SUFFIX,xihegp.com
 DOMAIN-SUFFIX,xiherencai.com
+DOMAIN-SUFFIX,xihuan
 DOMAIN-SUFFIX,xihuan.me
 DOMAIN-SUFFIX,xihusgh.com
 DOMAIN-SUFFIX,xiimoon.com
@@ -103048,6 +103052,7 @@ DOMAIN-SUFFIX,xn--9iqr63a1idgz6e.xn--3ds443g
 DOMAIN-SUFFIX,xn--9iqs25bkvi.xn--czr694b
 DOMAIN-SUFFIX,xn--9kr72kqwe.com
 DOMAIN-SUFFIX,xn--9krr90n.xn--55qx5d
+DOMAIN-SUFFIX,xn--9krt00a
 DOMAIN-SUFFIX,xn--9myo55bi8l.com
 DOMAIN-SUFFIX,xn--9pr56vfna007k.com
 DOMAIN-SUFFIX,xn--9pry86bq5ex68c.org
@@ -108460,6 +108465,7 @@ DOMAIN-SUFFIX,yumingguwen.com
 DOMAIN-SUFFIX,yumingyouhui.com
 DOMAIN-SUFFIX,yummy.tech
 DOMAIN-SUFFIX,yumstone.com
+DOMAIN-SUFFIX,yun
 DOMAIN-SUFFIX,yun-ac.com
 DOMAIN-SUFFIX,yun-app.net
 DOMAIN-SUFFIX,yun-dns.com
