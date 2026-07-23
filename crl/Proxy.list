@@ -1,8 +1,8 @@
 # 名称: Proxy.list
 # 描述: 代理规则集相关规则
-# 时间: 2026-07-22 23:08
-# 条目: 6563
-# 规则统计: {"IP-CIDR": 82, "IP-CIDR6": 1, "DOMAIN": 8, "DOMAIN-SUFFIX": 6456, "DOMAIN-KEYWORD": 16}
+# 时间: 2026-07-23 22:59
+# 条目: 6565
+# 规则统计: {"IP-CIDR": 82, "IP-CIDR6": 1, "DOMAIN": 8, "DOMAIN-SUFFIX": 6458, "DOMAIN-KEYWORD": 16}
 # 引用:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Proxy/Proxy.list
 
@@ -5496,6 +5496,7 @@ DOMAIN-SUFFIX,toggleable.com
 DOMAIN-SUFFIX,toh.info
 DOMAIN-SUFFIX,token.im
 DOMAIN-SUFFIX,tokenlon.im
+DOMAIN-SUFFIX,tokenplus.app
 DOMAIN-SUFFIX,tokyo-247.com
 DOMAIN-SUFFIX,tokyo-hot.com
 DOMAIN-SUFFIX,tokyocn.com
@@ -6489,6 +6490,7 @@ DOMAIN-SUFFIX,zello.com
 DOMAIN-SUFFIX,zengjinyan.org
 DOMAIN-SUFFIX,zenmate.com
 DOMAIN-SUFFIX,zenmate.com.ru
+DOMAIN-SUFFIX,zenmux.ai
 DOMAIN-SUFFIX,zerohedge.com
 DOMAIN-SUFFIX,zeronet.io
 DOMAIN-SUFFIX,zeutch.com
