@@ -1,8 +1,8 @@
 # 名称: Proxy.list
 # 描述: 代理规则集相关规则
-# 时间: 2026-07-30 23:11
-# 条目: 6568
-# 规则统计: {"IP-CIDR": 82, "IP-CIDR6": 1, "DOMAIN": 8, "DOMAIN-SUFFIX": 6461, "DOMAIN-KEYWORD": 16}
+# 时间: 2026-07-31 23:04
+# 条目: 6569
+# 规则统计: {"IP-CIDR": 82, "IP-CIDR6": 1, "DOMAIN": 8, "DOMAIN-SUFFIX": 6462, "DOMAIN-KEYWORD": 16}
 # 引用:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Proxy/Proxy.list
 
@@ -5872,6 +5872,7 @@ DOMAIN-SUFFIX,uyghurtribunal.com
 DOMAIN-SUFFIX,uygur.org
 DOMAIN-SUFFIX,uymaarip.com
 DOMAIN-SUFFIX,v.gd
+DOMAIN-SUFFIX,v.recipes
 DOMAIN-SUFFIX,v.roucdn
 DOMAIN-SUFFIX,v2.help
 DOMAIN-SUFFIX,v2.hysteria.network
