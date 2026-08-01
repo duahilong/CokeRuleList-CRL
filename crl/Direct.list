@@ -1,8 +1,8 @@
 # 名称: Direct.list
 # 描述: 全球直连规则集，包含本地网络、CFNAT和解除封锁的规则
-# 时间: 2026-07-31 23:04
-# 条目: 114022
-# 规则统计: {"DOMAIN": 338, "DOMAIN-SUFFIX": 113595, "DOMAIN-KEYWORD": 46, "PROCESS-NAME": 43}
+# 时间: 2026-08-01 22:57
+# 条目: 114038
+# 规则统计: {"DOMAIN": 338, "DOMAIN-SUFFIX": 113611, "DOMAIN-KEYWORD": 46, "PROCESS-NAME": 43}
 # 引用:
 #   https://raw.githubusercontent.com/pmkol/easymosdns/rules/china_domain_list.txt
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Direct/Direct.list
@@ -5870,6 +5870,7 @@ DOMAIN-SUFFIX,51jujibao.com
 DOMAIN-SUFFIX,51julebu.com
 DOMAIN-SUFFIX,51junde.com
 DOMAIN-SUFFIX,51junshi.com
+DOMAIN-SUFFIX,51kandianshi.com
 DOMAIN-SUFFIX,51kanmanhua.com
 DOMAIN-SUFFIX,51kanong.com
 DOMAIN-SUFFIX,51kaola.net
@@ -26934,6 +26935,7 @@ DOMAIN-SUFFIX,cspplaza.com
 DOMAIN-SUFFIX,cspro.org
 DOMAIN-SUFFIX,cspruc.com
 DOMAIN-SUFFIX,csptia.org
+DOMAIN-SUFFIX,csqaq.com
 DOMAIN-SUFFIX,csqsg.com
 DOMAIN-SUFFIX,csrcare.com
 DOMAIN-SUFFIX,csrcbank.com
@@ -32560,6 +32562,7 @@ DOMAIN-SUFFIX,ecej.com
 DOMAIN-SUFFIX,ecer.com
 DOMAIN-SUFFIX,ecerdns.com
 DOMAIN-SUFFIX,ecerimg.com
+DOMAIN-SUFFIX,eceshi.com
 DOMAIN-SUFFIX,ecf-gov.com
 DOMAIN-SUFFIX,ecgci.com
 DOMAIN-SUFFIX,ecgoods.com
@@ -33701,6 +33704,7 @@ DOMAIN-SUFFIX,ermiao.com
 DOMAIN-SUFFIX,ernaonet.com
 DOMAIN-SUFFIX,ernest.me
 DOMAIN-SUFFIX,eroacg.com
+DOMAIN-SUFFIX,erocraft.com
 DOMAIN-SUFFIX,erongdu.com
 DOMAIN-SUFFIX,erp198.com
 DOMAIN-SUFFIX,erp321.com
@@ -38533,6 +38537,7 @@ DOMAIN-SUFFIX,geindex.com
 DOMAIN-SUFFIX,geiniwan.com
 DOMAIN-SUFFIX,geizan.cc
 DOMAIN-SUFFIX,gelaha.com
+DOMAIN-SUFFIX,gelaiyun.net
 DOMAIN-SUFFIX,gelicang.net
 DOMAIN-SUFFIX,geline.net
 DOMAIN-SUFFIX,gelinya.com
@@ -44731,6 +44736,7 @@ DOMAIN-SUFFIX,haojiao.cc
 DOMAIN-SUFFIX,haojiao.net
 DOMAIN-SUFFIX,haojiaolian.com
 DOMAIN-SUFFIX,haojie.work
+DOMAIN-SUFFIX,haojieyun.com
 DOMAIN-SUFFIX,haojing.org
 DOMAIN-SUFFIX,haojit.com
 DOMAIN-SUFFIX,haoju5.com
@@ -47279,6 +47285,7 @@ DOMAIN-SUFFIX,hnceg.com
 DOMAIN-SUFFIX,hncfa.com
 DOMAIN-SUFFIX,hncgkgjt.com
 DOMAIN-SUFFIX,hnchaosu.com
+DOMAIN-SUFFIX,hnchasing.com
 DOMAIN-SUFFIX,hnchemtech.com
 DOMAIN-SUFFIX,hnchuangj.net
 DOMAIN-SUFFIX,hnchuangxiangkj.com
@@ -51401,6 +51408,7 @@ DOMAIN-SUFFIX,idatagx.com
 DOMAIN-SUFFIX,idataway.com
 DOMAIN-SUFFIX,idatawz.com
 DOMAIN-SUFFIX,idayer.com
+DOMAIN-SUFFIX,idazhe.net
 DOMAIN-SUFFIX,idbhost.com
 DOMAIN-SUFFIX,idc-icp.com
 DOMAIN-SUFFIX,idc002.com
@@ -58530,6 +58538,7 @@ DOMAIN-SUFFIX,kaihuaeva.com
 DOMAIN-SUFFIX,kaihuia.com
 DOMAIN-SUFFIX,kaijia-smt.com
 DOMAIN-SUFFIX,kaijia.com
+DOMAIN-SUFFIX,kaijiacloud.com
 DOMAIN-SUFFIX,kaijiage.com
 DOMAIN-SUFFIX,kaijiejinrong.com
 DOMAIN-SUFFIX,kaijieunion.com
@@ -70996,6 +71005,7 @@ DOMAIN-SUFFIX,nlscan.com
 DOMAIN-SUFFIX,nlteck.com
 DOMAIN-SUFFIX,nlttms.com
 DOMAIN-SUFFIX,nlxn.com
+DOMAIN-SUFFIX,nlyd.club
 DOMAIN-SUFFIX,nlypx.com
 DOMAIN-SUFFIX,nlyzzzxrmyy.com
 DOMAIN-SUFFIX,nlzpw.com
@@ -76883,6 +76893,7 @@ DOMAIN-SUFFIX,qjis.com
 DOMAIN-SUFFIX,qjjfin.com
 DOMAIN-SUFFIX,qjjmw.com
 DOMAIN-SUFFIX,qjmotor.com
+DOMAIN-SUFFIX,qjmotorlink.com
 DOMAIN-SUFFIX,qjnice.com
 DOMAIN-SUFFIX,qjrc.com
 DOMAIN-SUFFIX,qjren.com
@@ -80953,6 +80964,7 @@ DOMAIN-SUFFIX,scych.org
 DOMAIN-SUFFIX,scyesz.com
 DOMAIN-SUFFIX,scylzx.net
 DOMAIN-SUFFIX,scymob.com
+DOMAIN-SUFFIX,scyol.com
 DOMAIN-SUFFIX,scyongqin.com
 DOMAIN-SUFFIX,scyqfhw.com
 DOMAIN-SUFFIX,scyqjs.com
@@ -93498,6 +93510,7 @@ DOMAIN-SUFFIX,ugc-up-dom.net
 DOMAIN-SUFFIX,ugdesk.com
 DOMAIN-SUFFIX,ugdocker.link
 DOMAIN-SUFFIX,ugdtimg.com
+DOMAIN-SUFFIX,ugediao.com
 DOMAIN-SUFFIX,uggame.com
 DOMAIN-SUFFIX,uggd.com
 DOMAIN-SUFFIX,ugirls.tv
@@ -99780,6 +99793,7 @@ DOMAIN-SUFFIX,x-bull.com
 DOMAIN-SUFFIX,x-cloud.cc
 DOMAIN-SUFFIX,x-cmd.com
 DOMAIN-SUFFIX,x-droners.com
+DOMAIN-SUFFIX,x-gpu.com
 DOMAIN-SUFFIX,x-imagine.com
 DOMAIN-SUFFIX,x-jishu.com
 DOMAIN-SUFFIX,x-kicks.com
@@ -100958,6 +100972,7 @@ DOMAIN-SUFFIX,xiaomachuxing.com
 DOMAIN-SUFFIX,xiaomagaojian.com
 DOMAIN-SUFFIX,xiaomai.live
 DOMAIN-SUFFIX,xiaomai5.com
+DOMAIN-SUFFIX,xiaomaicn.com
 DOMAIN-SUFFIX,xiaomaidong.com
 DOMAIN-SUFFIX,xiaomaigongkao.com
 DOMAIN-SUFFIX,xiaomaigui.com
@@ -113766,6 +113781,7 @@ DOMAIN-SUFFIX,zzccp.com
 DOMAIN-SUFFIX,zzcdnx.com
 DOMAIN-SUFFIX,zzcjby.com
 DOMAIN-SUFFIX,zzcjxy.com
+DOMAIN-SUFFIX,zzclass.com
 DOMAIN-SUFFIX,zzcmjn.com
 DOMAIN-SUFFIX,zzcomm.com
 DOMAIN-SUFFIX,zzcrcgas.com
