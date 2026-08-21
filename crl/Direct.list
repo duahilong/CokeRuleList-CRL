@@ -1,8 +1,8 @@
 # 名称: Direct.list
 # 描述: 全球直连规则集，包含本地网络、CFNAT和解除封锁的规则
-# 时间: 2026-08-20 22:30
-# 条目: 113632
-# 规则统计: {"DOMAIN": 338, "DOMAIN-SUFFIX": 113205, "DOMAIN-KEYWORD": 46, "PROCESS-NAME": 43}
+# 时间: 2026-08-21 22:28
+# 条目: 113603
+# 规则统计: {"DOMAIN": 309, "DOMAIN-SUFFIX": 113205, "DOMAIN-KEYWORD": 46, "PROCESS-NAME": 43}
 # 引用:
 #   https://raw.githubusercontent.com/pmkol/easymosdns/rules/china_domain_list.txt
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Direct/Direct.list
@@ -26,7 +26,6 @@ DOMAIN,activation-v2.kaspersky.com
 DOMAIN,ad.10010.com
 DOMAIN,ad.12306.cn
 DOMAIN,admob-cn.com
-DOMAIN,afcs.dell.com
 DOMAIN,ain.bgm.tv
 DOMAIN,aka-amd-njpwworld-hls-enlive.akamaized.net
 DOMAIN,alibaba.cdn.steampipe.steamcontent.com
@@ -69,38 +68,29 @@ DOMAIN,channellive.leshantv.net
 DOMAIN,chaoan.chaoantv.com
 DOMAIN,clickserve.cc-dt.com
 DOMAIN,client.amplifi.com
-DOMAIN,clientperipherals.dell.com
 DOMAIN,clientservices.googleapis.com
 DOMAIN,cn.download.nvidia.com
 DOMAIN,cn.widevine.com
 DOMAIN,crl.pki.goog
 DOMAIN,crls.pki.goog
-DOMAIN,customization-cdn.dell.com
 DOMAIN,d9af5a60.edmonst.net
 DOMAIN,dartsearch-cn.net
-DOMAIN,dds.dell.com
 DOMAIN,deo.shopeemobile.com
 DOMAIN,developer.microsoft.com
-DOMAIN,dl.dell.com
 DOMAIN,dl.google.com
 DOMAIN,dl.l.google.com
 DOMAIN,doubleclick-cn.net
 DOMAIN,doubleclick.net
 DOMAIN,download.jetbrains.com
 DOMAIN,e1.vdowowza.vip.hk1.tvb.com
-DOMAIN,ea2cn-dev-outlet.dell.com
-DOMAIN,ea2cn-prod-outlet.dell.com
-DOMAIN,ea2cn-staging-outlet.dell.com
 DOMAIN,eco-push-api-client.meiqia.com
 DOMAIN,edge.music-choice-play-chaina1.top.comcast.net
-DOMAIN,emoi-cncdn.bing.com
 DOMAIN,end-api.shallow.ink
 DOMAIN,end.shallow.ink
 DOMAIN,errlog.umeng.com
 DOMAIN,f24hls-i.akamaihd.net
 DOMAIN,fairplay.l.qq.com
 DOMAIN,fash1043.cloudycdn.services
-DOMAIN,fcs.dell.com
 DOMAIN,file.hhtv.cc
 DOMAIN,file.mb.leshantv.net
 DOMAIN,firebase-settings.crashlytics.com
@@ -108,13 +98,7 @@ DOMAIN,fm901.cityfm.tw
 DOMAIN,fm929.cityfm.tw
 DOMAIN,fm971.cityfm.tw
 DOMAIN,fm983.cityfm.tw
-DOMAIN,fta.dell.com
-DOMAIN,ftaapj.dell.com
-DOMAIN,ftaemea.dell.com
-DOMAIN,ftasitapj.dell.com
 DOMAIN,gayotv.net
-DOMAIN,gbxgateway-dev.dell.com
-DOMAIN,gbxgateway.dell.com
 DOMAIN,gonglchuangl.net
 DOMAIN,gongyichuangyi.net
 DOMAIN,gpb-hls.streamguys1.com
@@ -130,7 +114,6 @@ DOMAIN,hls.qguiyang.com
 DOMAIN,hls.qxtv0763.com
 DOMAIN,hls.wlrn.mobi
 DOMAIN,httpdvb.slave.ttcatv.tv
-DOMAIN,i.dell.com
 DOMAIN,i.pki.goog
 DOMAIN,icecast-ruvr.cdnvideo.ru
 DOMAIN,image.maimn.com
@@ -218,7 +201,6 @@ DOMAIN,n18.rcs.revma.com
 DOMAIN,necgokr2-724.acs.wecandeo.com
 DOMAIN,nettvpro.live
 DOMAIN,new-api.meiqia.com
-DOMAIN,nexus.dell.com
 DOMAIN,nhkw-zh-hlscomp.akamaized.net
 DOMAIN,nhkwlive-xjp.akamaized.net
 DOMAIN,nis.stream.publicradio.org
@@ -229,7 +211,6 @@ DOMAIN,ocsp.pki.goog
 DOMAIN,ok.zuidapic.com
 DOMAIN,origin-a.akamaihd.ne
 DOMAIN,ott-live.olympicchannel.com
-DOMAIN,p.cdn.persaas.dell.com
 DOMAIN,play.jinnantv.top
 DOMAIN,play.scrstv.com
 DOMAIN,play.sngdxsn.com
@@ -254,18 +235,13 @@ DOMAIN,rfimonde-lh.akamaihd.net
 DOMAIN,rmtv24hweblive-lh.akamaihd.net
 DOMAIN,rthklive1-lh.akamaihd.net
 DOMAIN,rtvcdn.com.au
-DOMAIN,scene7-cdn.dell.com
 DOMAIN,sdk.alibaba.com.ailbaba.me
 DOMAIN,sdn-global-live-streaming-packager-cache-3qsdn.akamaized.net
 DOMAIN,seb.sason.top
 DOMAIN,service.urchin.com
-DOMAIN,si.cdn.dell.com
 DOMAIN,slive.ytn.co.kr
-DOMAIN,sm.dell.com
 DOMAIN,smp-device-content.apple.com
 DOMAIN,sms.imagetasks.com
-DOMAIN,snp.cdn.dell.com
-DOMAIN,snpi.dell.com
 DOMAIN,sohucao.duapp.com
 DOMAIN,staging-controlbe.floonet.goog
 DOMAIN,staging-databe.floonet.goog
@@ -293,13 +269,11 @@ DOMAIN,stream01.dqtv123.com
 DOMAIN,stream1.shopch.jp
 DOMAIN,stream2.cprnetwork.org
 DOMAIN,streamipcf.akamaized.net
-DOMAIN,supportassist.dell.com
 DOMAIN,sycm.mmstat.com
 DOMAIN,tiao.cjkypo.com
 DOMAIN,time.apple.com
 DOMAIN,time.xtracloud.net
 DOMAIN,tl.gscm.tv
-DOMAIN,tp.louisvuitton.com
 DOMAIN,tracking.miui.com
 DOMAIN,trtcanlitv-lh.akamaihd.net
 DOMAIN,ts.thefilehosting.com
@@ -310,7 +284,6 @@ DOMAIN,tv.nknews.org
 DOMAIN,uni6rtmp.tulix.tv
 DOMAIN,update.crashlytics.com
 DOMAIN,update.googleapis.com
-DOMAIN,uplaypc-s-ubisoft.cdn.ubi.com
 DOMAIN,v1.one-tv.com
 DOMAIN,vd.l.qq.com
 DOMAIN,vi.l.qq.com
@@ -328,9 +301,7 @@ DOMAIN,wowza.montevideo.com.uy
 DOMAIN,wowza.ner.gov.tw
 DOMAIN,wpc.124ce.sigmacdn.net
 DOMAIN,wuwm.streamguys1.com
-DOMAIN,www-csb.dell.com
 DOMAIN,www.cbsnews.com
-DOMAIN,www.dell.com
 DOMAIN,www.destinationurl.com
 DOMAIN,www.filmon.com
 DOMAIN,www.pxcc.com
