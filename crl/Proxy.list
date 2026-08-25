@@ -1,8 +1,8 @@
 # 名称: Proxy.list
 # 描述: 代理规则集相关规则
-# 时间: 2026-08-24 22:29
-# 条目: 6579
-# 规则统计: {"IP-CIDR": 82, "IP-CIDR6": 1, "DOMAIN": 8, "DOMAIN-SUFFIX": 6472, "DOMAIN-KEYWORD": 16}
+# 时间: 2026-08-25 22:30
+# 条目: 6581
+# 规则统计: {"IP-CIDR": 82, "IP-CIDR6": 1, "DOMAIN": 8, "DOMAIN-SUFFIX": 6474, "DOMAIN-KEYWORD": 16}
 # 引用:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Proxy/Proxy.list
 
@@ -461,6 +461,7 @@ DOMAIN-SUFFIX,api.amplitude.com
 DOMAIN-SUFFIX,api.mixpanel.com
 DOMAIN-SUFFIX,api.moomoobull.com
 DOMAIN-SUFFIX,api.proxlet.com
+DOMAIN-SUFFIX,api.shuaiapi.com
 DOMAIN-SUFFIX,api.termius.com
 DOMAIN-SUFFIX,apiary.io
 DOMAIN-SUFFIX,apk-dl.com
@@ -6277,6 +6278,7 @@ DOMAIN-SUFFIX,x1949x.com
 DOMAIN-SUFFIX,x24hr.com
 DOMAIN-SUFFIX,x365x.com
 DOMAIN-SUFFIX,x3guide.com
+DOMAIN-SUFFIX,x86.fr
 DOMAIN-SUFFIX,xanga.com
 DOMAIN-SUFFIX,xbabe.com
 DOMAIN-SUFFIX,xbookcn.com
