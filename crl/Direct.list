@@ -1,8 +1,8 @@
 # 名称: Direct.list
 # 描述: 全球直连规则集，包含本地网络、CFNAT和解除封锁的规则
-# 时间: 2026-08-29 23:57
-# 条目: 113571
-# 规则统计: {"DOMAIN": 309, "DOMAIN-SUFFIX": 113173, "DOMAIN-KEYWORD": 46, "PROCESS-NAME": 43}
+# 时间: 2026-08-31 00:17
+# 条目: 113567
+# 规则统计: {"DOMAIN": 309, "DOMAIN-SUFFIX": 113169, "DOMAIN-KEYWORD": 46, "PROCESS-NAME": 43}
 # 引用:
 #   https://raw.githubusercontent.com/pmkol/easymosdns/rules/china_domain_list.txt
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Direct/Direct.list
@@ -12524,7 +12524,6 @@ DOMAIN-SUFFIX,andygcj.com
 DOMAIN-SUFFIX,andyx.net
 DOMAIN-SUFFIX,ane56.com
 DOMAIN-SUFFIX,aneasystone.com
-DOMAIN-SUFFIX,anei.tv
 DOMAIN-SUFFIX,anestcang.com
 DOMAIN-SUFFIX,anetuo.com
 DOMAIN-SUFFIX,anf-z.com
@@ -15198,7 +15197,6 @@ DOMAIN-SUFFIX,baseopendev.com
 DOMAIN-SUFFIX,basequan.com
 DOMAIN-SUFFIX,basestonedata.com
 DOMAIN-SUFFIX,bashan.com
-DOMAIN-SUFFIX,bashenghuo.com
 DOMAIN-SUFFIX,bashuhuapai.com
 DOMAIN-SUFFIX,bashuku.com
 DOMAIN-SUFFIX,basiccat.org
@@ -63062,7 +63060,6 @@ DOMAIN-SUFFIX,ljs.fun
 DOMAIN-SUFFIX,ljsdk.com
 DOMAIN-SUFFIX,ljsy2017.com
 DOMAIN-SUFFIX,ljsz.xyz
-DOMAIN-SUFFIX,ljth.hk
 DOMAIN-SUFFIX,ljw113.com
 DOMAIN-SUFFIX,ljwebs.com
 DOMAIN-SUFFIX,ljwit.com
@@ -107142,7 +107139,6 @@ DOMAIN-SUFFIX,ytdcloud.com
 DOMAIN-SUFFIX,yte1.com
 DOMAIN-SUFFIX,ytecn.com
 DOMAIN-SUFFIX,ytedi.com
-DOMAIN-SUFFIX,ytelc.com
 DOMAIN-SUFFIX,yteng.net
 DOMAIN-SUFFIX,ytesting.com
 DOMAIN-SUFFIX,ytf8888.com
