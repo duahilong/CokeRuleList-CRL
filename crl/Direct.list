@@ -1,8 +1,8 @@
 # 名称: Direct.list
 # 描述: 全球直连规则集，包含本地网络、CFNAT和解除封锁的规则
-# 时间: 2026-09-01 23:52
-# 条目: 113365
-# 规则统计: {"DOMAIN": 309, "DOMAIN-SUFFIX": 112967, "DOMAIN-KEYWORD": 46, "PROCESS-NAME": 43}
+# 时间: 2026-09-02 23:54
+# 条目: 113376
+# 规则统计: {"DOMAIN": 309, "DOMAIN-SUFFIX": 112978, "DOMAIN-KEYWORD": 46, "PROCESS-NAME": 43}
 # 引用:
 #   https://raw.githubusercontent.com/pmkol/easymosdns/rules/china_domain_list.txt
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Direct/Direct.list
@@ -8807,6 +8807,7 @@ DOMAIN-SUFFIX,8888800000.com
 DOMAIN-SUFFIX,8889997777.com
 DOMAIN-SUFFIX,888ban.com
 DOMAIN-SUFFIX,888chem.com
+DOMAIN-SUFFIX,888fk.cc
 DOMAIN-SUFFIX,888lm01.com
 DOMAIN-SUFFIX,888pic.com
 DOMAIN-SUFFIX,888ppt.com
@@ -9610,6 +9611,7 @@ DOMAIN-SUFFIX,9692bc70da600f84.com
 DOMAIN-SUFFIX,969368.com
 DOMAIN-SUFFIX,96966.com
 DOMAIN-SUFFIX,969g.com
+DOMAIN-SUFFIX,969mak.com
 DOMAIN-SUFFIX,96ac893dd11011.beer
 DOMAIN-SUFFIX,96caifu.com
 DOMAIN-SUFFIX,96cc09c581022.beer
@@ -16121,6 +16123,7 @@ DOMAIN-SUFFIX,bhhthl.com
 DOMAIN-SUFFIX,bhidi.com
 DOMAIN-SUFFIX,bhiv.pro
 DOMAIN-SUFFIX,bhjcsc.com
+DOMAIN-SUFFIX,bhjh168.com
 DOMAIN-SUFFIX,bhjinghao.com
 DOMAIN-SUFFIX,bhjjj360.com
 DOMAIN-SUFFIX,bhjuxian.com
@@ -17310,6 +17313,7 @@ DOMAIN-SUFFIX,bkcipbewruo.com
 DOMAIN-SUFFIX,bkcloud.cc
 DOMAIN-SUFFIX,bkclouds.cc
 DOMAIN-SUFFIX,bkcode.net
+DOMAIN-SUFFIX,bkd898.com
 DOMAIN-SUFFIX,bkdou.com
 DOMAIN-SUFFIX,bkeconomy.com
 DOMAIN-SUFFIX,bkiije.com
@@ -33820,6 +33824,7 @@ DOMAIN-SUFFIX,evfchina.com
 DOMAIN-SUFFIX,evget.com
 DOMAIN-SUFFIX,evgezphv.com
 DOMAIN-SUFFIX,evhui.com
+DOMAIN-SUFFIX,evhzzh.com
 DOMAIN-SUFFIX,evideostb.com
 DOMAIN-SUFFIX,evileyesaint.com
 DOMAIN-SUFFIX,evilleaker.com
@@ -48829,6 +48834,7 @@ DOMAIN-SUFFIX,huayilighting.com
 DOMAIN-SUFFIX,huayimedia.com
 DOMAIN-SUFFIX,huayiming.com
 DOMAIN-SUFFIX,huayin114.com
+DOMAIN-SUFFIX,huayin99.com
 DOMAIN-SUFFIX,huayingglass.com
 DOMAIN-SUFFIX,huayingrc.com
 DOMAIN-SUFFIX,huayingsc.com
@@ -53860,6 +53866,7 @@ DOMAIN-SUFFIX,jdlingyu.net
 DOMAIN-SUFFIX,jdmwk.com
 DOMAIN-SUFFIX,jdmy.com
 DOMAIN-SUFFIX,jdnews.net
+DOMAIN-SUFFIX,jdo2c.com
 DOMAIN-SUFFIX,jdon.com
 DOMAIN-SUFFIX,jdpay.com
 DOMAIN-SUFFIX,jdpaydns.com
@@ -55908,6 +55915,7 @@ DOMAIN-SUFFIX,jllihua.com
 DOMAIN-SUFFIX,jllyzxyy.com
 DOMAIN-SUFFIX,jlmhk.com
 DOMAIN-SUFFIX,jlmuban.com
+DOMAIN-SUFFIX,jlmy.com
 DOMAIN-SUFFIX,jlnku.com
 DOMAIN-SUFFIX,jlnls.com
 DOMAIN-SUFFIX,jlonline.com
@@ -57556,6 +57564,7 @@ DOMAIN-SUFFIX,jvtianshanuu.com
 DOMAIN-SUFFIX,jvyou.net
 DOMAIN-SUFFIX,jw100.net
 DOMAIN-SUFFIX,jw1588.com
+DOMAIN-SUFFIX,jwangzhong.com
 DOMAIN-SUFFIX,jwappgc.com
 DOMAIN-SUFFIX,jwautoparts.com
 DOMAIN-SUFFIX,jwbf.online
@@ -57626,7 +57635,6 @@ DOMAIN-SUFFIX,jxdown.com
 DOMAIN-SUFFIX,jxdx.com
 DOMAIN-SUFFIX,jxdxxt.com
 DOMAIN-SUFFIX,jxdyf.com
-DOMAIN-SUFFIX,jxdyk65ay.com
 DOMAIN-SUFFIX,jxdyyy.com
 DOMAIN-SUFFIX,jxeca.com
 DOMAIN-SUFFIX,jxedgroup.com
@@ -60365,6 +60373,7 @@ DOMAIN-SUFFIX,kyv5.com
 DOMAIN-SUFFIX,kyw4y0s.com
 DOMAIN-SUFFIX,kyxdloan.com
 DOMAIN-SUFFIX,kyxh.com
+DOMAIN-SUFFIX,kyxinli.com
 DOMAIN-SUFFIX,kyxsw.org
 DOMAIN-SUFFIX,kyy6.com
 DOMAIN-SUFFIX,kyzhpt.com
@@ -63248,6 +63257,7 @@ DOMAIN-SUFFIX,longau.com
 DOMAIN-SUFFIX,longbenren.com
 DOMAIN-SUFFIX,longcai.com
 DOMAIN-SUFFIX,longcai027.com
+DOMAIN-SUFFIX,longcat.chat
 DOMAIN-SUFFIX,longchangjixiekeji.com
 DOMAIN-SUFFIX,longcheer.com
 DOMAIN-SUFFIX,longchunbajiao.com
@@ -73723,7 +73733,6 @@ DOMAIN-SUFFIX,pimaoji.com
 DOMAIN-SUFFIX,pimax.com
 DOMAIN-SUFFIX,pimei.com
 DOMAIN-SUFFIX,pimgeek.com
-DOMAIN-SUFFIX,pimormebwf.com
 DOMAIN-SUFFIX,pin-color.net
 DOMAIN-SUFFIX,pin18pin.com
 DOMAIN-SUFFIX,pin2eat.com
@@ -75331,6 +75340,7 @@ DOMAIN-SUFFIX,qfeiche.com
 DOMAIN-SUFFIX,qfiee.com
 DOMAIN-SUFFIX,qfihdr.com
 DOMAIN-SUFFIX,qfkjnb.club
+DOMAIN-SUFFIX,qflyinc.com
 DOMAIN-SUFFIX,qfns1.com
 DOMAIN-SUFFIX,qfpay.com
 DOMAIN-SUFFIX,qfpq.com
@@ -89701,6 +89711,7 @@ DOMAIN-SUFFIX,tg-vision.net
 DOMAIN-SUFFIX,tg0123.com
 DOMAIN-SUFFIX,tg1234.com
 DOMAIN-SUFFIX,tg138.com
+DOMAIN-SUFFIX,tgalileo.com
 DOMAIN-SUFFIX,tgametalent.com
 DOMAIN-SUFFIX,tgbus.com
 DOMAIN-SUFFIX,tgcid.org
@@ -95678,7 +95689,6 @@ DOMAIN-SUFFIX,wcxsw.com
 DOMAIN-SUFFIX,wcyecs.com
 DOMAIN-SUFFIX,wd-ljt.com
 DOMAIN-SUFFIX,wdace.com
-DOMAIN-SUFFIX,wdad.cc
 DOMAIN-SUFFIX,wdashi.com
 DOMAIN-SUFFIX,wdaveh5game.com
 DOMAIN-SUFFIX,wddcn.com
@@ -104238,6 +104248,7 @@ DOMAIN-SUFFIX,ydjt2288.com
 DOMAIN-SUFFIX,ydjwy.net
 DOMAIN-SUFFIX,ydjy.net
 DOMAIN-SUFFIX,ydkj2019.com
+DOMAIN-SUFFIX,ydkkej.com
 DOMAIN-SUFFIX,ydl-sh.com
 DOMAIN-SUFFIX,ydl.com
 DOMAIN-SUFFIX,ydlcdn.com
