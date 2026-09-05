@@ -1,8 +1,8 @@
 # 名称: Direct.list
 # 描述: 全球直连规则集，包含本地网络、CFNAT和解除封锁的规则
-# 时间: 2026-09-04 23:49
-# 条目: 113255
-# 规则统计: {"DOMAIN": 309, "DOMAIN-SUFFIX": 112857, "DOMAIN-KEYWORD": 46, "PROCESS-NAME": 43}
+# 时间: 2026-09-05 23:38
+# 条目: 113251
+# 规则统计: {"DOMAIN": 309, "DOMAIN-SUFFIX": 112853, "DOMAIN-KEYWORD": 46, "PROCESS-NAME": 43}
 # 引用:
 #   https://raw.githubusercontent.com/pmkol/easymosdns/rules/china_domain_list.txt
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Direct/Direct.list
@@ -922,7 +922,6 @@ DOMAIN-SUFFIX,0573ren.com
 DOMAIN-SUFFIX,0574bbs.com
 DOMAIN-SUFFIX,0574nbjg.com
 DOMAIN-SUFFIX,0575.host
-DOMAIN-SUFFIX,057555.com
 DOMAIN-SUFFIX,0575bbs.com
 DOMAIN-SUFFIX,0575jb.com
 DOMAIN-SUFFIX,0575life.com
@@ -3052,6 +3051,7 @@ DOMAIN-SUFFIX,1zhao.org
 DOMAIN-SUFFIX,1zhe.com
 DOMAIN-SUFFIX,1zhengji.com
 DOMAIN-SUFFIX,1zhixue.com
+DOMAIN-SUFFIX,1zidc.com
 DOMAIN-SUFFIX,1zj.com
 DOMAIN-SUFFIX,1zjob.com
 DOMAIN-SUFFIX,1zu.com
@@ -4602,7 +4602,6 @@ DOMAIN-SUFFIX,392766.net
 DOMAIN-SUFFIX,393.com
 DOMAIN-SUFFIX,3937.com
 DOMAIN-SUFFIX,3939339.com
-DOMAIN-SUFFIX,394394.com
 DOMAIN-SUFFIX,3949006e510272.beer
 DOMAIN-SUFFIX,394afb34a1020.beer
 DOMAIN-SUFFIX,39507037133f.icu
@@ -17293,6 +17292,7 @@ DOMAIN-SUFFIX,bktencent.com
 DOMAIN-SUFFIX,bktsj.com
 DOMAIN-SUFFIX,bkvps.com
 DOMAIN-SUFFIX,bkweek.com
+DOMAIN-SUFFIX,bkwsq.com
 DOMAIN-SUFFIX,bkzhibo.com
 DOMAIN-SUFFIX,bkzzy.com
 DOMAIN-SUFFIX,bl.com
@@ -19225,6 +19225,7 @@ DOMAIN-SUFFIX,cangya.com
 DOMAIN-SUFFIX,cangzhouhd.com
 DOMAIN-SUFFIX,canhighcenter.com
 DOMAIN-SUFFIX,canhot.net
+DOMAIN-SUFFIX,canhui.xyz
 DOMAIN-SUFFIX,caniculab.com
 DOMAIN-SUFFIX,canidc.com
 DOMAIN-SUFFIX,canjio.com
@@ -23518,7 +23519,6 @@ DOMAIN-SUFFIX,ck830.com
 DOMAIN-SUFFIX,ck921.com
 DOMAIN-SUFFIX,ckair.com
 DOMAIN-SUFFIX,ckan.tv
-DOMAIN-SUFFIX,ckbv165.org
 DOMAIN-SUFFIX,ckd-mbd.com
 DOMAIN-SUFFIX,ckd.im
 DOMAIN-SUFFIX,ckd.so
@@ -34520,7 +34520,6 @@ DOMAIN-SUFFIX,fapharm.com
 DOMAIN-SUFFIX,fapiao.com
 DOMAIN-SUFFIX,fapiao365.com
 DOMAIN-SUFFIX,fapiaobang.com
-DOMAIN-SUFFIX,faq-whtasapp.com
 DOMAIN-SUFFIX,faqianjia.com
 DOMAIN-SUFFIX,faqiren.com
 DOMAIN-SUFFIX,far-china.com
@@ -40146,7 +40145,6 @@ DOMAIN-SUFFIX,greatwuyi.com
 DOMAIN-SUFFIX,gredmedic.com
 DOMAIN-SUFFIX,gree-jd.com
 DOMAIN-SUFFIX,gree.com
-DOMAIN-SUFFIX,greebox.com
 DOMAIN-SUFFIX,greedc.com
 DOMAIN-SUFFIX,greedongaohotel.com
 DOMAIN-SUFFIX,greefinance.com
@@ -60388,7 +60386,6 @@ DOMAIN-SUFFIX,laijiawen.com
 DOMAIN-SUFFIX,laijuba.com
 DOMAIN-SUFFIX,laikan.com
 DOMAIN-SUFFIX,laikanxia.com
-DOMAIN-SUFFIX,laikanxing.com
 DOMAIN-SUFFIX,laikanxs.com
 DOMAIN-SUFFIX,laike.net
 DOMAIN-SUFFIX,laiketui.com
@@ -61316,7 +61313,6 @@ DOMAIN-SUFFIX,leixue.com
 DOMAIN-SUFFIX,leiyunge.com
 DOMAIN-SUFFIX,leiyunge.net
 DOMAIN-SUFFIX,leji.com
-DOMAIN-SUFFIX,lejiachao.com
 DOMAIN-SUFFIX,lejian.com
 DOMAIN-SUFFIX,lejiao.tv
 DOMAIN-SUFFIX,lejiaolexue.com
@@ -62410,7 +62406,6 @@ DOMAIN-SUFFIX,linuoshi.com
 DOMAIN-SUFFIX,linuottc.com
 DOMAIN-SUFFIX,linux-code.com
 DOMAIN-SUFFIX,linux-ren.org
-DOMAIN-SUFFIX,linux.sb
 DOMAIN-SUFFIX,linux.zone
 DOMAIN-SUFFIX,linux178.com
 DOMAIN-SUFFIX,linux265.com
@@ -65165,7 +65160,6 @@ DOMAIN-SUFFIX,mappn.com
 DOMAIN-SUFFIX,maproelec.com
 DOMAIN-SUFFIX,maptalks.com
 DOMAIN-SUFFIX,mapvq.com
-DOMAIN-SUFFIX,maqingbo.com
 DOMAIN-SUFFIX,maqinnews.com
 DOMAIN-SUFFIX,mararun.com
 DOMAIN-SUFFIX,marathonbm.com
@@ -78021,6 +78015,7 @@ DOMAIN-SUFFIX,redidc.com
 DOMAIN-SUFFIX,redisfans.com
 DOMAIN-SUFFIX,redmagic.com
 DOMAIN-SUFFIX,redmart.com
+DOMAIN-SUFFIX,redmid.com
 DOMAIN-SUFFIX,redmou.com
 DOMAIN-SUFFIX,rednetdns.com
 DOMAIN-SUFFIX,rednote.com
@@ -94815,6 +94810,7 @@ DOMAIN-SUFFIX,vxia.net
 DOMAIN-SUFFIX,vxiaocheng.com
 DOMAIN-SUFFIX,vxinyou.com
 DOMAIN-SUFFIX,vxixi.com
+DOMAIN-SUFFIX,vxni.ink
 DOMAIN-SUFFIX,vxo7tu.com
 DOMAIN-SUFFIX,vxocok3197.vip
 DOMAIN-SUFFIX,vxsnk.com
