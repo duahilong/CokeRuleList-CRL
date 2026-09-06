@@ -1,6 +1,6 @@
 # 名称: Apple.list
 # 描述: Apple服务规则集，包含Apple服务
-# 时间: 2026-09-05 23:38
+# 时间: 2026-09-06 23:37
 # 条目: 1591
 # 规则统计: {"IP-CIDR": 10, "IP-CIDR6": 3, "DOMAIN": 9, "DOMAIN-SUFFIX": 1549, "DOMAIN-KEYWORD": 7, "PROCESS-NAME": 13}
 # 引用:
