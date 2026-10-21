@@ -1,8 +1,8 @@
 # 名称: Direct.list
 # 描述: 全球直连规则集，包含本地网络、CFNAT和解除封锁的规则
-# 时间: 2026-10-20 00:57
-# 条目: 112640
-# 规则统计: {"DOMAIN": 311, "DOMAIN-SUFFIX": 112240, "DOMAIN-KEYWORD": 46, "PROCESS-NAME": 43}
+# 时间: 2026-10-21 00:26
+# 条目: 112642
+# 规则统计: {"DOMAIN": 311, "DOMAIN-SUFFIX": 112242, "DOMAIN-KEYWORD": 46, "PROCESS-NAME": 43}
 # 引用:
 #   https://raw.githubusercontent.com/pmkol/easymosdns/rules/china_domain_list.txt
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Direct/Direct.list
@@ -87384,6 +87384,8 @@ DOMAIN-SUFFIX,sztxsz.com
 DOMAIN-SUFFIX,szty56.com
 DOMAIN-SUFFIX,sztz.org
 DOMAIN-SUFFIX,sztzzs.com
+DOMAIN-SUFFIX,szu.app
+DOMAIN-SUFFIX,szu.moe
 DOMAIN-SUFFIX,szuavia.org
 DOMAIN-SUFFIX,szudad.com
 DOMAIN-SUFFIX,szunionlab.com
