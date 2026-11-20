@@ -15,6 +15,11 @@ from app.writer import write_rules_file
 CONFIG_FILE = "rule.json"
 OUTPUT_DIR = "crl"
 
+# Guard rails for publish safety.
+MIN_RULES_FOR_SHRINK_GUARD = 20
+SHRINK_RATIO_THRESHOLD = 0.6
+
+
 
 def _read_existing_output_stats(output_path: str) -> Tuple[int, Dict[str, int]]:
     if not os.path.exists(output_path):
@@ -62,11 +67,26 @@ def build_task(task: RuleTask) -> BuildResult:
 
     output_path = os.path.join(OUTPUT_DIR, task.output_file)
     preserved_existing = False
+    existing_rule_count, existing_type_stats = _read_existing_output_stats(output_path)
+
     if success_count == 0 and os.path.exists(output_path):
         preserved_existing = True
-        final_rule_count, existing_type_stats = _read_existing_output_stats(output_path)
+        final_rule_count = existing_rule_count
         if existing_type_stats:
             type_stats = existing_type_stats
+    elif (
+        existing_rule_count >= MIN_RULES_FOR_SHRINK_GUARD
+        and len(sorted_rules) < existing_rule_count * SHRINK_RATIO_THRESHOLD
+    ):
+        # A source returned a tiny/degraded response but still HTTP 200.
+        # Keep the previous output instead of publishing a shrunken rule list.
+        preserved_existing = True
+        final_rule_count = existing_rule_count
+        type_stats = existing_type_stats
+        print(
+            f"   ⚠️ 输出条数 {len(sorted_rules)} 低于历史 {existing_rule_count} 的 "
+            f"{SHRINK_RATIO_THRESHOLD:.0%}，保留历史产物"
+        )
     else:
         output_path = write_rules_file(
             output_dir=OUTPUT_DIR,
@@ -84,7 +104,8 @@ def build_task(task: RuleTask) -> BuildResult:
     print(f"   解析条数: {len(parsed_rules)}")
     print(f"   过滤条数: {filtered_count}")
     if preserved_existing:
-        print("   写入策略: 全部来源失败，保留历史产物")
+        reason = "全部来源失败" if success_count == 0 else "输出数量异常骤降"
+        print(f"   写入策略: {reason}，保留历史产物")
     print(f"   输出条数: {final_rule_count}")
 
     return BuildResult(

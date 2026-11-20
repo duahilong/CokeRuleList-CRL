@@ -1,10 +1,25 @@
+import re
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from typing import List
+from typing import List, Optional
 
 import requests
 
 from .models import FetchResult
+
+
+_HTML_PREFIX_RE = re.compile(r"^(?:<!doctype\s+html|<html|<head|<body)(?:\s|>)", re.IGNORECASE)
+
+
+def validate_response_content(content: str, content_type: str = "") -> Optional[str]:
+    """Return an error when a successful HTTP response is not usable rule content."""
+    if not content or not content.strip():
+        return "empty response body"
+
+    if "text/html" in content_type.lower() or _HTML_PREFIX_RE.match(content.lstrip()):
+        return "HTML response instead of rule list"
+
+    return None
 
 
 def fetch_url(url: str, timeout: int = 15, retries: int = 2) -> FetchResult:
@@ -15,13 +30,21 @@ def fetch_url(url: str, timeout: int = 15, retries: int = 2) -> FetchResult:
         try:
             response = requests.get(url, timeout=timeout)
             if response.status_code == 200:
-                return FetchResult(
-                    url=url,
-                    success=True,
-                    status_code=response.status_code,
-                    content=response.text,
+                content = response.text
+                content_error = validate_response_content(
+                    content,
+                    response.headers.get("Content-Type", ""),
                 )
-            last_error = f"HTTP {response.status_code}"
+                if content_error is None:
+                    return FetchResult(
+                        url=url,
+                        success=True,
+                        status_code=response.status_code,
+                        content=content,
+                    )
+                last_error = content_error
+            else:
+                last_error = f"HTTP {response.status_code}"
         except Exception as exc:
             last_error = str(exc)
 

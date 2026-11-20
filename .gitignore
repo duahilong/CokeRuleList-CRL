@@ -6,6 +6,7 @@ __pycache__/
 .Python
 env/
 venv/
+.venv/
 ENV/
 build/
 develop-eggs/
@@ -26,6 +27,7 @@ wheels/
 # IDE
 .vscode/
 .idea/
+.workbuddy/
 *.swp
 *.swo
 *~

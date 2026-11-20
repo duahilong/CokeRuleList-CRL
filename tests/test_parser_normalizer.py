@@ -58,6 +58,25 @@ class ParserNormalizerTests(unittest.TestCase):
         self.assertEqual([], normalized)
         self.assertEqual(1, filtered)
 
+    def test_unknown_rule_type_is_filtered(self):
+        items, normalized, filtered = self._normalized_rules("UNKNOWN,example.com")
+        self.assertEqual(1, len(items))
+        self.assertEqual([], normalized)
+        self.assertEqual(1, filtered)
+
+    def test_invalid_domain_and_bom_are_filtered(self):
+        _, normalized, filtered = self._normalized_rules(
+            "DOMAIN-SUFFIX,exa mple.com\n\ufeffDOMAIN,example.com"
+        )
+        self.assertEqual([], normalized)
+        self.assertEqual(2, filtered)
+
+    def test_valid_rule_types_and_ip_correction_remain_supported(self):
+        content = "DOMAIN,example.com\nDOMAIN-KEYWORD,example\nGEOIP,CN\nIP-CIDR6,1.2.3.0/24"
+        _, normalized, filtered = self._normalized_rules(content)
+        self.assertEqual(0, filtered)
+        self.assertIn("IP-CIDR,1.2.3.0/24,no-resolve", [item.normalized for item in normalized])
+
 
 if __name__ == "__main__":
     unittest.main()

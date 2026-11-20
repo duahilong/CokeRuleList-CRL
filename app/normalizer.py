@@ -2,9 +2,7 @@ import ipaddress
 from typing import Dict, List, Set, Tuple
 
 from .models import RuleItem
-
-
-EXCLUDED_TYPES = {"IP-ASN", "OTHER"}
+from .validators import validate_rule
 
 
 def _normalize_cidr_rule_type(rule_type: str, value: str) -> str:
@@ -58,11 +56,7 @@ def normalize_filter_dedupe(items: List[RuleItem]) -> Tuple[List[RuleItem], Dict
 
     for item in items:
         normalized_item = normalize_rule(item)
-        if normalized_item.rule_type in EXCLUDED_TYPES:
-            filtered_count += 1
-            continue
-
-        if normalized_item.rule_type in {"IP-CIDR", "IP-CIDR6"} and _parse_network(normalized_item.value) is None:
+        if validate_rule(normalized_item) is not None:
             filtered_count += 1
             continue
 
