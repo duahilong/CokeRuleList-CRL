@@ -1,8 +1,8 @@
 # 名称: Direct.list
 # 描述: 全球直连规则集，包含本地网络、CFNAT和解除封锁的规则
-# 时间: 2026-11-20 14:51
-# 条目: 112795
-# 规则统计: {"DOMAIN": 312, "DOMAIN-SUFFIX": 112394, "DOMAIN-KEYWORD": 46, "PROCESS-NAME": 43}
+# 时间: 2026-11-21 03:01
+# 条目: 112798
+# 规则统计: {"DOMAIN": 312, "DOMAIN-SUFFIX": 112397, "DOMAIN-KEYWORD": 46, "PROCESS-NAME": 43}
 # 引用:
 #   https://raw.githubusercontent.com/pmkol/easymosdns/rules/china_domain_list.txt
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Direct/Direct.list
@@ -31884,6 +31884,7 @@ DOMAIN-SUFFIX,echippqc.com
 DOMAIN-SUFFIX,echo-isoftstone.com
 DOMAIN-SUFFIX,echo188.com
 DOMAIN-SUFFIX,echoing.tech
+DOMAIN-SUFFIX,echooai.com
 DOMAIN-SUFFIX,echoteen.com
 DOMAIN-SUFFIX,echovelle.com
 DOMAIN-SUFFIX,echu-cable.com
@@ -34211,6 +34212,7 @@ DOMAIN-SUFFIX,fayiyi.com
 DOMAIN-SUFFIX,fayufaguo.com
 DOMAIN-SUFFIX,fazhi12368.com
 DOMAIN-SUFFIX,fazhijx.com
+DOMAIN-SUFFIX,fazhipro.com
 DOMAIN-SUFFIX,fazz.fun
 DOMAIN-SUFFIX,fb32dc52302e6b9b.com
 DOMAIN-SUFFIX,fb46cd5483f029aa.com
@@ -78928,6 +78930,7 @@ DOMAIN-SUFFIX,sa96.com
 DOMAIN-SUFFIX,saaas.com
 DOMAIN-SUFFIX,saagasports.com
 DOMAIN-SUFFIX,saasddos.com
+DOMAIN-SUFFIX,saasfz.com
 DOMAIN-SUFFIX,saaslb.com
 DOMAIN-SUFFIX,saasops.tech
 DOMAIN-SUFFIX,saasruanjian.com
