@@ -26,6 +26,7 @@
   - 支持 `Coke.list` 人工覆盖优先级（最高）
   - 按优先级保留规则归属，低优先级文件自动剔除重复规则
 
+- **GEOIP 中国 IP 兜底**：使用 Mihomo 的 `GEOIP,CN,no-resolve` 替代独立的 ChinaIP CIDR 文件，减少配置体积并避免重复维护 IP 网段
 - **构建稳定性与性能优化**
   - 抓取层改为并发抓取（保序）+ 指数退避重试
   - 当某任务来源全部抓取失败时，保留历史产物，避免空文件覆盖
@@ -51,6 +52,26 @@
 5. 按规则类型排序
 6. 写入 `crl/*.list`
 7. 生成 `crl/tx.log` 统计信息
+
+## GEOIP 中国 IP 兜底
+
+项目面向 Mihomo 等支持 GEOIP 的内核，在域名规则之后、`MATCH` 兜底之前使用：
+
+```yaml
+- GEOIP,CN,🎯 全球直连,no-resolve
+- MATCH,🚀 节点选择
+```
+
+对应 `crl.ini` 写法为：
+
+```ini
+ruleset=🎯 全球直连,[]GEOIP,CN,no-resolve
+ruleset=🚀 节点选择,[]MATCH
+```
+
+这样不再生成或引用 `crl/ChinaIP.list`，避免维护数千条独立 CIDR。`default.yaml` 使用 `geoip.dat`，并通过 `geo-auto-update: true` 和 `geo-update-interval: 24` 每天更新 GEO 数据。
+
+注意：`no-resolve` 不会仅为匹配 GEOIP 而主动解析域名。因此它负责已知目标 IP 的中国流量兜底，不能保证所有未收录的中国域名都直连。域名分流仍由前面的规则文件负责。
 
 ## 本地使用
 
@@ -101,4 +122,5 @@ python main.py
 
 - 上游规则源可能偶发超时，`tx.log` 会记录来源成功/失败情况
 - 当前默认过滤 `IP-ASN` 规则类型
+- 中国 IP 兜底依赖 GEOIP 数据库，需内核支持 `GEOIP` 并能下载 `geoip.dat` 或 `country.mmdb`
 - Windows 终端显示中文乱码通常是编码问题，不影响文件内容

@@ -25,7 +25,6 @@ RULE_FILE_PRIORITY: List[str] = [
     "GlobalMedia.list",
     "Proxy.list",
     "Direct.list",
-    "ChinaIP.list",
 ]
 
 

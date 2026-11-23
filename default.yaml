@@ -2,6 +2,8 @@ unified-delay: true
 tcp-concurrent: true
 geodata-mode: true
 geodata-loader: standard
+geo-auto-update: true
+geo-update-interval: 24
 ipv6: false
 log-level: error
 
