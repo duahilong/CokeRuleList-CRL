@@ -1,8 +1,8 @@
 # 名称: Microsoft.list
 # 描述: Microsoft服务规则集，包含Microsoft服务
-# 时间: 2026-11-24 05:46
-# 条目: 670
-# 规则统计: {"DOMAIN": 1, "DOMAIN-SUFFIX": 663, "DOMAIN-KEYWORD": 4, "PROCESS-NAME": 2}
+# 时间: 2026-11-24 21:13
+# 条目: 669
+# 规则统计: {"DOMAIN": 1, "DOMAIN-SUFFIX": 662, "DOMAIN-KEYWORD": 4, "PROCESS-NAME": 2}
 # 引用:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Microsoft/Microsoft.list
 
@@ -660,7 +660,6 @@ DOMAIN-SUFFIX,xbox360.org
 DOMAIN-SUFFIX,xboxab.com
 DOMAIN-SUFFIX,xboxgamepass.com
 DOMAIN-SUFFIX,xboxgamestudios.com
-DOMAIN-SUFFIX,xboxlive.cn
 DOMAIN-SUFFIX,xboxlive.com
 DOMAIN-SUFFIX,xboxone.co
 DOMAIN-SUFFIX,xboxone.com

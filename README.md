@@ -53,6 +53,20 @@
 6. 写入 `crl/*.list`
 7. 生成 `crl/tx.log` 统计信息
 
+## 规则匹配顺序
+
+订阅按照“具体服务优先、宽泛集合靠后”的顺序匹配：
+
+1. `Coke-Direct.list` 手工例外
+2. `GoogleFCM.list`、`GitHub.list`、`GameDownload.list`、`ChinaMedia.list` 等具体服务
+3. `Ai.list`、`YouTube.list`、`Google.list`、`Telegram.list`、`Microsoft.list`
+4. `GlobalMedia.list`、`Proxy.list` 宽泛集合
+5. `Direct.list` 大型直连集合
+6. `GEOIP,CN,no-resolve` 中国 IP 兜底
+7. `MATCH` 最终兜底
+
+`app/cross_dedupe.py` 使用相同的文件优先级，重复规则归属于先匹配的文件。`Apple.list` 和 `Steam.list` 当前未被订阅引用，因此排在去重优先级末尾，不会从实际使用的规则集中抢占规则。
+
 ## GEOIP 中国 IP 兜底
 
 项目面向 Mihomo 等支持 GEOIP 的内核，在域名规则之后、`MATCH` 兜底之前使用：

@@ -8,23 +8,25 @@ from .sorter import sort_rules
 from .writer import write_rules_file
 
 
-# Higher priority first. Rules kept in earlier files will be removed from later files.
+# Higher priority first, matching the generated-file order in crl.ini.
+# Apple and Steam are not referenced by crl.ini, so they cannot claim rules
+# from active subscription files.
 RULE_FILE_PRIORITY: List[str] = [
     "Coke.list",
-    "YouTube.list",
-    "Telegram.list",
     "GoogleFCM.list",
-    "Google.list",
-    "Ai.list",
     "GitHub.list",
-    "Microsoft.list",
-    "Steam.list",
-    "Apple.list",
     "GameDownload.list",
     "ChinaMedia.list",
+    "Ai.list",
+    "YouTube.list",
+    "Google.list",
+    "Telegram.list",
+    "Microsoft.list",
     "GlobalMedia.list",
     "Proxy.list",
     "Direct.list",
+    "Apple.list",
+    "Steam.list",
 ]
 
 

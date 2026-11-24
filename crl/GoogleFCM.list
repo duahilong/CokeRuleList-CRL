@@ -1,10 +1,11 @@
 # 名称: GoogleFCM.list
 # 描述: GoogleFCM服务规则集，包含GoogleFCM服务
-# 时间: 2026-11-24 05:46
+# 时间: 2026-11-24 21:13
 # 条目: 41
 # 规则统计: {"DOMAIN": 15, "IP-CIDR": 26}
 # 引用:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/GoogleFCM/GoogleFCM.list
+#   https://raw.githubusercontent.com/QuixoticHeart/rule-set/refs/heads/ruleset/meta/googlefcm.list
 
 IP-CIDR,108.177.125.188/32,no-resolve
 IP-CIDR,142.250.10.188/32,no-resolve

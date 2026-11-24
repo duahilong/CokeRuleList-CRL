@@ -1,6 +1,6 @@
-# 统计时间: 2026-11-24 05:46:40
-# 规则总数: 125366
-# 唯一规则数: 125366
+# 统计时间: 2026-11-24 21:13:59
+# 规则总数: 125588
+# 唯一规则数: 125588
 # 重复规则数: 0
 # 重复率: 0.00%
 
@@ -8,30 +8,30 @@
 #   Direct.list: 来源 3 个, 成功 3 个, 失败 0 个
 #   Proxy.list: 来源 1 个, 成功 1 个, 失败 0 个
 #   Telegram.list: 来源 2 个, 成功 2 个, 失败 0 个
-#   GameDownload.list: 来源 2 个, 成功 2 个, 失败 0 个
+#   GameDownload.list: 来源 3 个, 成功 3 个, 失败 0 个
 #   Apple.list: 来源 1 个, 成功 1 个, 失败 0 个
 #   Steam.list: 来源 1 个, 成功 1 个, 失败 0 个
 #   Microsoft.list: 来源 1 个, 成功 1 个, 失败 0 个
 #   GitHub.list: 来源 1 个, 成功 1 个, 失败 0 个
-#   Ai.list: 来源 6 个, 成功 6 个, 失败 0 个
+#   Ai.list: 来源 7 个, 成功 7 个, 失败 0 个
 #   Google.list: 来源 1 个, 成功 1 个, 失败 0 个
-#   GoogleFCM.list: 来源 1 个, 成功 1 个, 失败 0 个
+#   GoogleFCM.list: 来源 2 个, 成功 2 个, 失败 0 个
 #   GlobalMedia.list: 来源 1 个, 成功 1 个, 失败 0 个
 #   YouTube.list: 来源 2 个, 成功 2 个, 失败 0 个
 #   ChinaMedia.list: 来源 1 个, 成功 1 个, 失败 0 个
 
 # 各文件规则统计:
-#   Ai.list: 66 条规则, 重复 0 条, 重复率 0.00%
-#   Apple.list: 1590 条规则, 重复 0 条, 重复率 0.00%
+#   Ai.list: 297 条规则, 重复 0 条, 重复率 0.00%
+#   Apple.list: 1578 条规则, 重复 0 条, 重复率 0.00%
 #   ChinaMedia.list: 411 条规则, 重复 0 条, 重复率 0.00%
-#   Direct.list: 112798 条规则, 重复 0 条, 重复率 0.00%
-#   GameDownload.list: 55 条规则, 重复 0 条, 重复率 0.00%
+#   Direct.list: 112759 条规则, 重复 0 条, 重复率 0.00%
+#   GameDownload.list: 145 条规则, 重复 0 条, 重复率 0.00%
 #   GitHub.list: 31 条规则, 重复 0 条, 重复率 0.00%
-#   GlobalMedia.list: 2054 条规则, 重复 0 条, 重复率 0.00%
-#   Google.list: 698 条规则, 重复 0 条, 重复率 0.00%
+#   GlobalMedia.list: 2033 条规则, 重复 0 条, 重复率 0.00%
+#   Google.list: 697 条规则, 重复 0 条, 重复率 0.00%
 #   GoogleFCM.list: 41 条规则, 重复 0 条, 重复率 0.00%
-#   Microsoft.list: 670 条规则, 重复 0 条, 重复率 0.00%
-#   Proxy.list: 6662 条规则, 重复 0 条, 重复率 0.00%
-#   Steam.list: 69 条规则, 重复 0 条, 重复率 0.00%
+#   Microsoft.list: 669 条规则, 重复 0 条, 重复率 0.00%
+#   Proxy.list: 6652 条规则, 重复 0 条, 重复率 0.00%
+#   Steam.list: 54 条规则, 重复 0 条, 重复率 0.00%
 #   Telegram.list: 37 条规则, 重复 0 条, 重复率 0.00%
 #   YouTube.list: 184 条规则, 重复 0 条, 重复率 0.00%

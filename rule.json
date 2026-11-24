@@ -24,7 +24,8 @@
         "description": "直连游戏下载规则集，包含游戏下载服务，SteamCN",
         "urls": [
             "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Game/GameDownload/GameDownload.list",
-            "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/SteamCN/SteamCN.list"
+            "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/SteamCN/SteamCN.list",
+            "https://raw.githubusercontent.com/QuixoticHeart/rule-set/refs/heads/ruleset/meta/games-cn.list"
         ]
     },
     "Apple.list": {
@@ -59,7 +60,8 @@
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list",
             "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Copilot/Copilot.list",
             "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/BardAI/BardAI.list",
-            "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Gemini/Gemini.list"
+            "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Gemini/Gemini.list",
+            "https://raw.githubusercontent.com/QuixoticHeart/rule-set/refs/heads/ruleset/meta/ai.list"
         ]
     },
     "Google.list": {
@@ -71,7 +73,8 @@
     "GoogleFCM.list": {
         "description": "GoogleFCM服务规则集，包含GoogleFCM服务",
         "urls": [
-            "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/GoogleFCM/GoogleFCM.list"
+            "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/GoogleFCM/GoogleFCM.list",
+            "https://raw.githubusercontent.com/QuixoticHeart/rule-set/refs/heads/ruleset/meta/googlefcm.list"
         ]
     },
     "GlobalMedia.list": {

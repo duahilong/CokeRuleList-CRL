@@ -1,20 +1,28 @@
 # 名称: GameDownload.list
 # 描述: 直连游戏下载规则集，包含游戏下载服务，SteamCN
-# 时间: 2026-11-24 05:46
-# 条目: 55
-# 规则统计: {"DOMAIN": 48, "DOMAIN-SUFFIX": 7}
+# 时间: 2026-11-24 21:13
+# 条目: 145
+# 规则统计: {"DOMAIN": 62, "DOMAIN-SUFFIX": 83}
 # 引用:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Game/GameDownload/GameDownload.list
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/SteamCN/SteamCN.list
+#   https://raw.githubusercontent.com/QuixoticHeart/rule-set/refs/heads/ruleset/meta/games-cn.list
 
 DOMAIN,assets1.xboxlive.com
 DOMAIN,assets2.xboxlive.com
 DOMAIN,blizzard.gcdn.cloudn.co.kr
 DOMAIN,blzddist1-a.akamaihd.net
 DOMAIN,blzddistkr1-a.akamaihd.net
+DOMAIN,blzdist-d3.necdn.leihuo.netease.com
+DOMAIN,blzdist-di.necdn.leihuo.netease.com
+DOMAIN,blzdist-hs.necdn.leihuo.netease.com
+DOMAIN,blzdist-ow.necdn.leihuo.netease.com
+DOMAIN,blzdist-phx.necdn.leihuo.netease.com
+DOMAIN,blzdist-wow.necdn.leihuo.netease.com
 DOMAIN,client.hikarifield.co.jp
 DOMAIN,content.cdp.bethesda.net
 DOMAIN,csgo.wmsj.cn
+DOMAIN,dl.delivery.mp.microsoft.com
 DOMAIN,dl.steam.clngaa.com
 DOMAIN,dl.steam.ksyna.com
 DOMAIN,dota2.wmsj.cn
@@ -26,16 +34,20 @@ DOMAIN,download2.epicgames.com
 DOMAIN,download3.epicgames.com
 DOMAIN,download4.epicgames.com
 DOMAIN,edge.steam-dns.top.comcast.net
+DOMAIN,epicgames-download1-1251447533.file.myqcloud.com
 DOMAIN,epicgames-download1.akamaized.net
 DOMAIN,eu.cdn.blizzard.com
 DOMAIN,fastly-download.epicgames.com
 DOMAIN,gamedownloads-rockstargames-com.akamaized.net
 DOMAIN,gog-cdn-lumen.secure2.footprint.net
+DOMAIN,gog.qtlglb.com
 DOMAIN,kr.cdn.blizzard.com
 DOMAIN,level3.blizzard.com
+DOMAIN,lv.queniujq.cn
 DOMAIN,origin-a.akamaihd.net
 DOMAIN,packagespc.xboxlive.com
 DOMAIN,ssl-lvlt.cdn.ea.com
+DOMAIN,st-bak.viv.wanwang.space
 DOMAIN,st.dl.bscstorage.net
 DOMAIN,st.dl.eccdnx.com
 DOMAIN,st.dl.pinyuncloud.com
@@ -49,6 +61,9 @@ DOMAIN,steampipe.steamcontent.tnkjmec.com
 DOMAIN,steampowered.com.8686c.com
 DOMAIN,steamstatic.com.8686c.com
 DOMAIN,steamusercontent-a.akamaihd.net
+DOMAIN,tlu.dl.delivery.mp.microsoft.com
+DOMAIN,trts.baishancdnx.cn
+DOMAIN,ubisoftconnect.eo-edgefunctions7.com
 DOMAIN,uplaypc-s-ubisoft.cdn.ubionline.com.cn
 DOMAIN,us.cdn.blizzard.com
 DOMAIN,wmsjsteam.com
@@ -56,10 +71,86 @@ DOMAIN,xvcf1.xboxlive.com
 DOMAIN,xvcf2.xboxlive.com
 DOMAIN,xz.pphimalayanrt.com
 
+DOMAIN-SUFFIX,3dmjiasu.com
+DOMAIN-SUFFIX,99jiasu.net
+DOMAIN-SUFFIX,akspeedy.com
+DOMAIN-SUFFIX,benfuip.com
+DOMAIN-SUFFIX,biubiu001.com
+DOMAIN-SUFFIX,bluearchive-cn.com
+DOMAIN-SUFFIX,bohejiasuqi.com
+DOMAIN-SUFFIX,ccspeed.cn
 DOMAIN-SUFFIX,cdn.ubi.com
+DOMAIN-SUFFIX,client-update.queniuqe.com
 DOMAIN-SUFFIX,cm.steampowered.com
+DOMAIN-SUFFIX,csgo.com.cn
+DOMAIN-SUFFIX,csgo.wmsj.cn
+DOMAIN-SUFFIX,dl.steam.clngaa.com
+DOMAIN-SUFFIX,dota2.com.cn
+DOMAIN-SUFFIX,dota2.wmsj.cn
 DOMAIN-SUFFIX,dyn.riotcdn.net
+DOMAIN-SUFFIX,et-api.com
+DOMAIN-SUFFIX,et001.com
+DOMAIN-SUFFIX,fhyx.com
+DOMAIN-SUFFIX,fnjiasu.com
+DOMAIN-SUFFIX,funjsq.com
+DOMAIN-SUFFIX,gangwan.com
+DOMAIN-SUFFIX,ggkuai.com
+DOMAIN-SUFFIX,gijsq.com
+DOMAIN-SUFFIX,golink.com
+DOMAIN-SUFFIX,golinkapi.com
+DOMAIN-SUFFIX,golinkcn.com
+DOMAIN-SUFFIX,gstore.val.manlaxy.com
+DOMAIN-SUFFIX,guaiku.com
+DOMAIN-SUFFIX,htjsq.com
+DOMAIN-SUFFIX,htjsq.mobi
+DOMAIN-SUFFIX,jiasu.bohe.com
+DOMAIN-SUFFIX,kk1.vip
+DOMAIN-SUFFIX,leagueoflegends.cn
+DOMAIN-SUFFIX,legendofzelda.cn
+DOMAIN-SUFFIX,legendofzelda.com.cn
+DOMAIN-SUFFIX,leigod.cn
+DOMAIN-SUFFIX,leigod.com
+DOMAIN-SUFFIX,leigodjsq.com
+DOMAIN-SUFFIX,liuxing.com
+DOMAIN-SUFFIX,lorhf.com
+DOMAIN-SUFFIX,lpl.com.cn
+DOMAIN-SUFFIX,ls66.cn
+DOMAIN-SUFFIX,lxjiasu.com
+DOMAIN-SUFFIX,mariokart.cn
+DOMAIN-SUFFIX,mariokart.com.cn
+DOMAIN-SUFFIX,miitomo.com.cn
+DOMAIN-SUFFIX,nintendolabo.cn
+DOMAIN-SUFFIX,nintendoswitch.cn
+DOMAIN-SUFFIX,nintendoswitch.com.cn
+DOMAIN-SUFFIX,nn.com
+DOMAIN-SUFFIX,nnbooster.com
+DOMAIN-SUFFIX,oojsq.com
+DOMAIN-SUFFIX,pdl.wow.battlenet.com.cn
+DOMAIN-SUFFIX,qiyou.cn
+DOMAIN-SUFFIX,rmbgame.net
+DOMAIN-SUFFIX,st.dl.bscstorage.net
+DOMAIN-SUFFIX,st.dl.eccdnx.com
+DOMAIN-SUFFIX,st.dl.pinyuncloud.com
+DOMAIN-SUFFIX,steam302.xyz
 DOMAIN-SUFFIX,steamchina.com
 DOMAIN-SUFFIX,steamcontent.com
+DOMAIN-SUFFIX,steampowered.com.8686c.com
+DOMAIN-SUFFIX,steampp.net
 DOMAIN-SUFFIX,steamserver.net
+DOMAIN-SUFFIX,steamstatic.com.8686c.com
 DOMAIN-SUFFIX,steamusercontent.com
+DOMAIN-SUFFIX,supermariobros.com.cn
+DOMAIN-SUFFIX,supersmashbros.cn
+DOMAIN-SUFFIX,supersmashbros.com.cn
+DOMAIN-SUFFIX,tmjiasuqi.com
+DOMAIN-SUFFIX,uu.163.com
+DOMAIN-SUFFIX,waifushangcheng.com
+DOMAIN-SUFFIX,wmsjsteam.com
+DOMAIN-SUFFIX,xboxlive.cn
+DOMAIN-SUFFIX,xn--mts47c3w9b1qr.cn
+DOMAIN-SUFFIX,xunyou.com
+DOMAIN-SUFFIX,xunyou.mobi
+DOMAIN-SUFFIX,xxghh.biz
+DOMAIN-SUFFIX,yebaojiasu.com
+DOMAIN-SUFFIX,yostar.cn
+DOMAIN-SUFFIX,yuelun.com

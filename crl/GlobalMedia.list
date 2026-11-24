@@ -1,8 +1,8 @@
 # 名称: GlobalMedia.list
 # 描述: 全球媒体服务规则集，包含全球媒体服务
-# 时间: 2026-11-24 05:46
-# 条目: 2054
-# 规则统计: {"IP-CIDR": 902, "IP-CIDR6": 5, "DOMAIN": 34, "DOMAIN-SUFFIX": 1085, "DOMAIN-KEYWORD": 25, "PROCESS-NAME": 3}
+# 时间: 2026-11-24 21:13
+# 条目: 2033
+# 规则统计: {"IP-CIDR": 902, "IP-CIDR6": 5, "DOMAIN": 31, "DOMAIN-SUFFIX": 1069, "DOMAIN-KEYWORD": 23, "PROCESS-NAME": 3}
 # 引用:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/GlobalMedia/GlobalMedia.list
 
@@ -920,20 +920,17 @@ DOMAIN,akmcdnoversea-tw.inter.ptqy.gitv.tv
 DOMAIN,api.githubcopilot.com
 DOMAIN,api.groq.com
 DOMAIN,api.okzy.tv
-DOMAIN,api.together.xyz
 DOMAIN,apm-misaka.biliapi.net
 DOMAIN,apple.comscoreresearch.com
 DOMAIN,bcbolt446c5271-a.akamaihd.net
 DOMAIN,chuangcachecdnoversea-tw.inter.ptqy.gitv.tv
 DOMAIN,console.groq.com
-DOMAIN,copilot-proxy.githubusercontent.com
 DOMAIN,cs428.wpc.edgecastcdn.net
 DOMAIN,dashasiafox.akamaized.netflix
 DOMAIN,daznfeeds.com.edgekey.net
 DOMAIN,dca-lm-livedazn.secure.footprint.net
 DOMAIN,e13252.dscg.akamaiedge.net
 DOMAIN,edge.cwtv-vod-ext.top.comcast.net
-DOMAIN,gspe1-ssl.ls.apple.com
 DOMAIN,h-dazn.online-metrix.net
 DOMAIN,h-netflix.online-metrix.net
 DOMAIN,hamifans.emome.net
@@ -968,7 +965,6 @@ DOMAIN-SUFFIX,adx.promo
 DOMAIN-SUFFIX,afewmomentswith.com
 DOMAIN-SUFFIX,afp.com
 DOMAIN-SUFFIX,afpforum.com
-DOMAIN-SUFFIX,ai.azure.com
 DOMAIN-SUFFIX,aiv-cdn.net
 DOMAIN-SUFFIX,aiv-delivery.net
 DOMAIN-SUFFIX,akamaized.net
@@ -995,8 +991,9 @@ DOMAIN-SUFFIX,amerikayidzayn.com
 DOMAIN-SUFFIX,amerikiskhma.com
 DOMAIN-SUFFIX,amlg.io
 DOMAIN-SUFFIX,anidom.com
-DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,api.tv.colnv.com
+DOMAIN-SUFFIX,apple.news
+DOMAIN-SUFFIX,applemusic.com
 DOMAIN-SUFFIX,assetshuluimcom-a.akamaihd.net
 DOMAIN-SUFFIX,att.tv
 DOMAIN-SUFFIX,atttvnow.com
@@ -1045,7 +1042,6 @@ DOMAIN-SUFFIX,braze.com
 DOMAIN-SUFFIX,bstarstatic.com
 DOMAIN-SUFFIX,bucketeer.jp
 DOMAIN-SUFFIX,byspotify.com
-DOMAIN-SUFFIX,byteoversea.com
 DOMAIN-SUFFIX,c4assets.com
 DOMAIN-SUFFIX,cabletv.com.hk
 DOMAIN-SUFFIX,callhulu.com
@@ -1078,9 +1074,6 @@ DOMAIN-SUFFIX,channel4.com
 DOMAIN-SUFFIX,channel5.com
 DOMAIN-SUFFIX,chocotv.com.tw
 DOMAIN-SUFFIX,cinemax.com
-DOMAIN-SUFFIX,claude.ai
-DOMAIN-SUFFIX,claude.com
-DOMAIN-SUFFIX,claudeusercontent.com
 DOMAIN-SUFFIX,cloudfront.net
 DOMAIN-SUFFIX,cnbc.com
 DOMAIN-SUFFIX,cnbcfm.com
@@ -1097,14 +1090,10 @@ DOMAIN-SUFFIX,content.jwplatform.com
 DOMAIN-SUFFIX,control.kochava.com
 DOMAIN-SUFFIX,conviva.com
 DOMAIN-SUFFIX,cookielaw.org
-DOMAIN-SUFFIX,copilot.cloud.microsoft
-DOMAIN-SUFFIX,copilot.microsoft.com
 DOMAIN-SUFFIX,coronavirusnow.com
 DOMAIN-SUFFIX,cstatic.net
 DOMAIN-SUFFIX,curbed.com
 DOMAIN-SUFFIX,curiositystream.com
-DOMAIN-SUFFIX,cursor.com
-DOMAIN-SUFFIX,cursor.sh
 DOMAIN-SUFFIX,cwseed.com
 DOMAIN-SUFFIX,cwtv.com
 DOMAIN-SUFFIX,d9.flashtalking.com
@@ -1467,8 +1456,6 @@ DOMAIN-SUFFIX,golos-ameriki.ru
 DOMAIN-SUFFIX,golosameriki.com
 DOMAIN-SUFFIX,gooddaychicago.com
 DOMAIN-SUFFIX,gorin.jp
-DOMAIN-SUFFIX,grazie.ai
-DOMAIN-SUFFIX,grazie.aws.intellij.net
 DOMAIN-SUFFIX,haiwaikan.com
 DOMAIN-SUFFIX,happyon.jp
 DOMAIN-SUFFIX,hath.network
@@ -1583,7 +1570,6 @@ DOMAIN-SUFFIX,japronx.com
 DOMAIN-SUFFIX,japronx.net
 DOMAIN-SUFFIX,japronx.tv
 DOMAIN-SUFFIX,japronx.vip
-DOMAIN-SUFFIX,jetbrains.ai
 DOMAIN-SUFFIX,joeswall.com
 DOMAIN-SUFFIX,joinmaidez.com
 DOMAIN-SUFFIX,joox.com
@@ -1619,7 +1605,6 @@ DOMAIN-SUFFIX,llnwd.net
 DOMAIN-SUFFIX,logx.optimizely.com
 DOMAIN-SUFFIX,londonreal.tv
 DOMAIN-SUFFIX,m-content-viki.s.llnwi.net
-DOMAIN-SUFFIX,makersuite.google.com
 DOMAIN-SUFFIX,manifest.prod.boltdns.net
 DOMAIN-SUFFIX,marvel.com
 DOMAIN-SUFFIX,marvel10thanniversary.com
@@ -1635,10 +1620,8 @@ DOMAIN-SUFFIX,max.com
 DOMAIN-SUFFIX,maxgo.com
 DOMAIN-SUFFIX,media-amazon.com
 DOMAIN-SUFFIX,meridian.net
-DOMAIN-SUFFIX,meta.ai
 DOMAIN-SUFFIX,mewatch.sg
 DOMAIN-SUFFIX,mickey.tv
-DOMAIN-SUFFIX,mistral.ai
 DOMAIN-SUFFIX,mobile-collector.newrelic.com
 DOMAIN-SUFFIX,moov.hk
 DOMAIN-SUFFIX,moviesanywhere.com
@@ -1782,7 +1765,6 @@ DOMAIN-SUFFIX,pashtovoa.com
 DOMAIN-SUFFIX,payhulu.com
 DOMAIN-SUFFIX,pbs.org
 DOMAIN-SUFFIX,peacocktv.com
-DOMAIN-SUFFIX,perplexity.ai
 DOMAIN-SUFFIX,persagg.com
 DOMAIN-SUFFIX,phncdn.com
 DOMAIN-SUFFIX,phprcdn.com
@@ -2021,7 +2003,6 @@ DOMAIN-SUFFIX,wofl.tv
 DOMAIN-SUFFIX,woflthenewsstation.com
 DOMAIN-SUFFIX,wogx.com
 DOMAIN-SUFFIX,wwwhuluplus.com
-DOMAIN-SUFFIX,x.ai
 DOMAIN-SUFFIX,yb.uncn.jp
 DOMAIN-SUFFIX,youboranqs01.com
 DOMAIN-SUFFIX,z5.app
@@ -2037,11 +2018,9 @@ DOMAIN-SUFFIX,zeriamerikes.com
 DOMAIN-SUFFIX,zype.com
 
 DOMAIN-KEYWORD,abematv.akamaized.net
-DOMAIN-KEYWORD,anthropic
 DOMAIN-KEYWORD,apiproxy-device-prod-nlb-
 DOMAIN-KEYWORD,avoddashs
 DOMAIN-KEYWORD,bbcfmt
-DOMAIN-KEYWORD,claude
 DOMAIN-KEYWORD,discovery.uplynk.com
 DOMAIN-KEYWORD,dualstack.apiproxy-
 DOMAIN-KEYWORD,dualstack.ichnaea-web-

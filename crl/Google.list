@@ -1,8 +1,8 @@
 # 名称: Google.list
 # 描述: Google服务规则集，包含Google服务
-# 时间: 2026-11-24 05:46
-# 条目: 698
-# 规则统计: {"IP-CIDR": 2, "DOMAIN": 1, "DOMAIN-SUFFIX": 684, "DOMAIN-KEYWORD": 5, "PROCESS-NAME": 6}
+# 时间: 2026-11-24 21:13
+# 条目: 697
+# 规则统计: {"IP-CIDR": 2, "DOMAIN": 1, "DOMAIN-SUFFIX": 683, "DOMAIN-KEYWORD": 5, "PROCESS-NAME": 6}
 # 引用:
 #   https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Google/Google.list
 
@@ -196,7 +196,6 @@ DOMAIN-SUFFIX,data-vocabulary.org
 DOMAIN-SUFFIX,dataliberation.org
 DOMAIN-SUFFIX,debug.com
 DOMAIN-SUFFIX,debugproject.com
-DOMAIN-SUFFIX,deepmind.com
 DOMAIN-SUFFIX,deja.com
 DOMAIN-SUFFIX,deps.dev
 DOMAIN-SUFFIX,deps.info
