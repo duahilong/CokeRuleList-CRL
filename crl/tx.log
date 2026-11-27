@@ -1,6 +1,6 @@
-# 统计时间: 2026-11-26 04:00:55
-# 规则总数: 125588
-# 唯一规则数: 125588
+# 统计时间: 2026-11-27 03:58:53
+# 规则总数: 125586
+# 唯一规则数: 125586
 # 重复规则数: 0
 # 重复率: 0.00%
 
@@ -13,7 +13,8 @@
 #   Steam.list: 来源 1 个, 成功 1 个, 失败 0 个
 #   Microsoft.list: 来源 1 个, 成功 1 个, 失败 0 个
 #   GitHub.list: 来源 1 个, 成功 1 个, 失败 0 个
-#   Ai.list: 来源 7 个, 成功 7 个, 失败 0 个
+#   Ai.list: 来源 7 个, 成功 6 个, 失败 1 个
+#     失败来源: https://raw.githubusercontent.com/duahilong/CokeRuleList-CRL/refs/heads/main/Coke-AI.List
 #   Google.list: 来源 1 个, 成功 1 个, 失败 0 个
 #   GoogleFCM.list: 来源 2 个, 成功 2 个, 失败 0 个
 #   GlobalMedia.list: 来源 1 个, 成功 1 个, 失败 0 个
@@ -21,7 +22,7 @@
 #   ChinaMedia.list: 来源 1 个, 成功 1 个, 失败 0 个
 
 # 各文件规则统计:
-#   Ai.list: 297 条规则, 重复 0 条, 重复率 0.00%
+#   Ai.list: 295 条规则, 重复 0 条, 重复率 0.00%
 #   Apple.list: 1578 条规则, 重复 0 条, 重复率 0.00%
 #   ChinaMedia.list: 411 条规则, 重复 0 条, 重复率 0.00%
 #   Direct.list: 112759 条规则, 重复 0 条, 重复率 0.00%
